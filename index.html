@@ -1,1 +1,586 @@
-<!DOCTYPE html><html lang='ru'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>LLL2</title><link rel='icon' type='image/svg+xml' href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237a3340'/%3E%3Cpath d='M8 16h16' stroke='white' stroke-width='4'/%3E%3C/svg%3E"><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap' rel='stylesheet'><style>:root{--bg:#f7f3ee;--paper:#fffdfa;--line:rgba(93,55,65,.14);--text:#3f2a31;--muted:#816c73;--brand:#7a3340;--brand-dark:#5f2530;--soft-neutral:#f4f0eb;--shadow:0 20px 50px rgba(82,46,56,.08);--radius-xl:26px}*{box-sizing:border-box}html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}body{margin:0;min-height:100vh;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at top,#fdf8f4 0%,var(--bg) 55%,#f1eae3 100%);color:var(--text)}button{font:inherit}.shell{width:min(1360px,calc(100vw - 56px));margin:28px auto;background:rgba(255,255,255,.55);border:1px solid rgba(120,74,84,.12);border-radius:30px;box-shadow:var(--shadow);backdrop-filter:blur(14px);overflow:hidden}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 26px;background:rgba(255,255,255,.72);border-bottom:1px solid var(--line)}.topbar-left,.topbar-right{display:flex;align-items:center;gap:12px}.icon-btn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--paper);display:inline-flex;align-items:center;justify-content:center;color:var(--brand-dark);box-shadow:0 6px 20px rgba(82,46,56,.06);cursor:pointer}.brand-chip{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:999px;background:linear-gradient(180deg,#fffdfb 0%,#f8f0ec 100%);border:1px solid var(--line);font-size:14px;font-weight:650;letter-spacing:.02em;color:var(--brand-dark)}.page{padding:30px 34px 38px}.stage{background:linear-gradient(180deg,rgba(255,255,255,.88) 0%,rgba(255,251,247,.88) 100%);border:1px solid rgba(120,74,84,.10);border-radius:28px;padding:28px 28px 26px;min-height:760px}.labels{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:22px}.label{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(90,58,68,.55);padding-left:4px}.columns{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.panel{min-height:380px;border-radius:var(--radius-xl);background:var(--paper);border:1px solid rgba(120,74,84,.12);box-shadow:0 10px 30px rgba(82,46,56,.05);padding:34px 32px;display:flex;flex-direction:column;justify-content:space-between}.phrase,.translation{font-size:clamp(32px,3.3vw,54px);line-height:1.08;letter-spacing:-.04em;font-weight:800;max-width:12ch}.translation{color:var(--brand-dark);min-height:164px;display:flex;align-items:flex-start}.audio-wrap{margin-top:22px;display:flex}.audio-btn{height:54px;padding:0 22px;border-radius:999px;border:1px solid rgba(120,74,84,.14);background:#fff6f2;color:var(--brand-dark);display:inline-flex;align-items:center;gap:12px;font-weight:700;cursor:pointer}.audio-icon{width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;padding-left:2px}.translate-row{margin-top:22px;display:flex}.translate-btn{min-width:220px;height:56px;padding:0 24px;border-radius:999px;border:1px solid rgba(120,74,84,.16);background:#fffdfa;color:#60414a;font-size:15px;font-weight:650;box-shadow:0 8px 18px rgba(82,46,56,.05);cursor:pointer}.subtle{margin-top:24px;color:var(--muted);font-size:15px;line-height:1.5;max-width:52ch}.srs-zone{margin-top:30px;padding:24px 24px 18px;border-radius:24px;background:linear-gradient(180deg,rgba(250,244,239,.96) 0%,rgba(255,252,248,.96) 100%);border:1px solid rgba(120,74,84,.12)}.srs-title{text-align:center;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:rgba(90,58,68,.52);margin-bottom:16px}.srs-row{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.srs-btn{min-height:104px;border-radius:24px;border:1px solid rgba(120,74,84,.14);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;box-shadow:0 14px 34px rgba(82,46,56,.06);background:var(--paper);cursor:pointer}.srs-btn strong{font-size:36px;line-height:1;letter-spacing:-.04em}.srs-btn span{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.10em}.neg-hard{background:linear-gradient(180deg,#fff1f2 0%,#fffbfb 100%);color:#9a3d4d}.neg-soft{background:linear-gradient(180deg,#fff7f2 0%,#fffdfb 100%);color:#956149}.pos-soft{background:linear-gradient(180deg,#f5f1ed 0%,#fffdfa 100%);color:#65545a}.pos-hard{background:linear-gradient(180deg,#7b3440 0%,#642833 100%);color:#fff8f6;border-color:#6f2d38}.footer-note{margin-top:14px;text-align:center;color:rgba(90,58,68,.58);font-size:14px}.meta-row{margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:14px}.meta-badges{display:flex;gap:8px;flex-wrap:wrap}.badge{padding:7px 10px;border-radius:999px;background:var(--soft-neutral);border:1px solid rgba(120,74,84,.10)}.status{font-weight:600}.hidden{opacity:0}@media (max-width:980px){.shell{width:min(100vw,calc(100vw - 20px));margin:10px auto;border-radius:20px}.page{padding:16px}.stage{min-height:auto;padding:16px}.labels,.columns{grid-template-columns:1fr;gap:14px}.panel{min-height:260px;padding:22px 20px}.phrase,.translation{font-size:clamp(28px,8vw,42px);max-width:none}.translation{min-height:96px}.srs-row{grid-template-columns:repeat(2,1fr)}}</style></head><body><div class='shell'><header class='topbar'><div class='topbar-left'><button class='icon-btn' type='button' aria-label='Назад'><svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round'><path d='m15 18-6-6 6-6'/></svg></button><div class='brand-chip'>LLL2</div></div><div class='topbar-right'><button class='icon-btn' id='shuffleBtn' type='button' aria-label='Случайная фраза'><svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M16 3h5v5'/><path d='M4 20 21 3'/><path d='M21 16v5h-5'/><path d='m15 15 6 6'/><path d='M4 4l5 5'/></svg></button></div></header><main class='page'><section class='stage'><div class='labels'><div class='label'>Latviešu</div><div class='label'>Перевод</div></div><div class='columns'><article class='panel'><div><div class='phrase' id='phraseLv'></div><div class='audio-wrap'><button class='audio-btn' id='audioBtn' type='button'><span class='audio-icon'>►</span><span>Прослушать</span></button></div></div><div><p class='subtle'>Случайный показ фраз. Кнопка +5 исключает фразу из ротации.</p><div class='meta-row'><div class='meta-badges' id='metaBadges'></div><div class='status' id='progressText'></div></div></div></article><article class='panel'><div><div class='translation hidden' id='phraseRu'></div><div class='translate-row'><button class='translate-btn' id='toggleTranslation' type='button'>Показать перевод</button></div></div><p class='subtle'>Внутри сборки 500 непустых строк.</p></article></div><section class='srs-zone'><div class='srs-title'>Насколько хорошо ты знаешь это выражение</div><div class='srs-row'><button class='srs-btn neg-hard' data-score='-5' type='button'><strong>-5</strong><span>Не знаю</span></button><button class='srs-btn neg-soft' data-score='-1' type='button'><strong>-1</strong><span>С трудом</span></button><button class='srs-btn pos-soft' data-score='1' type='button'><strong>+1</strong><span>Почти знаю</span></button><button class='srs-btn pos-hard' data-score='5' type='button'><strong>+5</strong><span>Выучил</span></button></div><div class='footer-note' id='footerNote'>Клик по любой кнопке сразу переключает на следующую случайную фразу, а +5 убирает её из ротации.</div></section></section></main></div><script src='./phrases-500.json.js'></script><script>let pool=PHRASES.filter(p=>!p.retired),current=null,translationVisible=false,audio=null;const $=id=>document.getElementById(id);function pick(arr,excludeId=null){if(!arr.length)return null;const a=excludeId==null?arr:arr.filter(x=>x.id!==excludeId);const s=a.length?a:arr;return s[Math.floor(Math.random()*s.length)]}function badge(t){const e=document.createElement('span');e.className='badge';e.textContent=t;return e}function renderMeta(item){const box=$('metaBadges');box.innerHTML='';if(item.verb_lemma)box.appendChild(badge('verb: '+item.verb_lemma));if(item.tense)box.appendChild(badge(item.tense));if(item.sentence_type)box.appendChild(badge(item.sentence_type));if(item.question)box.appendChild(badge('question'));if(item.negative)box.appendChild(badge('negative'));if(item.has_number)box.appendChild(badge('number'))}function updateProgress(){$('progressText').textContent=`В ротации: ${pool.length} / ${PHRASES.length}`}function hideTranslation(){translationVisible=false;$('phraseRu').classList.add('hidden');$('toggleTranslation').textContent='Показать перевод'}function showTranslation(){translationVisible=true;$('phraseRu').classList.remove('hidden');$('toggleTranslation').textContent='Скрыть перевод'}function render(item){if(!item)return;current=item;$('phraseLv').textContent=item.lv;$('phraseRu').textContent=item.ru;renderMeta(item);updateProgress();hideTranslation()}function nextRandom(){pool=PHRASES.filter(p=>!p.retired);const next=pick(pool,current?.id);if(!next){$('footerNote').textContent='Все фразы помечены как +5 и исключены из ротации.';return}$('footerNote').textContent='Клик по любой кнопке сразу переключает на следующую случайную фразу, а +5 убирает её из ротации.';render(next)}function speakCurrent(){if(!current)return;try{if(audio){audio.pause();audio=null}const url='https://translate.google.com/translate_tts?ie=UTF-8&q='+encodeURIComponent(current.lv)+'&tl=lv&client=tw-ob';audio=new Audio(url);audio.play().catch(()=>{})}catch(e){}}$('toggleTranslation').addEventListener('click',()=>{translationVisible?hideTranslation():showTranslation()});$('audioBtn').addEventListener('click',speakCurrent);$('shuffleBtn').addEventListener('click',nextRandom);document.querySelectorAll('.srs-btn').forEach(btn=>btn.addEventListener('click',()=>{if(!current)return;const score=Number(btn.dataset.score);if(score===5){const t=PHRASES.find(x=>x.id===current.id);if(t)t.retired=true}nextRandom()}));document.addEventListener('keydown',e=>{if(e.key==='Enter'&&!translationVisible)showTranslation();if(e.key.toLowerCase()==='r')nextRandom();if(e.key===' '){e.preventDefault();speakCurrent()}});nextRandom();</script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLL2 first page mockup</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%239B1B30'/%3E%3Crect y='12' width='32' height='8' fill='white'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #f4ede6;
+      --shell: #fbf7f2;
+      --shell-line: #e2d3ca;
+      --panel: #fffdfa;
+      --panel-line: #e4d7cf;
+      --text: #452a33;
+      --muted: #9a8586;
+      --brand: #7a3340;
+      --red: #c84444;
+      --orange: #dd7a33;
+      --yellowgreen: #96b83f;
+      --green: #2f9658;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0 auto;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: radial-gradient(circle at top, #fbf6f1 0%, var(--bg) 60%, #efe6de 100%);
+      color: var(--text);
+      overflow: hidden;
+    }
+    .shell {
+      width: min(1440px, calc(100vw - 40px));
+      height: min(900px, calc(100vh - 32px));
+      margin: 16px auto;
+      background: var(--shell);
+      border: 1px solid var(--shell-line);
+      border-radius: 28px;
+      display: grid;
+      grid-template-rows: 68px 1fr;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(82, 46, 56, 0.08);
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      background: #fffaf6;
+      border-bottom: 1px solid var(--shell-line);
+    }
+    .topbar-left,
+    .topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .menu-link {
+      cursor: pointer;
+      height: 40px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid #dccdc3;
+      background: #fffdfa;
+      color: #6b3440;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .menu-link:hover { background: #f8efe9; }
+    .menu-link {
+      cursor: pointer;
+      height: 40px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid #dccdc3;
+      background: #fffdfa;
+      color: #6b3440;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      }
+    .menu-link:hover { background: #f8efe9; }
+    .icon-btn,
+    .brand-pill {
+      height: 40px;
+      border-radius: 999px;
+      border: 1px solid #dccdc3;
+      background: #fffdfa;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b3440;
+    }
+    .icon-btn {
+      cursor: pointer;
+      width: 40px;
+      padding: 0;
+    }
+    .brand-pill {
+      padding: 0 18px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      background: #f8efe9;
+    }
+    .page {
+      padding: 22px 34px 26px;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 18px;
+      min-height: 0;
+    }
+    .labels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      padding: 0 4px;
+    }
+    .labels div {
+      font-size: 12px;
+      line-height: 1;
+      color: var(--muted);
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      min-height: 0;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--panel-line);
+      border-radius: 24px;
+      padding: 30px 34px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 0;
+      text-align: center;
+    }
+    .phrase {
+      font-size: clamp(34px, 3vw, 48px);
+      line-height: 1.12;
+      letter-spacing: -.04em;
+      max-width: 14ch;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .audio-btn {
+      cursor: pointer;
+      margin-top: 26px;
+      height: 54px;
+      padding: 0 22px 0 18px;
+      border-radius: 999px;
+      border: 1px solid #d9c3bf;
+      background: #fbf1ec;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      width: fit-content;
+      align-self: center;
+      align-self: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: #6b3440;
+      box-shadow: 0 10px 20px rgba(82, 46, 56, 0.05);
+    }
+    .audio-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #ead6d2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--brand);
+    }
+    .translate-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .translate-btn {
+      cursor: pointer;
+      height: 56px;
+      padding: 0 28px;
+      border-radius: 999px;
+      border: 1px solid #d9cdc4;
+      background: #fffdfa;
+      color: #6b4b51;
+      font-size: 16px;
+      font-weight: 700;
+      box-shadow: 0 10px 20px rgba(82, 46, 56, 0.05);
+    }
+    .srs-zone {
+      background: #faf3ed;
+      border: 1px solid var(--panel-line);
+      border-radius: 24px;
+      padding: 18px 18px 20px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      min-height: 186px;
+    }
+    .srs-btn {
+      cursor: pointer;
+      border: 0;
+      border-radius: 24px;
+      color: #fff;
+      display: flex;
+      align-items: stretch;
+      justify-content: stretch;
+      min-width: 0;
+      min-height: 148px;
+      box-shadow: 0 14px 30px rgba(82, 46, 56, 0.08);
+      overflow: hidden;
+    }
+    .srs-btn.red { background: var(--red); }
+    .srs-btn.orange { background: var(--orange); }
+    .srs-btn.yellowgreen { background: var(--yellowgreen); }
+    .srs-btn.green { background: var(--green); }
+    .srs-fill {
+      width: 100%;
+      height: 100%;
+      padding: 10px 12px 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      min-width: 0;
+      min-height: 0;
+    }
+    .srs-top {
+      display: flex;
+      justify-content: flex-end;
+      font-size: clamp(20px, 1.65vw, 28px);
+      line-height: 1;
+      font-weight: 800;
+      opacity: .92;
+      letter-spacing: -.03em;
+    }
+    .srs-label {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: clamp(28px, 2.8vw, 46px);
+      line-height: .94;
+      font-weight: 900;
+      letter-spacing: -.06em;
+      word-break: break-word;
+      hyphens: auto;
+      text-wrap: balance;
+    }
+      .translate-btn.is-open { background: #f8efe9; }
+    .is-pressed { transform: scale(0.97); }
+    .srs-btn.is-selected {
+      outline: 4px solid rgba(255,255,255,0.72);
+      transform: translateY(-2px);
+      box-shadow: 0 18px 36px rgba(82, 46, 56, 0.16);
+    }
+  
+
+    .legacy-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 24px;
+      border-bottom: 1px solid #e7e5e4;
+      background: #ffffff;
+      height: 58px;
+      flex-shrink: 0;
+    }
+    .legacy-header .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .legacy-header .logo-mark {
+      width: 32px;
+      height: 32px;
+      background: #991b1b;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(153, 27, 27, 0.18);
+    }
+    .legacy-header .logo-name {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #1c1917;
+    }
+    .legacy-header .logo-name .red { color: #991b1b; }
+    .legacy-header .header-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .legacy-header .btn-icon,
+    .legacy-header .streak-btn {
+      cursor: pointer;
+    }
+    .legacy-header .btn-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: none;
+      border-radius: 8px;
+      color: #57534e;
+      position: relative;
+      font-family: Inter, system-ui, sans-serif;
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease;
+    }
+    .legacy-header .btn-icon:hover {
+      background: rgba(153,27,27,.07);
+      color: #1c1917;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 20px rgba(28, 25, 23, 0.10);
+    }
+    .legacy-header .vocab-badge {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      min-width: 16px;
+      height: 16px;
+      background: #991b1b;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      border-radius: 99px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 0 4px;
+    }
+    .legacy-header .vocab-badge.show { display: flex; }
+    .legacy-header .streak-btn {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      border: none;
+      background: none;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #57534e;
+      padding: 4px 8px;
+      border-radius: 8px;
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease;
+    }
+    .legacy-header .streak-btn:hover {
+      background: rgba(153,27,27,.07);
+      color: #991b1b;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 20px rgba(28, 25, 23, 0.10);
+    }
+    .legacy-header .streak-btn svg { color: #991b1b; }
+    .legacy-header .streak-btn.active { color: #991b1b; }
+
+    .translate-btn,
+    .audio-btn,
+    .srs-btn {
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease, border-color .16s ease, color .16s ease;
+      will-change: transform, box-shadow;
+    }
+    .translate-btn:hover,
+    .audio-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 30px rgba(82, 46, 56, 0.14);
+      border-color: rgba(122, 51, 64, 0.28);
+    }
+    .srs-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 34px rgba(82, 46, 56, 0.18);
+    }
+    .translate-btn:active,
+    .audio-btn:active,
+    .srs-btn:active,
+    .legacy-header .btn-icon:active,
+    .legacy-header .streak-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 6px 12px rgba(82, 46, 56, 0.10);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="header legacy-header">
+  <div class="logo">
+    <div class="logo-mark">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <rect x="2" y="3" width="12" height="2" rx="1" fill="white"/>
+        <rect x="2" y="7" width="9" height="2" rx="1" fill="white"/>
+        <rect x="2" y="11" width="11" height="2" rx="1" fill="white"/>
+      </svg>
+    </div>
+    <div class="logo-name"><span class="red">L</span>ena <span class="red">L</span>earns <span class="red">L</span>atvian</div>
+  </div>
+  <div class="header-right">
+    <button class="streak-btn" id="streakBtn" title="Стрик">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      <span id="streakNum">0</span>
+    </button>
+    <button class="btn-icon" id="vocabToggle" title="Словарик">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span class="vocab-badge" id="vocabBadge">0</span>
+    </button>
+  </div>
+</header>
+
+    <main class="page">
+      <section class="labels">
+        <div>Latviešu</div>
+        <div>Перевод</div>
+      </section>
+
+      <section class="content">
+        <article class="panel">
+          <div>
+            <h1 class="phrase">viņš staigā pa mežu</h1>
+            <button type="button" class="audio-btn" aria-label="Прослушать латышскую фразу">
+              <span class="audio-icon">►</span>
+              <span>Прослушать</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="translate-wrap">
+            <button type="button" class="translate-btn">Показать перевод</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="srs-zone" aria-label="Оценка знания выражения">
+        <button type="button" class="srs-btn red" aria-label="Ужас-ужас, минус пять">
+          <span class="srs-fill">
+            <span class="srs-top">-5</span>
+            <span class="srs-label">Ужас-ужас</span>
+          </span>
+        </button>
+        <button type="button" class="srs-btn orange" aria-label="Ещё туплю, минус один">
+          <span class="srs-fill">
+            <span class="srs-top">-1</span>
+            <span class="srs-label">Ещё туплю</span>
+          </span>
+        </button>
+        <button type="button" class="srs-btn yellowgreen" aria-label="ОК, плюс один">
+          <span class="srs-fill">
+            <span class="srs-top">+1</span>
+            <span class="srs-label">ОК</span>
+          </span>
+        </button>
+        <button type="button" class="srs-btn green" aria-label="Выучила, плюс пять">
+          <span class="srs-fill">
+            <span class="srs-top">+5</span>
+            <span class="srs-label">Выучила!</span>
+          </span>
+        </button>
+      </section>
+    </main>
+  </div>
+  <script>
+const TRANSLATEWORKER = 'https://lll-translate.elena-masolova.workers.dev';
+let ttsAudio = null;
+
+window.addEventListener('DOMContentLoaded', function () {
+  const translationButton = document.querySelector('.translate-btn');
+
+  const audioButton = document.querySelector('.audio-btn');
+  const lvPanel = document.querySelector('.panel-lv .phrase') || document.querySelector('.phrase');
+
+  function setPlayIcon(state) {
+    if (!audioButton) return;
+    if (state === 'pause') {
+      audioButton.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg><span>Прослушать</span>';
+    } else {
+      audioButton.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg><span>Прослушать</span>';
+    }
+  }
+
+  const srsButtons = Array.from(document.querySelectorAll('.srs-btn'));
+  const iconButtons = Array.from(document.querySelectorAll('.icon-btn'));
+  const menuLinks = Array.from(document.querySelectorAll('.plain-link'));
+
+  if (translationButton) {
+    translationButton.addEventListener('click', function () {
+      const open = translationButton.dataset.open === '1';
+      translationButton.dataset.open = open ? '0' : '1';
+      translationButton.textContent = open ? 'Показать перевод' : 'он гуляет по лесу';
+      translationButton.classList.toggle('is-open', !open);
+    });
+  }
+
+  
+  if (audioButton) {
+    audioButton.addEventListener('click', async function () {
+      if (!lvPanel) return;
+      const text = lvPanel.textContent.trim();
+      if (!text) return;
+
+      if (ttsAudio && !ttsAudio.paused) {
+        ttsAudio.pause();
+        ttsAudio.currentTime = 0;
+        setPlayIcon('play');
+        return;
+      }
+
+      audioButton.classList.add('is-pressed');
+      setTimeout(function () { audioButton.classList.remove('is-pressed'); }, 150);
+      setPlayIcon('pause');
+
+      try {
+        const r = await fetch(TRANSLATEWORKER, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'tts', text, lang: 'lv-LV' })
+        });
+        const blob = await r.blob();
+        const url = URL.createObjectURL(blob);
+        ttsAudio = new Audio(url);
+        ttsAudio.addEventListener('ended', function () {
+          setPlayIcon('play');
+          URL.revokeObjectURL(url);
+        });
+        ttsAudio.addEventListener('error', function () {
+          setPlayIcon('play');
+          URL.revokeObjectURL(url);
+        });
+        await ttsAudio.play();
+      } catch (e) {
+        console.warn('TTS error', e);
+        setPlayIcon('play');
+      }
+    });
+  }
+
+
+  srsButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      srsButtons.forEach(function (b) { b.classList.remove('is-selected'); });
+      btn.classList.add('is-selected');
+    });
+  });
+
+  iconButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      btn.classList.add('is-pressed');
+      setTimeout(function () { btn.classList.remove('is-pressed'); }, 150);
+    });
+  });
+
+  menuLinks.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      menuLinks.forEach(function (l) { l.classList.remove('active-link'); });
+      link.classList.add('active-link');
+    });
+  });
+});
+</script>
+
+<script src="./phrases-500-v2.json.js"></script>
+</body>
+</html>
