@@ -396,6 +396,54 @@
     .legacy-header .streak-btn svg { color: #991b1b; }
     .legacy-header .streak-btn.active { color: #991b1b; }
 
+    .legacy-header .exam-toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: #57534e;
+      padding: 4px 8px;
+      border-radius: 8px;
+      user-select: none;
+      transition: background .16s ease, color .16s ease;
+    }
+    .legacy-header .exam-toggle:hover {
+      background: rgba(153,27,27,.07);
+      color: #991b1b;
+    }
+    .legacy-header .exam-toggle input {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid #a8a29e;
+      border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+      position: relative;
+      margin: 0;
+      transition: background .14s ease, border-color .14s ease;
+    }
+    .legacy-header .exam-toggle input:checked {
+      background: #991b1b;
+      border-color: #991b1b;
+    }
+    .legacy-header .exam-toggle input:checked::after {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 1px;
+      width: 4px;
+      height: 8px;
+      border: solid #fff;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .legacy-header .exam-toggle.active { color: #991b1b; }
+
     .translate-btn,
     .audio-btn,
     .srs-btn {
@@ -806,6 +854,10 @@
     <div class="logo-name"><span class="red">L</span>ena <span class="red">L</span>earns <span class="red">L</span>atvian</div>
   </div>
   <div class="header-right">
+    <label class="exam-toggle" id="examToggle" title="Показать только карточки экзамена">
+      <input type="checkbox" id="examCheckbox">
+      <span>Экзамен</span>
+    </label>
     <button class="streak-btn" id="streakBtn" title="Стрик">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
       <span id="streakNum">0</span>
@@ -913,10 +965,39 @@ window.addEventListener('DOMContentLoaded', function () {
   const STORAGE_STREAK = 'lll2_streak';
   const STORAGE_STAGE_PROGRESS = 'lll2_stage_progress';
 
-  let deck = Array.isArray(PHRASES) ? PHRASES.filter(item => item && typeof item.lv === 'string' && item.lv.trim()) : [];
+  const STORAGE_EXAM_MODE = 'lll2_exam_mode';
+  let examMode = false;
+  try { examMode = localStorage.getItem(STORAGE_EXAM_MODE) === '1'; } catch(e) {}
+
+  function buildDeck() {
+    if (!Array.isArray(PHRASES)) return [];
+    return PHRASES.filter(item => {
+      if (!item || typeof item.lv !== 'string' || !item.lv.trim()) return false;
+      if (examMode && !item.exam) return false;
+      return true;
+    });
+  }
+
+  let deck = buildDeck();
   if (!deck.length) deck = [{ lv: 'Dati nav ielādēti.', ru: 'Данные не загрузились.' }];
 
   let currentIndex = Math.floor(Math.random() * deck.length);
+
+  const examToggle = document.getElementById('examToggle');
+  const examCheckbox = document.getElementById('examCheckbox');
+  if (examCheckbox) {
+    examCheckbox.checked = examMode;
+    if (examToggle) examToggle.classList.toggle('active', examMode);
+    examCheckbox.addEventListener('change', function () {
+      examMode = examCheckbox.checked;
+      try { localStorage.setItem(STORAGE_EXAM_MODE, examMode ? '1' : '0'); } catch(e) {}
+      if (examToggle) examToggle.classList.toggle('active', examMode);
+      deck = buildDeck();
+      if (!deck.length) deck = [{ lv: 'Nav eksāmena kartīšu.', ru: 'Нет карточек для экзамена.' }];
+      currentIndex = Math.floor(Math.random() * deck.length);
+      if (typeof renderPhrase === 'function') renderPhrase();
+    });
+  }
   let translationOpen = false;
   let vocabFilter = 'all';
   let vocabSearchQuery = '';

@@ -9,7 +9,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu mājās pēc darba.",
   "ru": "Я дома после работы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 2,
@@ -21,7 +22,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur tu esi tagad?",
   "ru": "Где ты сейчас?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 3,
@@ -33,7 +35,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda ir jūsu nākamā darba tikšanās tēma?",
   "ru": "Какова тема вашей следующей деловой встречи?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 4,
@@ -45,7 +48,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā gadā viņi bija Rīgā.",
   "ru": "В прошлом году они были в Риге.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 5,
@@ -57,7 +61,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad būs nākamā sapulce?",
   "ru": "Когда будет следующее собрание?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 6,
@@ -69,7 +74,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es eju uz darbu ar kājām.",
   "ru": "Я иду на работу пешком.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 7,
@@ -81,7 +87,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur viņš iet tik agri?",
   "ru": "Куда он идёт так рано?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 8,
@@ -93,7 +100,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz kurieni jūs ejat pēc darba piektdienas vakarā?",
   "ru": "Куда вы идёте после работы в пятницу вечером?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 9,
@@ -105,7 +113,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mēs gājām uz staciju pulksten septiņos.",
   "ru": "Вчера мы шли на станцию в семь часов.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 10,
@@ -117,7 +126,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņi ies pie ārsta?",
   "ru": "Когда они пойдут к врачу?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 11,
@@ -129,7 +139,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa nāk mājās ļoti vēlu.",
   "ru": "Она приходит домой очень поздно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 12,
@@ -141,7 +152,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas nāk uz tikšanos šodien?",
   "ru": "Кто приходит на встречу сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 13,
@@ -153,7 +165,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā viņš nāk pie secinājuma tik ātri sarunu laikā?",
   "ru": "Как он так быстро приходит к выводу во время переговоров?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 14,
@@ -165,7 +178,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā mēnesī viņi nāca biežāk.",
   "ru": "В прошлом месяце они приходили чаще.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 15,
@@ -177,7 +191,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad atnāks atbilde no skolas?",
   "ru": "Когда придёт ответ из школы?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 16,
@@ -189,7 +204,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs dzīvojam klusā ielā centrā.",
   "ru": "Мы живём на тихой улице в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 17,
@@ -201,7 +217,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur dzīvo tava māsa?",
   "ru": "Где живёт твоя сестра?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 18,
@@ -213,7 +230,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs dzīvojat pēdējos piecos gados?",
   "ru": "Где вы живёте последние пять лет?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 19,
@@ -225,7 +243,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pirms trim gadiem es dzīvoju Jelgavā.",
   "ru": "Три года назад я жила в Елгаве.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 20,
@@ -237,7 +256,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Cik ilgi jūs dzīvosiet Latvijā?",
   "ru": "Как долго вы будете жить в Латвии?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 21,
@@ -249,7 +269,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es strādāju birojā pie datora.",
   "ru": "Я работаю в офисе за компьютером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 22,
@@ -261,7 +282,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur viņa strādā tagad?",
   "ru": "Где она сейчас работает?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 23,
@@ -273,7 +295,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos tu sāc strādāt no rīta?",
   "ru": "Во сколько ты начинаешь работать утром?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 24,
@@ -285,7 +308,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā vasarā mēs strādājām divos projektos.",
   "ru": "Прошлым летом мы работали над двумя проектами.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 25,
@@ -297,7 +321,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu strādāsi jaunajā uzņēmumā?",
   "ru": "Когда ты будешь работать в новой компании?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 26,
@@ -309,7 +334,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa mācās latviešu valodu katru dienu.",
   "ru": "Она учит латышский язык каждый день.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 27,
@@ -321,7 +347,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Ko jūs mācāties šajā kursā?",
   "ru": "Что вы изучаете на этом курсе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 28,
@@ -333,7 +360,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jaunieši mācās svešvalodas šodien?",
   "ru": "Как молодёжь учит иностранные языки сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 29,
@@ -345,7 +373,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā gadā es mācījos attālināti.",
   "ru": "В прошлом году я училась дистанционно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 30,
@@ -357,7 +386,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņš mācīsies otrajā kursā?",
   "ru": "Когда он будет учиться на втором курсе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 31,
@@ -369,7 +399,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es lasu ziņas katru rītu.",
   "ru": "Я читаю новости каждое утро.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 32,
@@ -381,7 +412,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņa lasa autobusā?",
   "ru": "Что она читает в автобусе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 33,
@@ -393,7 +425,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuru rakstu tu lasi par pēdējām vēlēšanām?",
   "ru": "Какую статью ты читаешь о последних выборах?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 34,
@@ -405,7 +438,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mēs lasījām divas īsas vēstules.",
   "ru": "Вчера мы читали два коротких письма.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 35,
@@ -417,7 +451,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu lasīsi līgumu?",
   "ru": "Когда ты будешь читать договор?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 36,
@@ -429,7 +464,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es rakstu īsu e-pastu kolēģei.",
   "ru": "Я пишу короткое письмо коллеге.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 37,
@@ -441,7 +477,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kam viņš raksta šo ziņu?",
   "ru": "Кому он пишет это сообщение?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 38,
@@ -453,7 +490,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kam jūs rakstāt oficiālu vēstuli par iespējamo līgumu?",
   "ru": "Кому вы пишете официальное письмо о возможном договоре?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 39,
@@ -465,7 +503,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā nedēļā viņa rakstīja trīs iesniegumus.",
   "ru": "На прошлой неделе она писала три заявления.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 40,
@@ -477,7 +516,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad mēs rakstīsim eksāmenu?",
   "ru": "Когда мы будем писать экзамен?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 41,
@@ -489,7 +529,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs runājam latviski darbā.",
   "ru": "Мы говорим по-латышски на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 42,
@@ -501,7 +542,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par ko viņi runā koridorā?",
   "ru": "О чём они разговаривают в коридоре?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 43,
@@ -513,7 +555,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Par ko viņa runā pēdējā preses konferencē?",
   "ru": "О чём она говорит на последней пресс-конференции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 44,
@@ -525,7 +568,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar es runāju ar skolotāju desmit minūtes.",
   "ru": "Вчера я разговаривала с преподавателем десять минут.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 45,
@@ -537,7 +581,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad jūs runāsiet ar ārstu?",
   "ru": "Когда вы будете говорить с врачом?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 46,
@@ -549,7 +594,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš saka patiesību par darbu.",
   "ru": "Он говорит правду о работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 47,
@@ -561,7 +607,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko tu saki par šo plānu?",
   "ru": "Что ты скажешь об этом плане?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 48,
@@ -573,7 +620,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko kandidāti saka vēlētājiem pirms vēlēšanām?",
   "ru": "Что кандидаты говорят избирателям перед выборами?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 49,
@@ -585,7 +633,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Skolotāja vakar teica pareizo atbildi.",
   "ru": "Преподаватель вчера сказала правильный ответ.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 50,
@@ -597,7 +646,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņa pateiks rezultātu?",
   "ru": "Когда она скажет результат?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 51,
@@ -609,7 +659,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es redzu pieturu pa logu.",
   "ru": "Я вижу остановку из окна.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 52,
@@ -621,7 +672,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņš redz kartē?",
   "ru": "Что он видит на карте?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 53,
@@ -633,7 +685,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas izmaiņas tu redzi Eiropas tirgū šogad?",
   "ru": "Какие изменения ты видишь на европейском рынке в этом году?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 54,
@@ -645,7 +698,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā svētdienā mēs redzējām jaunu izstādi.",
   "ru": "В прошлое воскресенье мы видели новую выставку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 55,
@@ -657,7 +711,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņi redzēs gala rezultātu?",
   "ru": "Когда они увидят итоговый результат?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 56,
@@ -669,7 +724,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzirdu troksni gaitenī.",
   "ru": "Я слышу шум в коридоре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 57,
@@ -681,7 +737,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņa dzird radio?",
   "ru": "Что она слышит по радио?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 58,
@@ -693,7 +750,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus jaunumus jūs dzirdat par komandas treneri?",
   "ru": "Какие новости вы слышите о тренере команды?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 59,
@@ -705,7 +763,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mēs dzirdējām divus svarīgus paziņojumus.",
   "ru": "Вчера мы слышали два важных объявления.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 60,
@@ -717,7 +776,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu dzirdēsi atbildi?",
   "ru": "Когда ты услышишь ответ?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 61,
@@ -729,7 +789,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es zinu viņas adresi.",
   "ru": "Я знаю её адрес.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 62,
@@ -741,7 +802,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas zina pareizo numuru?",
   "ru": "Кто знает правильный номер?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 63,
@@ -753,7 +815,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik valodas viņš zina brīvā līmenī?",
   "ru": "Сколько языков он свободно знает?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 64,
@@ -765,7 +828,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā mēnesī mēs zinājām tikai vienu atbildi.",
   "ru": "В прошлом месяце мы знали только один ответ.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 65,
@@ -777,7 +841,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad jūs zināsiet eksāmena datumu?",
   "ru": "Когда вы будете знать дату экзамена?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 66,
@@ -789,7 +854,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es domāju par jaunu darbu.",
   "ru": "Я думаю о новой работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 67,
@@ -801,7 +867,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņa domā par šo rakstu?",
   "ru": "Что она думает об этой статье?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 68,
@@ -813,7 +880,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņi domā par jauno nodokļu reformu?",
   "ru": "Что они думают о новой налоговой реформе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 69,
@@ -825,7 +893,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar es domāju par trim iespējām.",
   "ru": "Вчера я думала о трёх вариантах.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 70,
@@ -837,7 +906,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu domāsi par nākamo soli?",
   "ru": "Когда ты будешь думать о следующем шаге?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 71,
@@ -849,7 +919,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribu dzert tēju.",
   "ru": "Я хочу пить чай.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 72,
@@ -861,7 +932,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņš grib šodien nopirkt?",
   "ru": "Что он хочет сегодня купить?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 73,
@@ -873,7 +945,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz ko viņa grib pāriet pēc atvaļinājuma?",
   "ru": "На что она хочет перейти после отпуска?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 74,
@@ -885,7 +958,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā gadā mēs gribējām mainīt dzīvokli.",
   "ru": "В прошлом году мы хотели сменить квартиру.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 75,
@@ -897,7 +971,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņi gribēs sākt remontu?",
   "ru": "Когда они захотят начать ремонт?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 76,
@@ -909,7 +984,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es varu palīdzēt pēc darba.",
   "ru": "Я могу помочь после работы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 77,
@@ -921,7 +997,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs varat ieteikt?",
   "ru": "Что вы можете посоветовать?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 78,
@@ -933,7 +1010,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc viņš nevar atnākt laikā?",
   "ru": "Почему он не может прийти вовремя?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 79,
@@ -945,7 +1023,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mēs varējām pabeigt tikai vienu daļu.",
   "ru": "Вчера мы смогли закончить только одну часть.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 80,
@@ -957,7 +1036,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu varēsi atbildēt uz vēstuli?",
   "ru": "Когда ты сможешь ответить на письмо?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 81,
@@ -969,7 +1049,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vajag jaunu pasi.",
   "ru": "Мне нужен новый паспорт.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 82,
@@ -981,7 +1062,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Cik daudz laika tev vajag?",
   "ru": "Сколько времени тебе нужно?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 83,
@@ -993,7 +1075,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik daudz laika jums vajag projekta pabeigšanai?",
   "ru": "Сколько времени вам нужно для завершения проекта?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 84,
@@ -1005,7 +1088,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mums vajadzēja trīs dokumentus.",
   "ru": "Вчера нам были нужны три документа.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 85,
@@ -1017,7 +1101,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad jums vajadzēs naudu ceļam?",
   "ru": "Когда вам понадобятся деньги на дорогу?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 86,
@@ -1029,7 +1114,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gaidu autobusu pie pieturas.",
   "ru": "Я жду автобус на остановке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 87,
@@ -1041,7 +1127,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņi gaida no atbildes?",
   "ru": "Чего они ждут от ответа?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 88,
@@ -1053,7 +1140,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā viņa gaida sacensību rezultātus tik mierīgi?",
   "ru": "Как она так спокойно ждёт результатов соревнований?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 89,
@@ -1065,7 +1153,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā nedēļā mēs gaidījām divas stundas.",
   "ru": "На прошлой неделе мы ждали два часа.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 90,
@@ -1077,7 +1166,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad jūs gaidīsiet rezultātus?",
   "ru": "Когда вы будете ждать результаты?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 91,
@@ -1089,7 +1179,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es saņemu vēstules e-pastā.",
   "ru": "Я получаю письма по электронной почте.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 92,
@@ -1101,7 +1192,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Ko viņš saņem katra mēneša sākumā?",
   "ru": "Что он получает в начале каждого месяца?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 93,
@@ -1113,7 +1205,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus dokumentus viņi saņem no jaunā partnera?",
   "ru": "Какие документы они получают от нового партнёра?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 94,
@@ -1125,7 +1218,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar viņa saņēma divus uzaicinājumus.",
   "ru": "Вчера она получила два приглашения.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 95,
@@ -1137,7 +1231,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad mēs saņemsim atļauju?",
   "ru": "Когда мы получим разрешение?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 96,
@@ -1149,7 +1244,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es palīdzēju kaimiņienei ar somām.",
   "ru": "Я помогаю соседке с сумками.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 97,
@@ -1161,7 +1257,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kam viņa palīdz šodien?",
   "ru": "Кому она сегодня помогает?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 98,
@@ -1173,7 +1270,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas palīdz sportistiem gatavoties olimpiskajām spēlēm?",
   "ru": "Кто помогает спортсменам готовиться к Олимпийским играм?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 99,
@@ -1185,7 +1283,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā ziemā mēs palīdzējām vienai ģimenei.",
   "ru": "Прошлой зимой мы помогали одной семье.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 100,
@@ -1197,7 +1296,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad tu palīdzēsi man ar pieteikumu?",
   "ru": "Когда ты поможешь мне с заявлением?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 101,
@@ -1209,7 +1309,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es lasu grāmatu vakarā mājās.",
   "ru": "Я читаю книгу вечером дома.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 102,
@@ -1221,7 +1322,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu raksti ziņu draugam tagad.",
   "ru": "Ты пишешь сообщение другу сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 103,
@@ -1233,7 +1335,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš dzīvo mazā dzīvoklī centrā.",
   "ru": "Он живёт в маленькой квартире в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 104,
@@ -1245,7 +1348,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa strādā birojā katru dienu.",
   "ru": "Она работает в офисе каждый день.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 105,
@@ -1257,7 +1361,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs mācāmies latviešu valodu kopā.",
   "ru": "Мы вместе учим латышский язык.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 106,
@@ -1269,7 +1374,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs runājat ļoti ātri šodien.",
   "ru": "Вы сегодня говорите очень быстро.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 107,
@@ -1281,7 +1387,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi brauc uz darbu ar autobusu.",
   "ru": "Они едут на работу на автобусе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 108,
@@ -1293,7 +1400,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es eju uz veikalu pēc piena.",
   "ru": "Я иду в магазин за молоком.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 109,
@@ -1305,7 +1413,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu nāc pie mums vakarā.",
   "ru": "Ты приходишь к нам вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 110,
@@ -1317,7 +1426,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa redz bērnus pagalmā.",
   "ru": "Она видит детей во дворе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 111,
@@ -1329,7 +1439,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu saproti šo jautājumu?",
   "ru": "Ты понимаешь этот вопрос?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 112,
@@ -1341,7 +1452,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par ko viņš runā ar žurnālistiem pirms mača?",
   "ru": "О чём он говорит с журналистами перед матчем?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 113,
@@ -1353,7 +1465,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai mēs šodien mācāmies mājās?",
   "ru": "Мы сегодня учимся дома?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 114,
@@ -1365,7 +1478,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz kurieni jūs braucat atvaļinājumā šovasar?",
   "ru": "Куда вы едете в отпуск этим летом?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 115,
@@ -1377,7 +1491,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur viņi dzīvo tagad?",
   "ru": "Где они сейчас живут?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 116,
@@ -1389,7 +1504,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nedzeru kafiju vakarā.",
   "ru": "Я не пью кофе вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 117,
@@ -1401,7 +1517,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu neēd brokastis no rīta.",
   "ru": "Ты не завтракаешь утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 118,
@@ -1413,7 +1530,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš nesaprot skolotāju bez tulkojuma.",
   "ru": "Он не понимает учителя без перевода.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 119,
@@ -1425,7 +1543,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs nepaliekam mājās visu dienu.",
   "ru": "Мы не остаёмся дома весь день.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 120,
@@ -1437,7 +1556,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņas neskatās televizoru vakarā.",
   "ru": "Они не смотрят телевизор вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 121,
@@ -1449,7 +1569,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es vakar biju darbā līdz sešiem.",
   "ru": "Я вчера был на работе до шести.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 122,
@@ -1461,7 +1582,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu vakar lasīji ziņas internetā.",
   "ru": "Ты вчера читал новости в интернете.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 123,
@@ -1473,7 +1595,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pagājušajā nedēļā brauca uz Rīgu.",
   "ru": "Он на прошлой неделе ездил в Ригу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 124,
@@ -1485,7 +1608,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa vakar nopirka jaunu somu.",
   "ru": "Она вчера купила новую сумку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 125,
@@ -1497,7 +1621,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs sestdien satikām draugus parkā.",
   "ru": "Мы встретили друзей в парке в субботу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 126,
@@ -1509,7 +1634,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs vakar strādājāt mājās?",
   "ru": "Вы вчера работали дома?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 127,
@@ -1521,7 +1647,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos viņi atnāca uz biznesa forumu Rīgā?",
   "ru": "Во сколько они пришли на бизнес-форум в Риге?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 128,
@@ -1533,7 +1660,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es rīt iešu pie ārsta.",
   "ru": "Я завтра пойду к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 129,
@@ -1545,7 +1673,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu rīt zvanīsi mammai no darba.",
   "ru": "Ты завтра позвонишь маме с работы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 130,
@@ -1557,7 +1686,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš nākamnedēļ dzīvos pie drauga.",
   "ru": "Он будет жить у друга на следующей неделе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 131,
@@ -1569,7 +1699,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņa rīt tulkos šo tekstu?",
   "ru": "Она завтра переведёт этот текст?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 132,
@@ -1581,7 +1712,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs vairs nepaliksim šeit ilgi.",
   "ru": "Мы больше не останемся здесь надолго.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 133,
@@ -1593,7 +1725,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs nesāksiet bez manis?",
   "ru": "Вы не начнёте без меня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 134,
@@ -1605,7 +1738,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pulksten trijos man ir sapulce.",
   "ru": "В три часа у меня встреча.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 135,
@@ -1617,7 +1751,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs dzīvojam otrajā stāvā.",
   "ru": "Мы живём на втором этаже.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 136,
@@ -1629,7 +1764,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņam ir divi bērni un suns.",
   "ru": "У него двое детей и собака.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 137,
@@ -1641,7 +1777,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tev ir piecas minūtes?",
   "ru": "У тебя есть пять минут?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 138,
@@ -1653,7 +1790,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es negribu pirkt trīs biļetes.",
   "ru": "Я не хочу покупать три билета.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 139,
@@ -1665,7 +1803,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kur atrodas pirmā klase?",
   "ru": "Где находится первый класс?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 140,
@@ -1677,7 +1816,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs bieži ejam pastaigā pēc vakariņām.",
   "ru": "Мы часто ходим гулять после ужина.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 141,
@@ -1689,7 +1829,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu mācies ļoti uzmanīgi un lēni.",
   "ru": "Ты учишься очень внимательно и медленно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 142,
@@ -1701,7 +1842,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa klausās radio virtuvē.",
   "ru": "Она слушает радио на кухне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 143,
@@ -1713,7 +1855,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņi dzīvo netālu no stacijas?",
   "ru": "Они живут недалеко от станции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 144,
@@ -1725,7 +1868,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā tu sēdi tik ilgi savā birojā bez pārtraukuma?",
   "ru": "Как ты сидишь так долго в своём офисе без перерыва?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 145,
@@ -1737,7 +1881,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es negaidu autobusu šeit.",
   "ru": "Я не жду автобус здесь.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 146,
@@ -1749,7 +1894,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš neskrien no rīta parkā.",
   "ru": "Он не бегает по утрам в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 147,
@@ -1761,7 +1907,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs vakar skatījāmies jaunu filmu.",
   "ru": "Мы вчера смотрели новый фильм.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 148,
@@ -1773,7 +1920,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu pagājušajā mēnesī dzīvoji Liepājā.",
   "ru": "Ты в прошлом месяце жил в Лиепае.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 149,
@@ -1785,7 +1933,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņa vakar neēda pusdienas?",
   "ru": "Она вчера не обедала?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 150,
@@ -1797,7 +1946,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus dokumentus jūs atnesāt uz sarunu pagājušajā otrdienā?",
   "ru": "Какие документы вы принесли на переговоры в прошлый вторник?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 151,
@@ -1809,7 +1959,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pilsoņi drīkst piedalīties vēlēšanās kopš astoņpadsmit gadu vecuma.",
   "ru": "Граждане имеют право участвовать в выборах с восемнадцатилетнего возраста.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 152,
@@ -1821,7 +1972,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai ārvalstu uzņēmumi nedrīkst iegādāties zemi pierobežā?",
   "ru": "Разве иностранные компании не имеют права покупать землю в приграничье?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 153,
@@ -1833,7 +1985,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu komanda spēja noslēgt izdevīgu vienošanos ar piegādātāju.",
   "ru": "Наша команда смогла заключить выгодное соглашение с поставщиком.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 154,
@@ -1845,7 +1998,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Valde apstiprināja nākamā gada budžetu bez būtiskiem iebildumiem.",
   "ru": "Правление утвердило бюджет на следующий год без существенных возражений.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 155,
@@ -1857,7 +2011,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai valdība spēs savaldīt inflāciju nākamajā gadā?",
   "ru": "Сможет ли правительство сдержать инфляцию в следующем году?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 156,
@@ -1869,7 +2024,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Banka dod kredītu ar labvēlīgiem nosacījumiem maziem uzņēmumiem.",
   "ru": "Банк даёт кредит на льготных условиях малому бизнесу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 157,
@@ -1881,7 +2037,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurš apstiprinās jauno organizatorisko struktūru pēc apvienošanās?",
   "ru": "Кто утвердит новую организационную структуру после слияния?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 158,
@@ -1893,7 +2050,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurai nodaļai vadība deva gada lielāko prēmiju?",
   "ru": "Какому отделу руководство дало самую большую годовую премию?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 159,
@@ -1905,7 +2063,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Ceļojumā mēs ņemsim līdzi divas somas un mugursomu.",
   "ru": "В поездку мы возьмём с собой две сумки и рюкзак.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 160,
@@ -1917,7 +2076,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā brīdī tu ņem galīgo lēmumu par investīcijām?",
   "ru": "В какой момент ты принимаешь окончательное решение об инвестициях?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 161,
@@ -1929,7 +2089,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Sabiedrība ievēlēja jaunu priekšsēdētāju, kurš solīja caurskatāmību.",
   "ru": "Общество избрало нового председателя, обещавшего прозрачность.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 162,
@@ -1941,7 +2102,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Deputāts atdeva savu mandātu pēc skandāla ar dokumentiem.",
   "ru": "Депутат сложил свой мандат после скандала с документами.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 163,
@@ -1953,7 +2115,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņi atdos aizņēmumu līdz mēneša beigām?",
   "ru": "Они вернут заём до конца месяца?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 164,
@@ -1965,7 +2128,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai koalīcija neievēlēs neatkarīgu kandidātu uz šo amatu?",
   "ru": "Разве коалиция не изберёт независимого кандидата на эту должность?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 165,
@@ -1977,7 +2141,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pieteicos uz darba vīzu jau pirms pusgada.",
   "ru": "Я подал заявление на рабочую визу ещё полгода назад.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 166,
@@ -1989,7 +2154,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gids ved tūristu grupu pa vecpilsētas šaurajām ieliņām.",
   "ru": "Гид ведёт группу туристов по узким улочкам старого города.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 167,
@@ -2001,7 +2167,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas vedīs mūsu delegāciju uz ārlietu ministriju?",
   "ru": "Кто повезёт нашу делегацию в министерство иностранных дел?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 168,
@@ -2013,7 +2180,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Lidmašīnā es nespēju gulēt, jo kaimiņš skaļi sarunājās.",
   "ru": "В самолёте я не мог спать, потому что сосед громко разговаривал.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 169,
@@ -2025,7 +2193,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur mēs gulēsim, ja visas viesnīcas pilsētā būs aizņemtas?",
   "ru": "Где мы будем спать, если все гостиницы в городе будут заняты?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 170,
@@ -2037,7 +2206,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uzņēmums ceļ jaunu ražotni netālu no ostas.",
   "ru": "Компания строит новый завод недалеко от порта.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 171,
@@ -2049,7 +2219,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad tu pieteiksies starptautiskajai sportistu apmaiņas programmai?",
   "ru": "Когда ты подашь заявку на международную программу обмена спортсменами?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 172,
@@ -2061,7 +2232,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai valdība cels nodokļus luksusa precēm?",
   "ru": "Правительство поднимет налоги на предметы роскоши?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 173,
@@ -2073,7 +2245,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Profesionāli sportisti ceļas agri un trenējas pirms brokastīm.",
   "ru": "Профессиональные спортсмены встают рано и тренируются до завтрака.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 174,
@@ -2085,7 +2258,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos tu cēlies sacensību rītā?",
   "ru": "Во сколько ты встал в утро соревнований?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 175,
@@ -2097,7 +2271,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu uzņēmums sasniedza rekordlielu apgrozījumu otrajā ceturksnī.",
   "ru": "Наша компания достигла рекордного оборота во втором квартале.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 176,
@@ -2109,7 +2284,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Treneris gatavo jauno izlasi pasaules čempionātam.",
   "ru": "Тренер готовит новую сборную к чемпионату мира.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 177,
@@ -2121,7 +2297,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs negatavosiet runu pirms preses konferences?",
   "ru": "Разве вы не подготовите речь перед пресс-конференцией?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 178,
@@ -2133,7 +2310,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Apkopes komanda tīra biroja telpas katru vakaru pēc darba.",
   "ru": "Клининговая команда убирает офисные помещения каждый вечер после работы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 179,
@@ -2145,7 +2323,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas tīrīja konferenču zāli pirms svarīgās tikšanās?",
   "ru": "Кто убирал конференц-зал перед важной встречей?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 180,
@@ -2157,7 +2336,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jaunais uzņēmums taisa lietotni biznesa ceļotājiem.",
   "ru": "Новая компания делает приложение для деловых путешественников.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 181,
@@ -2169,7 +2349,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko viņi taisīs, ja investori atsauks finansējumu?",
   "ru": "Что они будут делать, если инвесторы отзовут финансирование?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 182,
@@ -2181,7 +2362,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ministrs solīja darīt visu iespējamo, lai atjaunotu uzticību.",
   "ru": "Министр обещал сделать всё возможное, чтобы восстановить доверие.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 183,
@@ -2193,7 +2375,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā valdība dara visu iespējamo ekonomikas stabilizēšanai?",
   "ru": "Как правительство делает всё возможное для стабилизации экономики?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 184,
@@ -2205,7 +2388,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pasažieris lūdza stjuartei papildu segu un spilvenu.",
   "ru": "Пассажир попросил у стюардессы дополнительное одеяло и подушку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 185,
@@ -2217,7 +2401,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu lūgsi vīzu uz Kanādu pats vai caur aģentūru?",
   "ru": "Ты будешь подавать заявление на визу в Канаду сам или через агентство?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 186,
@@ -2229,7 +2414,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Klienti prasa caurskatāmību visos līguma punktos.",
   "ru": "Клиенты требуют прозрачности во всех пунктах договора.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 187,
@@ -2241,7 +2427,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc vadītājs prasīja atstādināt projektu vadītāju?",
   "ru": "Почему руководитель требовал отстранить руководителя проекта?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 188,
@@ -2253,7 +2440,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Žurnālists jautāja prezidentam par attiecībām ar kaimiņvalstīm.",
   "ru": "Журналист спросил президента об отношениях с соседними странами.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 189,
@@ -2265,7 +2453,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko tu jautāsi premjeram intervijas laikā?",
   "ru": "Что ты спросишь у премьер-министра во время интервью?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 190,
@@ -2277,7 +2466,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uzņēmums atbildēs par zaudējumiem, ko radījis programmatūras defekts.",
   "ru": "Компания будет нести ответственность за убытки, причинённые дефектом программы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 191,
@@ -2289,7 +2479,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā direktors atbild uz žurnālistu jautājumiem par krīzi?",
   "ru": "Как директор отвечает на вопросы журналистов о кризисе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 192,
@@ -2301,7 +2492,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Komanda beidza spēli ar neizšķirtu rezultātu pēdējā minūtē.",
   "ru": "Команда закончила игру вничью на последней минуте.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 193,
@@ -2313,7 +2505,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad tu beigsi treniņus un sāksi pilnvērtīgu atpūtu?",
   "ru": "Когда ты закончишь тренировки и начнёшь полноценный отдых?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 194,
@@ -2325,7 +2518,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parlaments turpina apspriest pretrunīgo likumprojektu otrajā lasījumā.",
   "ru": "Парламент продолжает обсуждать спорный законопроект во втором чтении.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 195,
@@ -2337,7 +2531,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus rezultātus jaunais treneris sasniegs ar šo komandu?",
   "ru": "Каких результатов новый тренер достигнет с этой командой?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 196,
@@ -2349,7 +2544,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai valdība neturpinās reformu, ja protesti neapstāsies?",
   "ru": "Разве правительство не продолжит реформу, если протесты не прекратятся?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 197,
@@ -2361,7 +2557,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ministrs paziņos oficiālo lēmumu tūlīt pēc valdības sēdes.",
   "ru": "Министр объявит официальное решение сразу после заседания правительства.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 198,
@@ -2373,7 +2570,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gada pārskats iznāks oktobra beigās elektroniskā formātā.",
   "ru": "Годовой отчёт выйдет в конце октября в электронном формате.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 199,
@@ -2385,7 +2583,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad uzņēmums paziņoja par akcionāru izmaiņām pirmo reizi?",
   "ru": "Когда компания впервые сообщила об изменениях среди акционеров?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 200,
@@ -2397,7 +2596,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad iznāca pirmais raksts par šo korupcijas lietu?",
   "ru": "Когда вышла первая статья об этом коррупционном деле?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 201,
@@ -2409,7 +2609,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Starptautiskais investors ienāca Latvijas tirgū pirms trim gadiem.",
   "ru": "Международный инвестор вошёл на латвийский рынок три года назад.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 202,
@@ -2421,7 +2622,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Startups ieguva stratēģisku investoru pēc ilgām sarunām.",
   "ru": "Стартап получил стратегического инвестора после долгих переговоров.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 203,
@@ -2433,7 +2635,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jauns konkurents ienāks mūsu nozarē tuvākajā nākotnē?",
   "ru": "Появится ли новый конкурент в нашей отрасли в ближайшем будущем?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 204,
@@ -2445,7 +2648,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vilciens aizgāja no stacijas precīzi pēc grafika.",
   "ru": "Поезд ушёл со станции точно по расписанию.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 205,
@@ -2457,7 +2661,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos aiziet pēdējais autobuss uz lidostu?",
   "ru": "Во сколько уходит последний автобус в аэропорт?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 206,
@@ -2469,7 +2674,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs atgriezīsimies mājās pēc divām nedēļām tropiskā ceļojumā.",
   "ru": "Мы вернёмся домой через две недели после тропической поездки.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 207,
@@ -2481,7 +2687,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik dienas agrāk viņa atgriezās no komandējuma Berlīnē?",
   "ru": "На сколько дней раньше она вернулась из командировки в Берлине?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 208,
@@ -2493,7 +2700,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc reformas procedūra kļuva caurskatāmāka un ātrāka.",
   "ru": "После реформы процедура стала прозрачнее и быстрее.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 209,
@@ -2505,7 +2713,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai Latvija kļūs par reģionālo tehnoloģiju centru?",
   "ru": "Станет ли Латвия региональным технологическим центром?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 210,
@@ -2517,7 +2726,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc garā maratona sportists jūtas pārguris, bet apmierināts.",
   "ru": "После долгого марафона спортсмен чувствует себя уставшим, но довольным.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 211,
@@ -2529,7 +2739,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kā tu jutiesi pēc pirmās puses spēlē pret čempioniem?",
   "ru": "Как ты чувствовал себя после первого тайма матча против чемпионов?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 212,
@@ -2541,7 +2752,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es mīlu ceļot pa mazpazīstamām Eiropas vietām rudenī.",
   "ru": "Я люблю путешествовать по малоизвестным местам Европы осенью.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 213,
@@ -2553,7 +2765,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādās vietās viņi visvairāk mīlēja atpūsties Itālijas piekrastē?",
   "ru": "В каких местах они больше всего любили отдыхать на итальянском побережье?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 214,
@@ -2565,7 +2778,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk ceļojumi ar lielām tūristu grupām.",
   "ru": "Мне не нравятся поездки с большими группами туристов.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 215,
@@ -2577,7 +2791,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tev patika ekskursija pa Rīgas vēsturisko centru?",
   "ru": "Тебе понравилась экскурсия по историческому центру Риги?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 216,
@@ -2589,7 +2804,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Akcionāri cer uz lielāku peļņu otrajā ceturksnī.",
   "ru": "Акционеры надеются на большую прибыль во втором квартале.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 217,
@@ -2601,7 +2817,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu pieredzi tu iegūsi, strādājot starptautiskā projektā?",
   "ru": "Какой опыт ты получишь, работая в международном проекте?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 218,
@@ -2613,7 +2830,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz ko tu cerēsi, ja projekts tomēr neatmaksāsies?",
   "ru": "На что ты будешь надеяться, если проект всё же не окупится?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 219,
@@ -2625,7 +2843,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vēlētāji vairs netic tukšiem pirmsvēlēšanu solījumiem.",
   "ru": "Избиратели больше не верят пустым предвыборным обещаниям.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 220,
@@ -2637,7 +2856,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc sabiedrība tik ilgi ticēja oficiālajai versijai?",
   "ru": "Почему общество так долго верило официальной версии?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 221,
@@ -2649,7 +2869,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kopš bērnības es sapņoju apceļot visu Dienvidameriku.",
   "ru": "С детства я мечтаю объездить всю Южную Америку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 222,
@@ -2661,7 +2882,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par kādu ceļojumu tu visvairāk sapņoji jaunībā?",
   "ru": "О каком путешествии ты больше всего мечтал в молодости?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 223,
@@ -2673,7 +2895,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Atbildīgs darba devējs rūpējas par savu darbinieku labklājību.",
   "ru": "Ответственный работодатель заботится о благополучии своих сотрудников.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 224,
@@ -2685,7 +2908,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jaunā vadība nerūpēsies par vietējiem piegādātājiem?",
   "ru": "Разве новое руководство не будет заботиться о местных поставщиках?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 225,
@@ -2697,7 +2921,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Arvien vairāk jauniešu interesējas par politiskajiem procesiem valstī.",
   "ru": "Всё больше молодёжи интересуется политическими процессами в стране.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 226,
@@ -2709,7 +2934,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par kādām likumdošanas izmaiņām tu interesējies pērn?",
   "ru": "Какими изменениями в законодательстве ты интересовался в прошлом году?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 227,
@@ -2721,7 +2947,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mūsu klubs piedalīsies trīs starptautiskos turnīros nākamajā sezonā.",
   "ru": "Наш клуб будет участвовать в трёх международных турнирах в следующем сезоне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 228,
@@ -2733,7 +2960,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kuri pieredzējušie sportisti piedalījās pēdējā Eiropas čempionātā?",
   "ru": "Какие опытные спортсмены участвовали в последнем чемпионате Европы?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 229,
@@ -2745,7 +2973,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs tiksimies ar potenciālajiem partneriem nākamajā pirmdienā.",
   "ru": "Мы встретимся с потенциальными партнёрами в следующий понедельник.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 230,
@@ -2757,7 +2986,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar ko premjers tikās aizvakar neplānotajā vizītē?",
   "ru": "С кем премьер встречался позавчера во время незапланированного визита?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 231,
@@ -2769,7 +2999,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es joprojām atceros pirmo ceļojumu uz Parīzi pirms desmit gadiem.",
   "ru": "Я до сих пор помню первую поездку в Париж десять лет назад.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 232,
@@ -2781,7 +3012,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu viesnīcas adresi viņš atcerējās pēc garā lidojuma?",
   "ru": "Какой адрес гостиницы он вспомнил после долгого перелёта?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 233,
@@ -2793,7 +3025,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs plānojam gara hibrīddarba ceļojumu pa Dienvidaustrumāziju.",
   "ru": "Мы планируем длительную поездку с удалённой работой по Юго-Восточной Азии.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 234,
@@ -2805,7 +3038,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu izlase zaudēja pusfinālā ar minimālu atšķirību.",
   "ru": "Наша сборная проиграла в полуфинале с минимальной разницей.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 235,
@@ -2817,7 +3051,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik daudz uzņēmums zaudēs, ja streiks ilgs divas nedēļas?",
   "ru": "Сколько компания потеряет, если забастовка продлится две недели?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 236,
@@ -2829,7 +3064,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja treniņi būs regulāri, mēs uzvarēsim reģionālajā čempionātā.",
   "ru": "Если тренировки будут регулярными, мы победим на региональном чемпионате.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 237,
@@ -2841,7 +3077,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kura komanda uzvarēja finālā pagājušajā svētdienā?",
   "ru": "Какая команда победила в финале в прошлое воскресенье?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 238,
@@ -2853,7 +3090,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu jaunais uzbrucējs spēlē gudri un nekad netērē enerģiju velti.",
   "ru": "Наш новый нападающий играет умно и никогда не тратит энергию впустую.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 239,
@@ -2865,7 +3103,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pret kuru komandu mēs spēlēsim ceturtdienas vakarā?",
   "ru": "Против какой команды мы будем играть в четверг вечером?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 240,
@@ -2877,7 +3116,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc saspringta komandējuma es atpūtīšos nedēļu pie jūras.",
   "ru": "После напряжённой командировки я отдохну неделю у моря.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 241,
@@ -2889,7 +3129,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Cik dienas tu atpūties pirms pēdējā maratona?",
   "ru": "Сколько дней ты отдыхал перед последним марафоном?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 242,
@@ -2901,7 +3142,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jaunie profesionāļi arvien biežāk ceļo darba un atpūtas dēļ vienlaikus.",
   "ru": "Молодые профессионалы всё чаще путешествуют одновременно ради работы и отдыха.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 243,
@@ -2913,7 +3155,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz kurām valstīm tu ceļoji pagājušajā vasarā?",
   "ru": "В какие страны ты ездил прошлым летом?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 244,
@@ -2925,7 +3168,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Delegācija dosies uz Briseli pēc svarīgās balsošanas parlamentā.",
   "ru": "Делегация отправится в Брюссель после важного голосования в парламенте.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 245,
@@ -2937,7 +3181,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurp viņi devās tūlīt pēc preses konferences beigām?",
   "ru": "Куда они отправились сразу после окончания пресс-конференции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 246,
@@ -2949,7 +3194,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu uzņēmums nodarbojas ar loģistikas risinājumiem Baltijas reģionā.",
   "ru": "Наша компания занимается логистическими решениями в Балтийском регионе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 247,
@@ -2961,7 +3207,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurus maršrutus jūs plānojāt pirms pandēmijas ierobežojumiem?",
   "ru": "Какие маршруты вы планировали до пандемийных ограничений?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 248,
@@ -2973,7 +3220,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Tu šobrīd raksti ziņu draugam.",
   "ru": "Ты в данный момент пишешь сообщение другу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 249,
@@ -2985,7 +3233,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar ko tu nodarbojies, pirms pievienojies mūsu komandai?",
   "ru": "Чем ты занимался, прежде чем присоединиться к нашей команде?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 250,
@@ -2997,7 +3246,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Treneris iemācīja mums kontrolēt elpošanu sarežģītās situācijās.",
   "ru": "Тренер научил нас контролировать дыхание в сложных ситуациях.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 251,
@@ -3009,7 +3259,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pērku svaigus dārzeņus tirgū.",
   "ru": "Я покупаю свежие овощи на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 252,
@@ -3021,7 +3272,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu mazgā lielo krūzi virtuvē.",
   "ru": "Ты моешь большую кружку на кухне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 253,
@@ -3033,7 +3285,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš atver smago logu no rīta.",
   "ru": "Он открывает тяжёлое окно утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 254,
@@ -3045,7 +3298,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa aizver vecās durvis vakarā.",
   "ru": "Она закрывает старые двери вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 255,
@@ -3057,7 +3311,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs nesam baltas somas uz mašīnu.",
   "ru": "Мы несём белые сумки к машине.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 256,
@@ -3069,7 +3324,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs meklējat jaunu dzīvokli centrā.",
   "ru": "Вы ищете новую квартиру в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 257,
@@ -3081,7 +3337,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi gaida ātro vilcienu stacijā.",
   "ru": "Они ждут быстрый поезд на станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 258,
@@ -3093,7 +3350,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es skaitu sīku naudu pie kases.",
   "ru": "Я считаю мелкие деньги у кассы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 259,
@@ -3105,7 +3363,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu turi sarkanu mapi rokās.",
   "ru": "Ты держишь красную папку в руках.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 260,
@@ -3117,7 +3376,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš lasa īsu vēstuli autobusā.",
   "ru": "Он читает короткое письмо в автобусе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 261,
@@ -3129,7 +3389,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tev ir lēta biļete uz Rīgu?",
   "ru": "У тебя есть дешёвый билет в Ригу?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 262,
@@ -3141,7 +3402,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur tu pērc dāvanas pirms ilgā ceļojuma uz Āziju?",
   "ru": "Где ты покупаешь подарки перед долгой поездкой в Азию?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 263,
@@ -3153,7 +3415,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņa meklē melnu kleitu veikalā?",
   "ru": "Она ищет чёрное платье в магазине?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 264,
@@ -3165,7 +3428,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz kurieni mēs nesam šo sporta inventāru pirms sacensībām?",
   "ru": "Куда мы несём этот спортинвентарь перед соревнованиями?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 265,
@@ -3177,7 +3441,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs gaidāt nākamo autobusu ārā?",
   "ru": "Вы ждёте следующий автобус снаружи?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 266,
@@ -3189,7 +3454,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nepērku saldu kūku šodien.",
   "ru": "Я не покупаю сладкий торт сегодня.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 267,
@@ -3201,7 +3467,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu nemazgā netīro logu viens.",
   "ru": "Ты не моешь грязное окно один.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 268,
@@ -3213,7 +3480,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš neatver mazo somu darbā.",
   "ru": "Он не открывает маленькую сумку на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 269,
@@ -3225,7 +3493,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa neaizver šīs durvis naktī.",
   "ru": "Она не закрывает эту дверь ночью.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 270,
@@ -3237,7 +3506,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs šobrīd nemeklējam dārgu telefonu.",
   "ru": "Мы в данный момент не ищем дорогой телефон.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 271,
@@ -3249,7 +3519,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es vakar pirku svaigu sieru tirgū.",
   "ru": "Я вчера покупал свежий сыр на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 272,
@@ -3258,10 +3529,11 @@ const PHRASES = [
   "sentence_type": "statement",
   "negative": false,
   "question": false,
-  "has_number": false,
-  "lv": "Tu mazgāji zilu šķīvi pēc pusdienām.",
-  "ru": "Ты мыл синюю тарелку после обеда.",
-  "retired": false
+  "has_number": true,
+  "lv": "Tu mazgāji sporta formas pēc pirmās finālspēles pret čempioniem.",
+  "ru": "Ты стирал спортивную форму после первого финального матча против чемпионов.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 273,
@@ -3273,7 +3545,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš atvēra garu logu klasē.",
   "ru": "Он открыл длинное окно в классе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 274,
@@ -3285,7 +3558,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa aizvēra veco skapi guļamistabā.",
   "ru": "Она закрыла старый шкаф в спальне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 275,
@@ -3297,7 +3571,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs nesām smagas somas uz māju.",
   "ru": "Мы несли тяжёлые сумки домой.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 276,
@@ -3309,7 +3584,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs meklējāt klusu vietu parkā.",
   "ru": "Вы искали тихое место в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 277,
@@ -3321,7 +3597,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi gaidīja garu rindu pie ārsta.",
   "ru": "Они ждали длинную очередь к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 278,
@@ -3333,7 +3610,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu vakar pirki melnu jaku?",
   "ru": "Ты вчера покупал чёрную куртку?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 279,
@@ -3345,7 +3623,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad viņš pēdējo reizi mazgāja savu sporta formu pirms turnīra?",
   "ru": "Когда он в последний раз стирал свою спортивную форму перед турниром?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 280,
@@ -3357,7 +3636,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai viņa atvēra pirmo vēstuli?",
   "ru": "Она открыла первое письмо?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 281,
@@ -3369,7 +3649,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kurā brīdī mēs aizvērām pēdējo sapulci par budžetu?",
   "ru": "В какой момент мы закрыли последнее совещание по бюджету?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 282,
@@ -3379,9 +3660,10 @@ const PHRASES = [
   "negative": false,
   "question": true,
   "has_number": true,
-  "lv": "Vai jūs meklējāt otro atslēgu?",
-  "ru": "Вы искали второй ключ?",
-  "retired": false
+  "lv": "Vai jūs meklējāt otro investoru pirms līguma parakstīšanas?",
+  "ru": "Вы искали второго инвестора перед подписанием договора?",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 283,
@@ -3393,7 +3675,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es rīt pirkšu siltu zupu kafejnīcā.",
   "ru": "Я завтра куплю тёплый суп в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 284,
@@ -3405,7 +3688,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu mazgāsi baltu kreklu vakarā.",
   "ru": "Ты вечером будешь стирать белую рубашку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 285,
@@ -3417,7 +3701,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš atvērs smago vārdu rīt.",
   "ru": "Он завтра откроет тяжёлые ворота.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 286,
@@ -3429,7 +3714,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa aizvērs mazo logu pēc stundas.",
   "ru": "Она закроет маленькое окно через час.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 287,
@@ -3441,7 +3727,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs nesīsim zaļu kasti uz biroju.",
   "ru": "Мы понесём зелёную коробку в офис.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 288,
@@ -3453,7 +3740,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs meklēsiet lētu viesnīcu centrā.",
   "ru": "Вы будете искать дешёвую гостиницу в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 289,
@@ -3465,7 +3753,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi gaidīs agru vilcienu no rīta.",
   "ru": "Они будут ждать ранний поезд утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 290,
@@ -3477,7 +3766,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu rīt pirksi trešo biļeti?",
   "ru": "Ты завтра купишь третий билет?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 291,
@@ -3489,7 +3779,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad jaunā trenere mazgās komandas formas pēc izbraukuma?",
   "ru": "Когда новая тренер постирает формы команды после выезда?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 292,
@@ -3501,7 +3792,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai mēs atvērsim sesto logu?",
   "ru": "Мы откроем шестое окно?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 293,
@@ -3513,7 +3805,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos jūs aizvērsiet biroju svētku vakarā?",
   "ru": "Во сколько вы закроете офис в праздничный вечер?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 294,
@@ -3525,7 +3818,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņi meklēs lētāku dzīvokli?",
   "ru": "Они будут искать более дешёвую квартиру?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 295,
@@ -3537,7 +3831,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pirmajā stāvā ir liela virtuve.",
   "ru": "На первом этаже большая кухня.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 296,
@@ -3547,9 +3842,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Otrajā istabā stāv zils galds.",
-  "ru": "Во второй комнате стоит синий стол.",
-  "retired": false
+  "lv": "Otrajā vietā sacensībās stāv jaunais Latvijas sportists.",
+  "ru": "На втором месте в соревнованиях стоит молодой латвийский спортсмен.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 297,
@@ -3559,9 +3855,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Trešajā somā ir veci dokumenti.",
-  "ru": "В третьей сумке старые документы.",
-  "retired": false
+  "lv": "Trešajā ziņojumā ir svarīgi dati par nākamā ceturkšņa prognozēm.",
+  "ru": "В третьем отчёте есть важные данные о прогнозах на следующий квартал.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 298,
@@ -3571,9 +3868,10 @@ const PHRASES = [
   "negative": false,
   "question": true,
   "has_number": true,
-  "lv": "Vai ceturtajā kastē ir glāzes?",
-  "ru": "В четвёртой коробке есть стаканы?",
-  "retired": false
+  "lv": "Vai ceturtajā budžeta pantā ir paredzēti līdzekļi ceļu remontam?",
+  "ru": "В четвёртой статье бюджета предусмотрены средства на ремонт дорог?",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 299,
@@ -3583,9 +3881,10 @@ const PHRASES = [
   "negative": true,
   "question": false,
   "has_number": true,
-  "lv": "Es neredzu piekto atslēgu uz galda.",
-  "ru": "Я не вижу пятый ключ на столе.",
-  "retired": false
+  "lv": "Es neredzu nekādas priekšrocības tuvoties šim partnerim pirms pirmā ceturkšņa.",
+  "ru": "Я не вижу никаких преимуществ сближаться с этим партнёром до первого квартала.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 300,
@@ -3595,9 +3894,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Mums ir sešas tīras krūzes plauktā.",
-  "ru": "У нас на полке шесть чистых кружек.",
-  "retired": false
+  "lv": "Mums ir piecas gatavas prezentācijas investoru tikšanās rītdienai.",
+  "ru": "У нас есть пять готовых презентаций на завтрашнюю встречу с инвесторами.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 301,
@@ -3609,7 +3909,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pērku svaigus dārzeņus tirgū tagad.",
   "ru": "Я покупаю свежие овощи на рынке сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 302,
@@ -3621,7 +3922,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu mazgā lielo krūzi virtuvē tagad.",
   "ru": "Ты моешь большую кружку на кухне сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 303,
@@ -3633,7 +3935,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu iemācīsies jauno taktiku pirms nākamās spēles?",
   "ru": "Ты выучишь новую тактику до следующей игры?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 304,
@@ -3645,7 +3948,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Partneris iedeva mums ekskluzīvas tiesības izplatīt produktu Baltijā.",
   "ru": "Партнёр предоставил нам эксклюзивные права на распространение продукта в Балтии.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 305,
@@ -3657,7 +3961,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs šobrīd nesam baltas somas uz mašīnu.",
   "ru": "Мы в данный момент несём белые сумки к машине.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 306,
@@ -3669,7 +3974,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs šobrīd meklējat jaunu dzīvokli centrā.",
   "ru": "Вы в данный момент ищете новую квартиру в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 307,
@@ -3681,7 +3987,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi šobrīd gaida ātro vilcienu stacijā.",
   "ru": "Они в данный момент ждут быстрый поезд на станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 308,
@@ -3693,7 +4000,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es skaitu sīku naudu pie kases tagad.",
   "ru": "Я считаю мелкие деньги у кассы сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 309,
@@ -3705,7 +4013,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu turi sarkanu mapi rokās tagad.",
   "ru": "Ты держишь красную папку в руках сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 310,
@@ -3717,7 +4026,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš lasa īsu vēstuli autobusā tagad.",
   "ru": "Он читает короткое письмо в автобусе сейчас.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 311,
@@ -3729,7 +4039,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tev ir lēta biļete uz Rīgu šodien?",
   "ru": "У тебя есть дешёвый билет в Ригу сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 312,
@@ -3741,7 +4052,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu dāvanu tu pērc priekšniekam pirms ārzemju tikšanās?",
   "ru": "Какой подарок ты покупаешь начальнику перед зарубежной встречей?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 313,
@@ -3753,7 +4065,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņa meklē melnu kleitu veikalā šodien?",
   "ru": "Она ищет чёрное платье в магазине сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 314,
@@ -3765,7 +4078,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos mēs nesam reklāmas materiālus uz preses konferenci?",
   "ru": "Во сколько мы несём рекламные материалы на пресс-конференцию?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 315,
@@ -3777,7 +4091,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs gaidāt nākamo autobusu ārā šodien?",
   "ru": "Вы ждёте следующий автобус снаружи сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 316,
@@ -3789,7 +4104,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es šodien nepērku saldu kūku.",
   "ru": "Я сегодня не покупаю сладкий торт.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 317,
@@ -3801,7 +4117,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu parasti nemazgā netīro logu viens.",
   "ru": "Ты обычно не моешь грязное окно один.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 318,
@@ -3813,7 +4130,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš parasti neatver mazo somu darbā.",
   "ru": "Он обычно не открывает маленькую сумку на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 319,
@@ -3825,7 +4143,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs neiedosiet atlaidi, ja pasūtījums būs liels?",
   "ru": "Неужели вы не дадите скидку, если заказ будет большим?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 320,
@@ -3837,7 +4156,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs šodien nemeklējam dārgu telefonu.",
   "ru": "Мы сегодня не ищем дорогой телефон.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 321,
@@ -3849,7 +4169,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es izlasīju līgumu līdz pēdējam punktam pirms parakstīšanas.",
   "ru": "Я прочитал договор до последнего пункта перед подписанием.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 322,
@@ -3858,10 +4179,11 @@ const PHRASES = [
   "sentence_type": "statement",
   "negative": false,
   "question": false,
-  "has_number": false,
-  "lv": "Tu vakar mazgāji zilu šķīvi pēc pusdienām.",
-  "ru": "Ты вчера мыл синюю тарелку после обеда.",
-  "retired": false
+  "has_number": true,
+  "lv": "Tu vakar mazgāji komandas autobusu pēc otrās izbraukuma spēles.",
+  "ru": "Ты вчера мыл автобус команды после второй выездной игры.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 323,
@@ -3873,7 +4195,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš vakar atvēra garu logu klasē.",
   "ru": "Он вчера открыл длинное окно в классе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 324,
@@ -3885,7 +4208,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa vakar aizvēra veco skapi guļamistabā.",
   "ru": "Она вчера закрыла старый шкаф в спальне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 325,
@@ -3897,7 +4221,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs vakar nesām smagas somas uz māju.",
   "ru": "Мы вчера несли тяжёлые сумки домой.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 326,
@@ -3909,7 +4234,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs vakar meklējāt klusu vietu parkā.",
   "ru": "Вы вчера искали тихое место в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 327,
@@ -3921,7 +4247,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi vakar gaidīja garu rindu pie ārsta.",
   "ru": "Они вчера ждали длинную очередь к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 328,
@@ -3933,7 +4260,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu vakar pirki melnu jaku šodien?",
   "ru": "Ты вчера покупал чёрную куртку сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 329,
@@ -3945,7 +4273,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā viņš mazgāja savas kedas pēc treniņa lietū?",
   "ru": "Как он стирал свои кроссовки после тренировки под дождём?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 330,
@@ -3957,7 +4286,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai viņa atvēra pirmo vēstuli šodien?",
   "ru": "Она открыла первое письмо сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 331,
@@ -3969,7 +4299,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādā kārtībā mēs aizvērām visus biroja stāvus vakar?",
   "ru": "В каком порядке мы закрыли все этажи офиса вчера?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 332,
@@ -3979,9 +4310,10 @@ const PHRASES = [
   "negative": false,
   "question": true,
   "has_number": true,
-  "lv": "Vai jūs meklējāt otro atslēgu šodien?",
-  "ru": "Вы искали второй ключ сегодня?",
-  "retired": false
+  "lv": "Vai jūs meklējāt otro ceļojuma maršrutu pēc aviokompānijas streika šodien?",
+  "ru": "Вы искали второй маршрут поездки после забастовки авиакомпании сегодня?",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 333,
@@ -3993,7 +4325,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad tu izlasīsi jauno biznesa stratēģiju?",
   "ru": "Когда ты прочитаешь новую бизнес-стратегию?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 334,
@@ -4005,7 +4338,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu vakarā mazgāsi baltu kreklu.",
   "ru": "Ты вечером будешь стирать белую рубашку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 335,
@@ -4017,7 +4351,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš rīt atvērs smagos vārtus.",
   "ru": "Он завтра откроет тяжёлые ворота.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 336,
@@ -4029,7 +4364,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa pēc stundas aizvērs mazo logu.",
   "ru": "Она через час закроет маленькое окно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 337,
@@ -4041,7 +4377,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs rīt nesīsim zaļu kasti uz biroju.",
   "ru": "Мы завтра понесём зелёную коробку в офис.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 338,
@@ -4053,7 +4390,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs rīt meklēsiet lētu viesnīcu centrā.",
   "ru": "Вы завтра будете искать дешёвую гостиницу в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 339,
@@ -4065,7 +4403,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi no rīta gaidīs agru vilcienu.",
   "ru": "Они утром будут ждать ранний поезд.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 340,
@@ -4077,7 +4416,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu rīt pirksi trešo biļeti šodien?",
   "ru": "Ты завтра купишь третий билет сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 341,
@@ -4089,7 +4429,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā dienā viņa mazgās savas kedas pirms finālspēles?",
   "ru": "В какой день она будет стирать свои кроссовки перед финальной игрой?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 342,
@@ -4101,7 +4442,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai mēs atvērsim sesto logu šodien?",
   "ru": "Мы откроем шестое окно сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 343,
@@ -4113,7 +4455,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs aizvērsiet visu gada budžeta plānu līdz decembrim?",
   "ru": "Как вы закроете весь годовой бюджетный план до декабря?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 344,
@@ -4125,7 +4468,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai viņi meklēs lētāku dzīvokli šodien?",
   "ru": "Они будут искать более дешёвую квартиру сегодня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 345,
@@ -4137,7 +4481,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ministrs izskaidros lēmuma motīvus rītdienas preses konferencē.",
   "ru": "Министр разъяснит мотивы решения на завтрашней пресс-конференции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 346,
@@ -4149,7 +4494,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc viņš neizskaidroja balsojuma rezultātus vēlētājiem?",
   "ru": "Почему он не разъяснил результаты голосования избирателям?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 347,
@@ -4161,7 +4507,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc atgriešanās no Japānas es pastāstīšu par visu pieredzēto.",
   "ru": "После возвращения из Японии я расскажу обо всём пережитом.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 348,
@@ -4171,9 +4518,10 @@ const PHRASES = [
   "negative": false,
   "question": true,
   "has_number": true,
-  "lv": "Vai ceturtajā kastē ir glāzes šodien?",
-  "ru": "В четвёртой коробке есть стаканы сегодня?",
-  "retired": false
+  "lv": "Vai ceturtajā sanāksmē šodien ir iekļauts jautājums par jaunā trenera izvēli?",
+  "ru": "В четвёртом сегодняшнем заседании включён вопрос о выборе нового тренера?",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 349,
@@ -4185,7 +4533,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas tev pastāstīja par šo slepeno maršrutu kalnos?",
   "ru": "Кто тебе рассказал об этом тайном маршруте в горах?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 350,
@@ -4197,7 +4546,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gids parādīja mums seno pili, kuras nav tūrisma ceļvežos.",
   "ru": "Гид показал нам древний замок, которого нет в туристических путеводителях.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 351,
@@ -4209,7 +4559,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es šodien pērku svaigus dārzeņus tirgū.",
   "ru": "Я сегодня покупаю свежие овощи на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 352,
@@ -4221,7 +4572,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu šodien mazgā lielo krūzi virtuvē.",
   "ru": "Ты сегодня моешь большую кружку на кухне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 353,
@@ -4233,7 +4585,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš katru rītu atver smago logu.",
   "ru": "Он каждое утро открывает тяжёлое окно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 354,
@@ -4245,7 +4598,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa katru vakaru aizver vecās durvis.",
   "ru": "Она каждый вечер закрывает старые двери.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 355,
@@ -4257,7 +4611,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs šodien nesam baltas somas uz mašīnu.",
   "ru": "Мы сегодня несём белые сумки к машине.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 356,
@@ -4269,7 +4624,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs šonedēļ meklējat jaunu dzīvokli centrā.",
   "ru": "Вы на этой неделе ищете новую квартиру в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 357,
@@ -4281,7 +4637,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi šodien gaida ātro vilcienu stacijā.",
   "ru": "Они сегодня ждут быстрый поезд на станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 358,
@@ -4293,7 +4650,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es šodien skaitu sīku naudu pie kases.",
   "ru": "Я сегодня считаю мелкие деньги у кассы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 359,
@@ -4305,7 +4663,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu šobrīd turi sarkanu mapi rokās.",
   "ru": "Ты в данный момент держишь красную папку в руках.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 360,
@@ -4317,7 +4676,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš šodien lasa īsu vēstuli autobusā.",
   "ru": "Он сегодня читает короткое письмо в автобусе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 361,
@@ -4329,7 +4689,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas parādīs jaunajiem darbiniekiem ražotnes iekārtas?",
   "ru": "Кто покажет новым сотрудникам оборудование завода?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 362,
@@ -4341,7 +4702,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kompānija pārdeva savu filiāli Vācijā stratēģiskam investoram.",
   "ru": "Компания продала свой филиал в Германии стратегическому инвестору.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 363,
@@ -4353,7 +4715,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par kādu cenu viņi pārdos vecās biroja telpas?",
   "ru": "За какую цену они продадут старые офисные помещения?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 364,
@@ -4365,7 +4728,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uzņēmums maksā saviem darbiniekiem algu divdesmit piektajā datumā.",
   "ru": "Компания платит своим сотрудникам зарплату двадцать пятого числа.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 365,
@@ -4377,7 +4741,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik maksās biļete uz Stokholmu nākamajā sezonā?",
   "ru": "Сколько будет стоить билет в Стокгольм в следующем сезоне?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 366,
@@ -4389,7 +4754,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es parasti nepērku saldu kūku.",
   "ru": "Я обычно не покупаю сладкий торт.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 367,
@@ -4401,7 +4767,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu bieži nemazgā netīro logu viens.",
   "ru": "Ты часто не моешь грязное окно один.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 368,
@@ -4413,7 +4780,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš bieži neatver mazo somu darbā.",
   "ru": "Он часто не открывает маленькую сумку на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 369,
@@ -4425,7 +4793,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa parasti neaizver šīs durvis naktī.",
   "ru": "Она обычно не закрывает эту дверь ночью.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 370,
@@ -4437,7 +4806,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs parasti nemeklējam dārgu telefonu.",
   "ru": "Мы обычно не ищем дорогой телефон.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 371,
@@ -4449,7 +4819,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pagājušajā nedēļā pirku svaigu sieru tirgū.",
   "ru": "Я на прошлой неделе покупал свежий сыр на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 372,
@@ -4458,10 +4829,11 @@ const PHRASES = [
   "sentence_type": "statement",
   "negative": false,
   "question": false,
-  "has_number": false,
-  "lv": "Tu aizvakar mazgāji zilu šķīvi pēc pusdienām.",
-  "ru": "Ты позавчера мыл синюю тарелку после обеда.",
-  "retired": false
+  "has_number": true,
+  "lv": "Tu aizvakar mazgāji ceļojuma somas pēc atgriešanās no trim garām dienām.",
+  "ru": "Ты позавчера мыл дорожные сумки после возвращения из трёх долгих дней.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 373,
@@ -4473,7 +4845,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pirms nedēļas atvēra garu logu klasē.",
   "ru": "Он неделю назад открыл длинное окно в классе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 374,
@@ -4485,7 +4858,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa pirms divām dienām aizvēra veco skapi guļamistabā.",
   "ru": "Она два дня назад закрыла старый шкаф в спальне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 375,
@@ -4497,7 +4871,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pirms nedēļas nesām smagas somas uz māju.",
   "ru": "Мы неделю назад несли тяжёлые сумки домой.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 376,
@@ -4509,7 +4884,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs pagājušajā nedēļā meklējāt klusu vietu parkā.",
   "ru": "Вы на прошлой неделе искали тихое место в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 377,
@@ -4521,7 +4897,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi pirms trim dienām gaidīja garu rindu pie ārsta.",
   "ru": "Они три дня назад ждали длинную очередь к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 378,
@@ -4533,7 +4910,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs atradām brīnišķīgu mazu viesnīcu Lisabonas vecajā kvartālā.",
   "ru": "Мы нашли чудесный маленький отель в старом квартале Лиссабона.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 379,
@@ -4545,7 +4923,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai tu neatradīsi laiku apmeklēt muzeju pirms lidojuma?",
   "ru": "Неужели ты не найдёшь время посетить музей перед вылетом?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 380,
@@ -4557,7 +4936,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pilnīgi aizmirsu paņemt līdzi starptautisko autovadītāja apliecību.",
   "ru": "Я совершенно забыл взять с собой международные водительские права.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 381,
@@ -4569,7 +4949,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko tu aizmirsīsi pēdējā brīdī pirms izlidošanas?",
   "ru": "Что ты забудешь в последний момент перед вылетом?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 382,
@@ -4581,7 +4962,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Padome izvēlējās pieredzējušāko kandidātu uz vadītāja amatu.",
   "ru": "Совет выбрал самого опытного кандидата на должность руководителя.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 383,
@@ -4593,7 +4975,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nākamnedēļ pirkšu siltu zupu kafejnīcā.",
   "ru": "Я на следующей неделе куплю тёплый суп в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 384,
@@ -4605,7 +4988,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu rīt vakarā mazgāsi baltu kreklu.",
   "ru": "Ты завтра вечером будешь стирать белую рубашку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 385,
@@ -4617,7 +5001,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pēc stundas atvērs smagos vārtus.",
   "ru": "Он через час откроет тяжёлые ворота.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 386,
@@ -4629,7 +5014,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa rīt aizvērs mazo logu.",
   "ru": "Она завтра закроет маленькое окно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 387,
@@ -4641,7 +5027,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pēc stundas nesīsim zaļu kasti uz biroju.",
   "ru": "Мы через час понесём зелёную коробку в офис.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 388,
@@ -4653,7 +5040,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs nākamnedēļ meklēsiet lētu viesnīcu centrā.",
   "ru": "Вы на следующей неделе будете искать дешёвую гостиницу в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 389,
@@ -4665,7 +5053,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi rīt no rīta gaidīs agru vilcienu.",
   "ru": "Они завтра утром будут ждать ранний поезд.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 390,
@@ -4677,7 +5066,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuru stratēģiju jūs izvēlēsieties nākamajam gadam?",
   "ru": "Какую стратегию вы выберете на следующий год?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 391,
@@ -4689,7 +5079,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pilsoņi balsos par jauno konstitūcijas grozījumu oktobrī.",
   "ru": "Граждане будут голосовать за новую конституционную поправку в октябре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 392,
@@ -4701,7 +5092,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Cik daudz jauniešu balsoja pēdējās pašvaldību vēlēšanās?",
   "ru": "Сколько молодёжи голосовало на последних муниципальных выборах?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 393,
@@ -4713,7 +5105,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vēlētāji vēlēja jaunu parlamentu ar spēcīgu opozīciju.",
   "ru": "Избиратели избрали новый парламент с сильной оппозицией.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 394,
@@ -4725,7 +5118,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuru partiju tu vēlēsi nākamajās Saeimas vēlēšanās?",
   "ru": "За какую партию ты будешь голосовать на следующих выборах Сейма?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 395,
@@ -4737,7 +5131,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pirmajā stāvā atrodas liela virtuve.",
   "ru": "На первом этаже находится большая кухня.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 396,
@@ -4747,9 +5142,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Otrajā istabā ir zils galds.",
-  "ru": "Во второй комнате есть синий стол.",
-  "retired": false
+  "lv": "Otrajā vietā reitingā ir Baltijas lielākais uzņēmums.",
+  "ru": "На втором месте в рейтинге находится крупнейшая балтийская компания.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 397,
@@ -4759,9 +5155,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Trešajā somā glabājas veci dokumenti.",
-  "ru": "В третьей сумке хранятся старые документы.",
-  "retired": false
+  "lv": "Trešajā vēlēšanu kārtā ir tikai divi nopietni kandidāti.",
+  "ru": "В третьем туре выборов только два серьёзных кандидата.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 398,
@@ -4773,7 +5170,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Advokāts stingri aizstāv sava klienta intereses tiesā.",
   "ru": "Адвокат решительно защищает интересы своего клиента в суде.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 399,
@@ -4783,9 +5181,10 @@ const PHRASES = [
   "negative": true,
   "question": false,
   "has_number": true,
-  "lv": "Es šobrīd neredzu piekto atslēgu uz galda.",
-  "ru": "Я в данный момент не вижу пятый ключ на столе.",
-  "retired": false
+  "lv": "Es šobrīd neredzu divus skaidrus iemeslus atbalstīt šo likumprojektu.",
+  "ru": "Я в данный момент не вижу двух ясных причин поддерживать этот законопроект.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 400,
@@ -4795,9 +5194,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Mums plauktā ir sešas tīras krūzes.",
-  "ru": "У нас на полке есть шесть чистых кружек.",
-  "retired": false
+  "lv": "Komandai tagad ir trīs spēcīgi spēlētāji nākamajā čempionātā.",
+  "ru": "У команды сейчас три сильных игрока на следующий чемпионат.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 401,
@@ -4809,7 +5209,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es katru dienu pērku svaigus dārzeņus tirgū.",
   "ru": "Я каждый день покупаю свежие овощи на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 402,
@@ -4821,7 +5222,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu katru vakaru mazgā lielo krūzi virtuvē.",
   "ru": "Ты каждый вечер моешь большую кружку на кухне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 403,
@@ -4833,7 +5235,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš parasti atver smago logu no rīta.",
   "ru": "Он обычно открывает тяжёлое окно утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 404,
@@ -4845,7 +5248,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa parasti aizver vecās durvis vakarā.",
   "ru": "Она обычно закрывает старые двери вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 405,
@@ -4857,7 +5261,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs katru dienu nesam baltas somas uz mašīnu.",
   "ru": "Мы каждый день несём белые сумки к машине.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 406,
@@ -4869,7 +5274,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs šomēnes meklējat jaunu dzīvokli centrā.",
   "ru": "Вы в этом месяце ищете новую квартиру в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 407,
@@ -4881,7 +5287,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi parasti gaida ātro vilcienu stacijā.",
   "ru": "Они обычно ждут быстрый поезд на станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 408,
@@ -4893,7 +5300,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es parasti skaitu sīku naudu pie kases.",
   "ru": "Я обычно считаю мелкие деньги у кассы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 409,
@@ -4905,7 +5313,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu šodien turi sarkanu mapi rokās.",
   "ru": "Ты сегодня держишь красную папку в руках.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 410,
@@ -4917,7 +5326,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš katru dienu lasa īsu vēstuli autobusā.",
   "ru": "Он каждый день читает короткое письмо в автобусе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 411,
@@ -4929,7 +5339,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai valdība neaizstāvēs vietējos ražotājus starptautiskajā konkurencē?",
   "ru": "Разве правительство не защитит местных производителей в международной конкуренции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 412,
@@ -4941,7 +5352,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Komisija apspriež budžeta projektu jau trešo nedēļu pēc kārtas.",
   "ru": "Комиссия обсуждает проект бюджета уже третью неделю подряд.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 413,
@@ -4953,7 +5365,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko deputāti apsprieda slēgtajā sēdē vakar vakarā?",
   "ru": "Что депутаты обсуждали на закрытом заседании вчера вечером?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 414,
@@ -4965,7 +5378,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Saeima pieņēma grozījumus otrajā lasījumā ar pārliecinošu vairākumu.",
   "ru": "Сейм принял поправки во втором чтении убедительным большинством.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 415,
@@ -4977,7 +5391,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai valde pieņems mūsu priekšlikumu nākamajā sanāksmē?",
   "ru": "Примет ли правление наше предложение на следующем собрании?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 416,
@@ -4989,7 +5404,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es reti pērku saldu kūku.",
   "ru": "Я редко покупаю сладкий торт.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 417,
@@ -5001,7 +5417,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu šodien nemazgā netīro logu viens.",
   "ru": "Ты сегодня не моешь грязное окно один.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 418,
@@ -5013,7 +5430,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš šodien neatver mazo somu darbā.",
   "ru": "Он сегодня не открывает маленькую сумку на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 419,
@@ -5025,7 +5443,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa bieži neaizver šīs durvis naktī.",
   "ru": "Она часто не закрывает эту дверь ночью.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 420,
@@ -5037,7 +5456,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs šogad nemeklējam dārgu telefonu.",
   "ru": "Мы в этом году не ищем дорогой телефон.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 421,
@@ -5049,7 +5469,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pirms piecām dienām pirku svaigu sieru tirgū.",
   "ru": "Я пять дней назад покупал свежий сыр на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 422,
@@ -5058,10 +5479,11 @@ const PHRASES = [
   "sentence_type": "statement",
   "negative": false,
   "question": false,
-  "has_number": false,
-  "lv": "Tu pirms trim dienām mazgāji zilu šķīvi pēc pusdienām.",
-  "ru": "Ты три дня назад мыл синюю тарелку после обеда.",
-  "retired": false
+  "has_number": true,
+  "lv": "Tu pirms trim dienām mazgāji sava biroja logus pirms svarīgās sanāksmes.",
+  "ru": "Ты три дня назад мыл окна своего офиса перед важным собранием.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 423,
@@ -5073,7 +5495,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pagājušajā mēnesī atvēra garu logu klasē.",
   "ru": "Он в прошлом месяце открыл длинное окно в классе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 424,
@@ -5085,7 +5508,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa pagājušajā nedēļā aizvēra veco skapi guļamistabā.",
   "ru": "Она на прошлой неделе закрыла старый шкаф в спальне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 425,
@@ -5097,7 +5521,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pagājušajā mēnesī nesām smagas somas uz māju.",
   "ru": "Мы в прошлом месяце несли тяжёлые сумки домой.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 426,
@@ -5109,7 +5534,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs pirms mēneša meklējāt klusu vietu parkā.",
   "ru": "Вы месяц назад искали тихое место в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 427,
@@ -5121,7 +5547,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi pagājušajā nedēļā gaidīja garu rindu pie ārsta.",
   "ru": "Они на прошлой неделе ждали длинную очередь к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 428,
@@ -5133,7 +5560,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Koalīcija valdīja gandrīz četrus gadus pirms iekšējās krīzes.",
   "ru": "Коалиция правила почти четыре года до внутреннего кризиса.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 429,
@@ -5145,7 +5573,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds noskaņojums valda darba kolektīvā pēc pārmaiņām?",
   "ru": "Какое настроение царит в коллективе после изменений?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 430,
@@ -5157,7 +5586,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Iedzīvotāji protestē pret plānoto rūpnīcas celtniecību piekrastē.",
   "ru": "Жители протестуют против планируемого строительства завода на побережье.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 431,
@@ -5169,7 +5599,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur studenti protestēs, ja mācību maksa atkal pieaugs?",
   "ru": "Где студенты будут протестовать, если плата за обучение снова вырастет?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 432,
@@ -5181,7 +5612,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Deputāts atteicās no imunitātes, lai pierādītu savu nevainību.",
   "ru": "Депутат отказался от иммунитета, чтобы доказать свою невиновность.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 433,
@@ -5193,7 +5625,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pēc divām nedēļām pirkšu siltu zupu kafejnīcā.",
   "ru": "Я через две недели куплю тёплый суп в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 434,
@@ -5205,7 +5638,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu pēc trim dienām mazgāsi baltu kreklu.",
   "ru": "Ты через три дня будешь стирать белую рубашку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 435,
@@ -5217,7 +5651,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš nākamnedēļ atvērs smagos vārtus.",
   "ru": "Он на следующей неделе откроет тяжёлые ворота.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 436,
@@ -5229,7 +5664,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa pēc pusstundas aizvērs mazo logu.",
   "ru": "Она через полчаса закроет маленькое окно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 437,
@@ -5241,7 +5677,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs nākamnedēļ nesīsim zaļu kasti uz biroju.",
   "ru": "Мы на следующей неделе понесём зелёную коробку в офис.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 438,
@@ -5253,7 +5690,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs nākamajā mēnesī meklēsiet lētu viesnīcu centrā.",
   "ru": "Вы в следующем месяце будете искать дешёвую гостиницу в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 439,
@@ -5265,7 +5703,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi pēc divām dienām no rīta gaidīs agru vilcienu.",
   "ru": "Они через два дня утром будут ждать ранний поезд.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 440,
@@ -5277,7 +5716,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai uzņēmums atteiksies no līguma ar neuzticamu partneri?",
   "ru": "Откажется ли компания от договора с ненадёжным партнёром?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 441,
@@ -5289,7 +5729,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Fonds ieguldīja vairāk nekā piecus miljonus eiro jaunajā projektā.",
   "ru": "Фонд вложил более пяти миллионов евро в новый проект.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 442,
@@ -5301,7 +5742,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur tu ieguldīsi savus uzkrājumus inflācijas apstākļos?",
   "ru": "Куда ты вложишь свои сбережения в условиях инфляции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 443,
@@ -5313,7 +5755,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa prasmīgi vada starptautisku komandu no četrām valstīm.",
   "ru": "Она умело руководит международной командой из четырёх стран.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 444,
@@ -5325,7 +5768,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas vadīja sarunas ar galveno piegādātāju pagājušajā nedēļā?",
   "ru": "Кто вёл переговоры с главным поставщиком на прошлой неделе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 445,
@@ -5337,7 +5781,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pirmajā stāvā ir liela, gaiša virtuve.",
   "ru": "На первом этаже большая светлая кухня.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 446,
@@ -5347,9 +5792,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Otrajā istabā stāv liels zils galds.",
-  "ru": "Во второй комнате стоит большой синий стол.",
-  "retired": false
+  "lv": "Otrajā kārtā sarunas stāv grūts lēmums par cenu.",
+  "ru": "Во втором раунде переговоров стоит трудное решение о цене.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 447,
@@ -5359,9 +5805,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Trešajā somā ir svarīgi, veci dokumenti.",
-  "ru": "В третьей сумке важные старые документы.",
-  "retired": false
+  "lv": "Trešajā līguma pantā ir skaidri minētas pušu saistības.",
+  "ru": "В третьем пункте договора чётко указаны обязательства сторон.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 448,
@@ -5373,7 +5820,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Starta uzņēmums nolīga pieredzējušu mārketinga speciālistu no konkurējoša uzņēmuma.",
   "ru": "Стартап нанял опытного специалиста по маркетингу из конкурирующей компании.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 449,
@@ -5383,9 +5831,10 @@ const PHRASES = [
   "negative": true,
   "question": false,
   "has_number": true,
-  "lv": "Es šodien neredzu piekto atslēgu uz galda.",
-  "ru": "Я сегодня не вижу пятый ключ на столе.",
-  "retired": false
+  "lv": "Es šodien neredzu nevienu reālu iespēju samazināt inflāciju līdz trim procentiem.",
+  "ru": "Я сегодня не вижу ни одной реальной возможности снизить инфляцию до трёх процентов.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 450,
@@ -5395,9 +5844,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Mums šodien ir sešas tīras krūzes plauktā.",
-  "ru": "У нас сегодня на полке шесть чистых кружек.",
-  "retired": false
+  "lv": "Valstij šodien ir divi galvenie izaicinājumi ekonomikas jomā.",
+  "ru": "У страны сегодня два главных вызова в сфере экономики.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 451,
@@ -5409,7 +5859,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es bieži pērku svaigus dārzeņus tirgū.",
   "ru": "Я часто покупаю свежие овощи на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 452,
@@ -5421,7 +5872,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu parasti mazgā lielo krūzi virtuvē.",
   "ru": "Ты обычно моешь большую кружку на кухне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 453,
@@ -5433,7 +5885,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš bieži atver smago logu no rīta.",
   "ru": "Он часто открывает тяжёлое окно утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 454,
@@ -5445,7 +5898,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa bieži aizver vecās durvis vakarā.",
   "ru": "Она часто закрывает старые двери вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 455,
@@ -5457,7 +5911,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs reizēm nesam baltas somas uz mašīnu.",
   "ru": "Мы иногда несём белые сумки к машине.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 456,
@@ -5469,7 +5924,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs šogad meklējat jaunu dzīvokli centrā.",
   "ru": "Вы в этом году ищете новую квартиру в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 457,
@@ -5481,7 +5937,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi bieži gaida ātro vilcienu stacijā.",
   "ru": "Они часто ждут быстрый поезд на станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 458,
@@ -5493,7 +5950,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es bieži skaitu sīku naudu pie kases.",
   "ru": "Я часто считаю мелкие деньги у кассы.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 459,
@@ -5505,7 +5963,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu parasti turi sarkanu mapi rokās.",
   "ru": "Ты обычно держишь красную папку в руках.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 460,
@@ -5517,7 +5976,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš bieži lasa īsu vēstuli autobusā.",
   "ru": "Он часто читает короткое письмо в автобусе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 461,
@@ -5529,7 +5989,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik darbinieku jūs nolīgsiet līdz gada beigām?",
   "ru": "Сколько сотрудников вы наймёте до конца года?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 462,
@@ -5541,7 +6002,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Puses parakstīs galīgo vienošanos rītdienas oficiālajā ceremonijā.",
   "ru": "Стороны подпишут окончательное соглашение на завтрашней официальной церемонии.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 463,
@@ -5553,7 +6015,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad direktors parakstīja atļauju pirms komandējuma uz Londonu?",
   "ru": "Когда директор подписал разрешение перед командировкой в Лондон?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 464,
@@ -5565,7 +6028,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mums izdevās noslēgt veiksmīgu darījumu neskatoties uz sarežģītiem apstākļiem.",
   "ru": "Нам удалось заключить успешную сделку несмотря на сложные обстоятельства.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 465,
@@ -5577,7 +6041,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai komandai neizdosies sasniegt ceturkšņa mērķus?",
   "ru": "Неужели команде не удастся достичь целей квартала?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 466,
@@ -5589,7 +6054,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es šonedēļ nepērku saldu kūku.",
   "ru": "Я на этой неделе не покупаю сладкий торт.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 467,
@@ -5601,7 +6067,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu reti mazgā netīro logu viens.",
   "ru": "Ты редко моешь грязное окно один.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 468,
@@ -5613,7 +6080,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš reti atver mazo somu darbā.",
   "ru": "Он редко открывает маленькую сумку на работе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 469,
@@ -5625,7 +6093,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa reti aizver šīs durvis naktī.",
   "ru": "Она редко закрывает эту дверь ночью.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 470,
@@ -5637,7 +6106,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs reti meklējam dārgu telefonu.",
   "ru": "Мы редко ищем дорогой телефон.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 471,
@@ -5649,7 +6119,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pagājušajā mēnesī pirku svaigu sieru tirgū.",
   "ru": "Я в прошлом месяце покупал свежий сыр на рынке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 472,
@@ -5658,10 +6129,11 @@ const PHRASES = [
   "sentence_type": "statement",
   "negative": false,
   "question": false,
-  "has_number": false,
-  "lv": "Tu pagājušajā nedēļā mazgāji zilu šķīvi pēc pusdienām.",
-  "ru": "Ты на прошлой неделе мыл синюю тарелку после обеда.",
-  "retired": false
+  "has_number": true,
+  "lv": "Tu pagājušajā nedēļā mazgāji viesnīcas sienas pēc otrās tūristu grupas.",
+  "ru": "Ты на прошлой неделе мыл стены гостиницы после второй группы туристов.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 473,
@@ -5673,7 +6145,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pirms mēneša atvēra garu logu klasē.",
   "ru": "Он месяц назад открыл длинное окно в классе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 474,
@@ -5685,7 +6158,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa pagājušajā gadā aizvēra veco skapi guļamistabā.",
   "ru": "Она в прошлом году закрыла старый шкаф в спальне.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 475,
@@ -5697,7 +6171,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pirms divām nedēļām nesām smagas somas uz māju.",
   "ru": "Мы две недели назад несли тяжёлые сумки домой.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 476,
@@ -5709,7 +6184,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs pagājušajā gadā meklējāt klusu vietu parkā.",
   "ru": "Вы в прошлом году искали тихое место в парке.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 477,
@@ -5721,7 +6197,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi pirms nedēļas gaidīja garu rindu pie ārsta.",
   "ru": "Они неделю назад ждали длинную очередь к врачу.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 478,
@@ -5733,7 +6210,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uzņēmums aktīvi attīsta mākslīgā intelekta risinājumus finanšu sektoram.",
   "ru": "Компания активно развивает решения на основе искусственного интеллекта для финансового сектора.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 479,
@@ -5745,7 +6223,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus pakalpojumus jūs attīstīsiet nākamajos divos gados?",
   "ru": "Какие услуги вы будете развивать в следующие два года?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 480,
@@ -5757,7 +6236,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Izlases spēlētāji trenējas sešas reizes nedēļā pirms olimpiskajām spēlēm.",
   "ru": "Игроки сборной тренируются шесть раз в неделю перед Олимпийскими играми.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 481,
@@ -5769,7 +6249,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc tu netrenējies pirms pēdējām svarīgajām sacensībām?",
   "ru": "Почему ты не тренировался перед последними важными соревнованиями?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 482,
@@ -5781,7 +6262,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsu peldētāji sacenīsies ar Eiropas labākajiem atlētiem vasarā.",
   "ru": "Наши пловцы будут соревноваться с лучшими атлетами Европы летом.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 483,
@@ -5793,7 +6275,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nākamajā mēnesī pirkšu siltu zupu kafejnīcā.",
   "ru": "Я в следующем месяце куплю тёплый суп в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 484,
@@ -5805,7 +6288,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu nākamnedēļ mazgāsi baltu kreklu.",
   "ru": "Ты на следующей неделе будешь стирать белую рубашку.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 485,
@@ -5817,7 +6301,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš pēc divām dienām atvērs smagos vārtus.",
   "ru": "Он через два дня откроет тяжёлые ворота.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 486,
@@ -5829,7 +6314,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa nākamnedēļ aizvērs mazo logu.",
   "ru": "Она на следующей неделе закроет маленькое окно.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 487,
@@ -5841,7 +6327,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pēc divām stundām nesīsim zaļu kasti uz biroju.",
   "ru": "Мы через два часа понесём зелёную коробку в офис.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 488,
@@ -5853,7 +6340,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs pēc divām nedēļām meklēsiet lētu viesnīcu centrā.",
   "ru": "Вы через две недели будете искать дешёвую гостиницу в центре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 489,
@@ -5865,7 +6353,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi nākamnedēļ no rīta gaidīs agru vilcienu.",
   "ru": "Они на следующей неделе утром будут ждать ранний поезд.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 490,
@@ -5877,7 +6366,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pret ko viņa sacentās pirmajā starptautiskajā turnīrā?",
   "ru": "С кем она соревновалась на первом международном турнире?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 491,
@@ -5889,7 +6379,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Maratonists pārvarēja četrdesmit divus kilometrus mazāk nekā trijās stundās.",
   "ru": "Марафонец преодолел сорок два километра менее чем за три часа.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 492,
@@ -5901,7 +6392,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā uzņēmums pārvarēs nozares krīzi bez valsts atbalsta?",
   "ru": "Как компания преодолеет кризис отрасли без государственной поддержки?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 493,
@@ -5913,7 +6405,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana sieva rezervēja viesnīcu ar skatu uz okeānu jau pirms gada.",
   "ru": "Моя жена забронировала гостиницу с видом на океан ещё год назад.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 494,
@@ -5925,7 +6418,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad tu rezervēsi lidmašīnas biļetes uz Tokiju?",
   "ru": "Когда ты забронируешь авиабилеты в Токио?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 495,
@@ -5937,7 +6431,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pirmajā stāvā ir plaša virtuve.",
   "ru": "На первом этаже просторная кухня.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 496,
@@ -5947,9 +6442,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Otrajā istabā pie loga stāv zils galds.",
-  "ru": "Во второй комнате у окна стоит синий стол.",
-  "retired": false
+  "lv": "Otrajā ceļojuma dienā pie viesnīcas stāv mūsu autobuss.",
+  "ru": "На второй день поездки у отеля стоит наш автобус.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 497,
@@ -5959,9 +6455,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Trešajā somā atrodas veci dokumenti.",
-  "ru": "В третьей сумке находятся старые документы.",
-  "retired": false
+  "lv": "Trešajā sporta spēļu dienā ir plānotas svarīgākās cīņas.",
+  "ru": "На третий день спортивных игр запланированы самые важные матчи.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 498,
@@ -5973,7 +6470,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurus muzejus jūs apmeklējāt klusajā rudens ceļojumā pa Florenci?",
   "ru": "Какие музеи вы посетили во время тихой осенней поездки по Флоренции?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 499,
@@ -5983,9 +6481,10 @@ const PHRASES = [
   "negative": true,
   "question": false,
   "has_number": true,
-  "lv": "Es nekur neredzu piekto atslēgu uz galda.",
-  "ru": "Я нигде не вижу пятый ключ на столе.",
-  "retired": false
+  "lv": "Es nekur neredzu piecas pārliecinošas prognozes par nākamā gada izaugsmi.",
+  "ru": "Я нигде не вижу пяти убедительных прогнозов о росте следующего года.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 500,
@@ -5995,9 +6494,10 @@ const PHRASES = [
   "negative": false,
   "question": false,
   "has_number": true,
-  "lv": "Mums šobrīd ir sešas tīras krūzes plauktā.",
-  "ru": "У нас в данный момент на полке шесть чистых кружек.",
-  "retired": false
+  "lv": "Mums šobrīd ir četras alternatīvas stratēģijas nākamajam gadam.",
+  "ru": "У нас в данный момент четыре альтернативные стратегии на следующий год.",
+  "retired": false,
+  "exam": false
  },
  {
   "id": 501,
@@ -6009,7 +6509,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es rezervēšu vizīti pie ārsta 17. aprīlī.",
   "ru": "Я запишусь к врачу 17 апреля.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 502,
@@ -6021,7 +6522,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu iesniegsi dokumentus 26. maijā?",
   "ru": "Ты подашь документы 26 мая?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 503,
@@ -6033,7 +6535,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar mēs samaksājām 300 000 eiro par dzīvokli.",
   "ru": "Вчера мы заплатили 300 000 евро за квартиру.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 504,
@@ -6045,7 +6548,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kāpēc šis remonts maksā 17 000 eiro?",
   "ru": "Почему этот ремонт стоит 17 000 евро?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 505,
@@ -6057,7 +6561,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Nākamajā gadā viņa saņems 5% atlaidi studijām.",
   "ru": "В следующем году она получит скидку 5% на обучение.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 506,
@@ -6069,7 +6574,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs sāksim kursu 26. septembrī pulksten 18.30.",
   "ru": "Мы начнём курс 26 сентября в 18:30.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 507,
@@ -6081,7 +6587,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai banka būs atvērta 17. jūnijā?",
   "ru": "Банк будет открыт 17 июня?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 508,
@@ -6093,7 +6600,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es pabeidzu darbu 2024. gadā.",
   "ru": "Я закончил работу в 2024 году.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 509,
@@ -6105,7 +6613,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņi mainīs adresi 2027. gadā.",
   "ru": "Они сменят адрес в 2027 году.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 510,
@@ -6117,7 +6626,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es pierakstu tikšanos 17. datumā kalendārā.",
   "ru": "Я записываю встречу на 17-е число в календаре.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 511,
@@ -6129,7 +6639,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa nopirka biļeti par 26 eiro un 50 centiem.",
   "ru": "Она купила билет за 26 евро 50 центов.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 512,
@@ -6141,7 +6652,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai jūs gaidāt autobusu 17. platformā?",
   "ru": "Вы ждёте автобус на 17-й платформе?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 513,
@@ -6153,7 +6665,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs dzīvojam 26. namā pie stacijas.",
   "ru": "Мы живём в 26-м доме у станции.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 514,
@@ -6165,7 +6678,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es strādāju 2. stāvā līdz pulksten 17.00.",
   "ru": "Я работаю на 2-м этаже до 17:00.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 515,
@@ -6177,7 +6691,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kad jūs ieradīsieties 17. kabinetā?",
   "ru": "Когда вы придёте в 17-й кабинет?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 516,
@@ -6189,7 +6704,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs aizbrauksim 26. decembrī pēc pusdienām.",
   "ru": "Мы уедем 26 декабря после обеда.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 517,
@@ -6201,7 +6717,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es nosūtīju pieteikumu 17. martā no rīta.",
   "ru": "Я отправил заявление 17 марта утром.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 518,
@@ -6213,7 +6730,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa saņēma atbildi 26. aprīlī vakarā.",
   "ru": "Она получила ответ 26 апреля вечером.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 519,
@@ -6225,7 +6743,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kāpēc tu pasūti tikai 3 porcijas vakariņām?",
   "ru": "Почему ты заказываешь только 3 порции на ужин?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 520,
@@ -6237,7 +6756,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vakar viņš izdzēra 2 glāzes minerālūdens.",
   "ru": "Вчера он выпил 2 стакана минеральной воды.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 521,
@@ -6249,7 +6769,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es paņemšu 4 biļetes uz 17. rindas vietām.",
   "ru": "Я возьму 4 билета на места в 17-м ряду.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 522,
@@ -6261,7 +6782,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs atradām 26. lapā vajadzīgo adresi.",
   "ru": "Мы нашли нужный адрес на 26-й странице.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 523,
@@ -6273,7 +6795,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai jūs samainīsiet 500 eiro pret mazākām banknotēm?",
   "ru": "Вы разменяете 500 евро на более мелкие купюры?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 524,
@@ -6285,7 +6808,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Par stāvvietu es maksāju 17 eiro mēnesī.",
   "ru": "За парковку я платил 17 евро в месяц.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 525,
@@ -6297,7 +6821,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs remontējam virtuvi par 26 000 eiro.",
   "ru": "Мы ремонтируем кухню за 26 000 евро.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 526,
@@ -6309,7 +6834,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu pirksi telefonu par 300 eiro vai dārgāku?",
   "ru": "Ты купишь телефон за 300 евро или дороже?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 527,
@@ -6321,7 +6847,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa mācās 3. kursā kopš 2025. gada.",
   "ru": "Она учится на 3-м курсе с 2025 года.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 528,
@@ -6333,7 +6860,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es pierakstīšos uz pārbaudi 26. augustā.",
   "ru": "Я запишусь на проверку 26 августа.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 529,
@@ -6345,7 +6873,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņi atgrieza 17 grāmatas bibliotēkai.",
   "ru": "Они вернули библиотеке 17 книг.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 530,
@@ -6357,7 +6886,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu drukā 26. līguma lapu vēlreiz?",
   "ru": "Ты печатаешь 26-ю страницу договора ещё раз?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 531,
@@ -6369,7 +6899,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mēs pārbaudīsim rezultātus 17. novembrī.",
   "ru": "Мы проверим результаты 17 ноября.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 532,
@@ -6381,7 +6912,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es neaizmirsu samaksāt 26 eiro par kursu.",
   "ru": "Я не забыл заплатить 26 евро за курс.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 533,
@@ -6393,7 +6925,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kāpēc jūs meklējat 17. autobusu tik vēlu?",
   "ru": "Почему вы ищете 17-й автобус так поздно?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 534,
@@ -6405,7 +6938,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Viņa pārcels tikšanos uz 26. februāri.",
   "ru": "Она перенесёт встречу на 26 февраля.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 535,
@@ -6417,7 +6951,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Pagājušajā mēnesī mēs pārdevām mašīnu par 7000 eiro.",
   "ru": "В прошлом месяце мы продали машину за 7000 евро.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 536,
@@ -6429,7 +6964,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Vai tu atnesīsi 2 pases un 3 fotogrāfijas?",
   "ru": "Ты принесёшь 2 паспорта и 3 фотографии?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 537,
@@ -6441,7 +6977,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Mana meita piedzima 2017. gadā.",
   "ru": "Моя дочь родилась в 2017 году.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 538,
@@ -6453,7 +6990,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Sapulce notiks 17. oktobrī pulksten 9.15.",
   "ru": "Собрание состоится 17 октября в 9:15.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 539,
@@ -6465,7 +7003,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Es ierakstu cenu 26,40 eiro čekā.",
   "ru": "Я записываю цену 26,40 евро в чек.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 540,
@@ -6477,7 +7016,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Uzņēmums sasniedza 12% izaugsmi 2026. gadā.",
   "ru": "Компания достигла роста 12% в 2026 году.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 541,
@@ -6489,7 +7029,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs sauc?\nKāds ir jūsu vārds un uzvārds?\nNosauciet savu vārdu un uzvārdu!",
   "ru": "Как вас зовут?\nКак вас зовут?\nНазовите своё имя и фамилию!",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 542,
@@ -6501,7 +7042,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad jūs esat dzimusi?\nKurā gadā jūs esat dzimusi?\nKāds ir jūsu dzimšanas datums?",
   "ru": "Когда вы родились?\nВ каком году вы родились?\nКакова ваша дата рождения?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 543,
@@ -6513,7 +7055,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs esat dzimusi?\nKur jūs piedzimāt? \nKura ir jūsu dzimtā pilsēta un valsts?",
   "ru": "Где вы родились?\nГде вы родились? \nКаковы ваш родной город и страна?",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 544,
@@ -6525,7 +7068,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai šī ir jūsu pase?",
   "ru": "Это ваш паспорт?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 545,
@@ -6537,7 +7081,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik ilgi Jūs dzīvojat Latvijā?\nKur jūs (tagad) dzīvojat?\nKurā pilsētā jūs pašlaik dzīvojat?\nKūra vietā jūs dzīvojat?\nKāda ir jūsu adrese?",
   "ru": "Как долго вы живете в Латвии?\nГде вы (сейчас) живете?\nВ каком городе вы сейчас живете?\nГде вы живете?\nКакой у вас адрес?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 546,
@@ -6549,7 +7094,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas atrodas blakus jūsu mājai? \nKur atrodas jūsu dzīvesvieta?\nPastāstiet par savu dzīvesvietu!",
   "ru": "Что находится рядом с вашим домом? \nГде находится ваше место жительства?\nРасскажите о своем месте жительства!",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 547,
@@ -6561,7 +7107,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā pilsētas rajonā jūs dzīvojat?",
   "ru": "В каком районе города вы живете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 548,
@@ -6573,7 +7120,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs dzīvojat agrāk?\nNo kurienes jūs esat?\nNo kuras valsts (pilsētas) jūs esat?",
   "ru": "Где вы жили раньше?\nОткуда вы?\nИз какой страны (города) вы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 549,
@@ -6585,7 +7133,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā stāvā jūs dzīvojat?\nCik stāvu ir jūsu mājā?",
   "ru": "На каком этаже вы живете?\nСколько этажей в вашем доме?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 550,
@@ -6597,7 +7146,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas ērtības ir jūsu dzīvoklī?\nVai jums ir dzīvoklis ar visām ērtībām?",
   "ru": "Какие удобства есть в вашей квартире?\nУ вас квартира со всеми удобствами?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 551,
@@ -6609,7 +7159,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds ir jūsu dzīvokļa iekārtojums?\nPastāstiet par sava dzīvokļa iekārtojumu.",
   "ru": "Как обставлена ваша квартира?\nРасскажите об обстановке в вашей квартире.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 552,
@@ -6621,7 +7172,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus traukus un galda piederumus jūs lietojat ikdienā?",
   "ru": "Какую посуду и столовые приборы вы используете в повседневной жизни?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 553,
@@ -6633,7 +7185,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs redzat pa sava dzīvokļa logu?",
   "ru": "Что вы видите из окна своей квартиры?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 554,
@@ -6645,7 +7198,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet, kādus mājas darbus jūs darāt?",
   "ru": "Расскажите, какие домашние дела вы выполняете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 555,
@@ -6657,7 +7211,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuri mājas darbi jums patīk? Kuri nepatīk?\nPastāstiet, kādus mājas darbus jūs darāt?",
   "ru": "Какие домашние дела вам нравятся? Какие не нравятся?\nРасскажите, какие домашние дела вы выполняете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 556,
@@ -6669,7 +7224,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas jums patīk/nepatīk jūsu dzīvesvietā?",
   "ru": "Что вам нравится/не нравится в вашем месте жительства?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 557,
@@ -6681,7 +7237,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas jums patīk/nepatīk jūsu dzīvoklī?",
   "ru": "Что вам нравится/не нравится в вашей квартире?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 558,
@@ -6693,7 +7250,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas priekšrocības/ kādi trūkumi ir dzīvošanai laukos?",
   "ru": "Какие преимущества/недостатки есть у жизни в деревне?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 559,
@@ -6705,7 +7263,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas priekšrocības/ kādi trūkumi ir dzīvošanai pilsētā?",
   "ru": "Какие преимущества/недостатки есть у жизни в городе?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 560,
@@ -6717,7 +7276,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs strādājat?\nKāds ir firmas nosaukums? \nCik ilgi jūs strādājat šo darbu (sājā darbavietā)?",
   "ru": "Где вы работаете?\nКак называется компания? \nКак долго вы работаете на этой работе (на этом рабочем месте)?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 561,
@@ -6729,7 +7289,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda ir jūsu profesija?\nKas jūs esat pēc profesijas?\nPar ko jūs strādājat?",
   "ru": "Какова ваша профессия?\nКем вы работаете по профессии?\nЧем вы занимаетесь?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 562,
@@ -6741,7 +7302,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds ir jūsu (ieņemamais) amats?\nKāda amatā jūs strādājat?",
   "ru": "Какова ваша (занимаемая) должность?\nНа какой должности вы работаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 563,
@@ -6753,7 +7315,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par ko profesija jūs gribētu strādāt?\nKāpēc izvēlējāties šo profesiju?",
   "ru": "Чем бы вы хотели заниматься по профессии?\nПочему вы выбрали эту профессию?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 564,
@@ -6765,7 +7328,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt darbā?\nKādi ir jūsu darba pienākumi?\nKas jums darbā jādara? \nAr ko nodarbojas jūsu uzņēmums?",
   "ru": "Чем вы занимаетесь на работе?\nКаковы ваши должностные обязанности?\nЧто вам приходится делать на работе? \nЧем занимается ваша компания?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 565,
@@ -6777,7 +7341,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs (ne)patīk darāt darbā?\nKas jums patīk jūsu darbā?\nVai esat apmierināts ar savu pašreizējo darbu?",
   "ru": "Что вам (не) нравится делать на работе?\nЧто вам нравится в вашей работе?\nВы довольны своей нынешней работой?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 566,
@@ -6789,7 +7354,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas jāzina/jāprot, lai strādātu par investīciju direktoru?",
   "ru": "Что нужно знать/уметь, чтобы работать инвестиционным директором?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 567,
@@ -6801,7 +7367,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas prasmes un rakstura īpašības ir nepieciešamas šai profesijai?",
   "ru": "Какие навыки и черты характера необходимы для этой профессии?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 568,
@@ -6813,7 +7380,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kura profesija jums liekas visgrūtākā? Kāpēc?",
   "ru": "Какая профессия вам кажется самой сложной? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 569,
@@ -6825,7 +7393,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā valodā jūs sarunājaties savā darbavietā?",
   "ru": "На каком языке вы общаетесь на своем рабочем месте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 570,
@@ -6837,7 +7406,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs strādājāt pēc augstskolas beigšanas?\nPar ko jūs strādājāt agrāk?",
   "ru": "Где вы работали после окончания вуза?\nЧем вы занимались раньше?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 571,
@@ -6849,7 +7419,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds ir jūsu darbu kolektīvs? \nCik liels ir jūsu darba kolektīvs?\nCik cilvēku strādā kopā ar jums?\nKādas attiecības jums ir ar kolēģiem komandā?",
   "ru": "Какой у вас коллектив? \nНасколько велик ваш коллектив?\nСколько человек работает вместе с вами?\nКакие у вас отношения с коллегами по команде?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 572,
@@ -6861,7 +7432,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda vecuma cilvēki ir jūsu kolektīvā?",
   "ru": "Какого возраста люди в вашем коллективе?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 573,
@@ -6873,7 +7445,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik brīvdienu jums ir nedēļā?",
   "ru": "Сколько выходных у вас в неделю?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 574,
@@ -6885,7 +7458,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No cikiem līdz cikiem jūs strādājat?",
   "ru": "Сколько часов в день вы работаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 575,
@@ -6897,7 +7471,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos jums sākas darbs?\nCikos jums beigt darbs?",
   "ru": "Во сколько у вас начинается работа?\nВо сколько у вас заканчивается работа?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 576,
@@ -6909,7 +7484,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur ir (Kur atrodas) jūsu darba vieta?\nVai Jūs strādājat attālināti?\nVai Jums labāk patīk strādāt attālināti vai birojā?",
   "ru": "Где находится ваше рабочее место?\nВы работаете удаленно?\nЧто вам больше нравится: работать удаленно или в офисе?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 577,
@@ -6921,7 +7497,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs brauc darba komandējums?\nUz kurieni jūs braucat komandējumā̄?\nCik ilgs ir komandējums?\nKo jūs darāt komandējumā laikā? Kas ir jums mērķis?",
   "ru": "Выезжаете ли вы в командировки?\nКуда вы ездите в командировки?\nКак долго длится командировка?\nЧем вы занимаетесь во время командировки? Какова ваша цель?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 578,
@@ -6933,7 +7510,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc jūsu pieredzes, kādas ir populārākās profesijas un kāpēc?",
   "ru": "По вашему опыту, какие профессии являются самыми популярными и почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 579,
@@ -6945,7 +7523,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuras, jūsuprāt, ir prestižākās profesijas? Kāpēc?",
   "ru": "Какие, по вашему мнению, профессии являются самыми престижными? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 580,
@@ -6957,7 +7536,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds, jūsuprāt, ir labs vadītājs/priekšnieks/direktors?",
   "ru": "Каким, по вашему мнению, должен быть хороший руководитель/начальник/директор?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 581,
@@ -6969,7 +7549,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds ir jūsu ģimenes stāvoklis?",
   "ru": "Каково ваше семейное положение?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 582,
@@ -6981,7 +7562,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds ir jūsu ģimenes sastāvs? Vai jums ir liela (maza) ģimenē?\nCik liela ir jūsu ģimenē?",
   "ru": "Каков состав вашей семьи? У вас большая (маленькая) семья?\nСколько человек в вашей семье?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 583,
@@ -6993,7 +7575,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur dzīvo jūsu vecāki?\nKur dzīvo jūsu radinieki (tuvinieki)?",
   "ru": "Где живут ваши родители?\nГде живут ваши родственники (близкие)?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 584,
@@ -7005,7 +7588,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik jums ir brāļu un māsu?",
   "ru": "Сколько у вас братьев и сестер?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 585,
@@ -7017,7 +7601,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik gadu ir jūsu mammai, brālim, tēvam?",
   "ru": "Сколько лет вашей маме, брату, отцу?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 586,
@@ -7029,7 +7614,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet par jūsu …",
   "ru": "Расскажите о вашей …",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 587,
@@ -7041,7 +7627,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jums ir draudzīga ģimenē?",
   "ru": "У вас дружная семья?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 588,
@@ -7053,7 +7640,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs viens otru atbalstāt grūtā brīdī?",
   "ru": "Вы поддерживаете друг друга в трудную минуту?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 589,
@@ -7065,7 +7653,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet par saviem mājdzīvniekiem.\nVai jums ir kādi mājdzīvnieki? Kāda krāsa viņš ir? \nCik gadu viņš ir?",
   "ru": "Расскажите о своих домашних животных.\nЕсть ли у вас домашние животные? Какого цвета оно? \nСколько ему лет?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 590,
@@ -7077,7 +7666,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs rūpējāties par savu mājdzīvnieku?",
   "ru": "Как вы ухаживаете за своим домашним животным?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 591,
@@ -7089,7 +7679,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuri mājdzīvnieki Jums patīk? Kāpēc?",
   "ru": "Какие домашние животные вам нравятся? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 592,
@@ -7101,7 +7692,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet par jūsu draugiem.",
   "ru": "Расскажите о своих друзьях.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 593,
@@ -7113,7 +7705,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda izglītība jums ir?",
   "ru": "Какое у вас образование?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 594,
@@ -7125,7 +7718,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs beidzāt skolu?",
   "ru": "Где вы закончили школу?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 595,
@@ -7137,7 +7731,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādi priekšmeti jums patika/nepatika?",
   "ru": "Какие предметы вам нравились/не нравились?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 596,
@@ -7149,7 +7744,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs pabeidzāt augstskolu?\nKur jūs studējāt?\nKur jūs mācījāties?",
   "ru": "Где вы закончили вуз?\nГде вы учились?\nГде вы получили образование?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 597,
@@ -7161,7 +7757,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda ir Jūsu augstskolas adrese?",
   "ru": "Какой адрес у вашего вуза?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 598,
@@ -7173,7 +7770,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas valodas jūs runājat?",
   "ru": "На каких языках вы говорите?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 599,
@@ -7185,7 +7783,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā Jūs mācījāties latviešu valodu?  \nCik ilgi?",
   "ru": "Как вы изучали латышский язык?  \nКак долго?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 600,
@@ -7197,7 +7796,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas bija pozitīvs un negatīvs izglītības iestādēs un izglītības procesā?",
   "ru": "Что было положительного и отрицательного в учебных заведениях и в процессе обучения?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 601,
@@ -7209,7 +7809,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādi ir izglītības iestāžu darbinieku svarīgākie darba pienākumi?",
   "ru": "Каковы основные должностные обязанности сотрудников учебных заведений?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 602,
@@ -7221,7 +7822,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas, pēc jūsu domām, nosaka cilvēka profesijas izvēli?",
   "ru": "Что, по вашему мнению, определяет выбор профессии?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 603,
@@ -7233,7 +7835,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuri faktori, jūsuprāt, ietekmē kādas izglītības iestādes kvalitāti?",
   "ru": "Какие факторы, по вашему мнению, влияют на качество того или иного учебного заведения?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 604,
@@ -7245,7 +7848,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas izmaiņas jūs veiktu skolas mācību programmā?",
   "ru": "Какие изменения вы бы внесли в школьную учебную программу?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 605,
@@ -7257,7 +7861,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādi ēdieni jums garšo?",
   "ru": "Какие блюда вам нравятся?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 606,
@@ -7269,7 +7874,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs pērkat pārtikas produktus? \nKur jūs parasti iepērkaties?",
   "ru": "Где вы покупаете продукты питания? \nГде вы обычно делаете покупки?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 607,
@@ -7281,7 +7887,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc jums patīk šis veikals?",
   "ru": "Почему вам нравится этот магазин?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 608,
@@ -7293,7 +7900,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik bieži jūs ēdat saldumus? \nKuri saldumi jums garšo? \nKas jums visvairāk garšo no Latvijā ražotiem saldumiem?",
   "ru": "Как часто вы едите сладости? \nКакие сладости вам нравятся? \nЧто вам больше всего нравится из сладостей, произведенных в Латвии?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 609,
@@ -7305,7 +7913,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs uzskatāt par veselīgu/ neveselīgu pārtiku?",
   "ru": "Что вы считаете здоровой/нездоровой пищей?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 610,
@@ -7317,7 +7926,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko, jūsuprāt, vajadzētu darīt ar produktiem, kuriem beidzies derīguma termiņš?",
   "ru": "Что, по вашему мнению, следует делать с продуктами, срок годности которых истек?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 611,
@@ -7329,7 +7939,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurus piena/maizes produktus jūs pērkat visbiežāk?",
   "ru": "Какие молочные/хлебобулочные изделия вы покупаете чаще всего?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 612,
@@ -7341,7 +7952,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurus produktus jūs biežāk pērkat?",
   "ru": "Какие продукты вы покупаете чаще всего?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 613,
@@ -7353,7 +7965,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet mums, kā jūs gatavojat savu iecienīto ēdienu.\nPastāstiet par jūsu biežāk gatavoto ēdienu receptes.",
   "ru": "Расскажите нам, как вы готовите свое любимое блюдо.\nРасскажите о рецептах блюд, которые вы готовите чаще всего.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 614,
@@ -7365,7 +7978,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs domājat par augļu/ dārzeņu cenām tirgū?",
   "ru": "Что вы думаете о ценах на фрукты/овощи на рынке?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 615,
@@ -7377,7 +7991,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs vērtējat produktu izvēli veikalos un tirgū?",
   "ru": "Как вы оцениваете выбор продуктов в магазинах и на рынке?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 616,
@@ -7389,7 +8004,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs visbiežāk ēdāt pusdienās?\nKo jūs visbiežāk ēdāt brokastis?\nKo jūs visbiežāk ēdāt vakariņos?",
   "ru": "Что вы чаще всего едите на обед?\nЧто вы чаще всего едите на завтрак?\nЧто вы чаще всего едите на ужин?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 617,
@@ -7401,7 +8017,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas ir nepieciešams lai pagatavotu (сложное блюдо)?",
   "ru": "Что необходимо, чтобы приготовить (сложное блюдо)?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 618,
@@ -7413,7 +8030,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jūs ēdat mājās vai ārpus mājās?",
   "ru": "Вы едите дома или вне дома?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 619,
@@ -7425,7 +8043,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuras preces var uzskatīt par Latvijas zīmolu? Pamatojiet savu viedokli!",
   "ru": "Какие товары можно считать латвийскими брендами? Обоснуйте свое мнение!",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 620,
@@ -7437,7 +8056,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs vērtējat pārtikas preču sortimentu veikalos, kuros parasti iepērkaties?",
   "ru": "Как вы оцениваете ассортимент продуктов питания в магазинах, в которых обычно делаете покупки?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 621,
@@ -7449,7 +8069,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuri faktori nosaka kāda veikala kvalitāti?",
   "ru": "Какие факторы определяют качество того или иного магазина?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 622,
@@ -7461,7 +8082,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt pirms brokastīm?",
   "ru": "Что вы делаете перед завтраком?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 623,
@@ -7473,7 +8095,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs ēdat brokastis?",
   "ru": "Где вы завтракаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 624,
@@ -7485,7 +8108,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs ēdat brokastis?",
   "ru": "Что вы едите на завтрак?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 625,
@@ -7497,7 +8121,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt pēc tam?",
   "ru": "Что вы делаете после этого?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 626,
@@ -7509,7 +8134,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs ēdīsiet brokastīs?",
   "ru": "Что вы будете есть на завтрак?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 627,
@@ -7521,7 +8147,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos no rīta jūs ceļaties?\nCikos jūs parasti ceļaties darba dienās?",
   "ru": "Во сколько утра вы встаете?\nВо сколько вы обычно встаете в рабочие дни?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 628,
@@ -7533,7 +8160,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cikos jūs parasti ceļaties brīvdienās?",
   "ru": "Во сколько вы обычно встаете в выходные?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 629,
@@ -7545,7 +8173,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā paiet jūsu diena, kad jūs neejat uz darbu?",
   "ru": "Как проходит ваш день, когда вы не ходите на работу?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 630,
@@ -7557,7 +8186,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs parasti pavadāt savu dienu?\nKo darāt no rīta/ vakarā?",
   "ru": "Как вы обычно проводите свой день?\nЧто вы делаете утром/вечером?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 631,
@@ -7569,7 +8199,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs regulāri skatāties televīzijas raidījumus? // Cik regulāri jūs skatāties televīziju?",
   "ru": "Вы регулярно смотрите телепередачи? // Как часто вы смотрите телевизор?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 632,
@@ -7581,7 +8212,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādus televīzijas raidījumus jūs skatāties? \\\\ Kuras TV programmas jūs skatāties?",
   "ru": "Какие телепередачи вы смотрите? \\\\ Какие телепрограммы вы смотрите?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 633,
@@ -7593,7 +8225,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu raidījumu jūs ieteiktu noskatīties saviem draugiem?",
   "ru": "Какую передачу вы порекомендовали бы посмотреть своим друзьям?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 634,
@@ -7605,7 +8238,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuras (kādas) televīzijas pārraides jums patīk?",
   "ru": "Какие телепередачи вам нравятся?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 635,
@@ -7617,7 +8251,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs iegūstat informāciju par aktuāliem notikumiem pasaulē?",
   "ru": "Где вы получаете информацию о текущих событиях в мире?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 636,
@@ -7629,7 +8264,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs interesējaties par sportu? Par kādu sporta veidu jūs interesējaties visbiežāk?",
   "ru": "Интересуетесь ли вы спортом? Каким видом спорта вы интересуетесь чаще всего?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 637,
@@ -7641,7 +8277,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs meklējat informāciju par jaunumiem sportā?",
   "ru": "Где вы ищете информацию о новостях в спорте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 638,
@@ -7653,7 +8290,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas emocijas jums izraisa sporta pārraižu skatīšanās? \nKāpēc jūs (ne) ieteiktu citiem skatīties sporta pārraides?",
   "ru": "Какие эмоции вызывает у вас просмотр спортивных передач? \nПочему вы (не) порекомендовали бы другим смотреть спортивные передачи?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 639,
@@ -7665,7 +8303,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs lietojat internetu? \nKurus interneta portālus jūs apmeklējat?",
   "ru": "Пользуетесь ли вы интернетом? \nКакие интернет-порталы вы посещаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 640,
@@ -7677,7 +8316,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik bieži jūs apmeklējat interneta portālus? \nKādas valodas jūs lasāt interneta portālos?",
   "ru": "Как часто вы посещаете интернет-порталы? \nНа каких языках вы читаете интернет-порталы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 641,
@@ -7689,7 +8329,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas tev nepatīk interneta portālos?",
   "ru": "Что вам не нравится в интернет-порталах?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 642,
@@ -7701,7 +8342,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas vēl jūsu ģimenē apmeklē interneta portālus?",
   "ru": "Кто еще из вашей семьи посещает интернет-порталы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 643,
@@ -7713,7 +8355,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas ir jūsu domas par interneta portāliem?",
   "ru": "Каково ваше мнение об интернет-порталах?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 644,
@@ -7725,7 +8368,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu informāciju jūs meklējat internetā?",
   "ru": "Какую информацию вы ищете в Интернете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 645,
@@ -7737,7 +8381,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs kolekcionējat?\nKo jūs kādreiz kolekcionējāt?",
   "ru": "Что вы коллекционируете?\nЧто вы когда-нибудь коллекционировали?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 646,
@@ -7749,7 +8394,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs gribētu kolekcionēt, ja būtu tāda iespēja?",
   "ru": "Что бы вы хотели коллекционировать, если бы была такая возможность?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 647,
@@ -7761,7 +8407,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar ko jūs nodarbojaties brīvajā laikā pēc darba?\nKo jūs darāt?",
   "ru": "Чем вы занимаетесь в свободное время после работы?\nЧто вы делаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 648,
@@ -7773,7 +8420,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jums ir vaļasprieks? Kāds? \nCik bieži nedēļā jūs veltāt laiku savam vaļaspriekam?\nKādas ir jūsu intereses?",
   "ru": "Есть ли у вас хобби? Какое? \nКак часто в неделю вы уделяете время своему хобби?\nКаковы ваши интересы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 649,
@@ -7785,7 +8433,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt mājās vakaros pēc darba?\nKā jūs pavadāt vakaru?",
   "ru": "Чем вы занимаетесь дома по вечерам после работы?\nКак вы проводите вечер?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 650,
@@ -7797,7 +8446,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt brīvajā laikā?\nKo jums patīk darīt brīvajā laikā?",
   "ru": "Чем вы занимаетесь в свободное время?\nЧто вам нравится делать в свободное время?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 651,
@@ -7809,7 +8459,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs pavadāt brīvo laiku saulainā vasaras dienā? Ko jūs tur darāt?\nKur jūs pavadāt brīvo laiku aukstā ziemas dienā?",
   "ru": "Где вы проводите свободное время в солнечный летний день? Чем вы там занимаетесь?\nГде вы проводите свободное время в холодный зимний день?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 652,
@@ -7821,7 +8472,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs kopā ar ģimene atpūšaties? \nKā jums/ jūsu ģimenei patīk atpūsties?\nAr ko kopā jūs parasti atpūšaties?",
   "ru": "Как вы отдыхаете вместе с семьей? \nКак вам/вашей семье нравится отдыхать?\nС кем вы обычно отдыхаете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 653,
@@ -7833,7 +8485,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurus kultūras pasākumus jums patīk apmeklēt?",
   "ru": "Какие культурные мероприятия вам нравится посещать?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 654,
@@ -7845,7 +8498,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc, jūsuprāt, cilvēkam ir nepieciešams vaļasprieks?",
   "ru": "Почему, по вашему мнению, человеку нужны увлечения?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 655,
@@ -7857,7 +8511,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Salīdziniet, kā, jūsuprāt, atšķiras jauniešu un vecāku paaudžu cilvēku atpūtas veidi!",
   "ru": "Сравните, как, по вашему мнению, отличаются способы отдыха молодежи и людей старшего поколения!",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 656,
@@ -7869,7 +8524,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas, jūsuprāt, ir brīvā laika pavadīšanas iespējas pilsētā?",
   "ru": "Какие, по вашему мнению, есть возможности для проведения свободного времени в городе?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 657,
@@ -7881,7 +8537,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt, kad satiekaties ar draugiem?",
   "ru": "Чем вы занимаетесь, когда встречаетесь с друзьями?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 658,
@@ -7893,7 +8550,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu atpūtu var uzskatīt par veselīgu?",
   "ru": "Какой отдых можно считать здоровым?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 659,
@@ -7905,7 +8563,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu atvaļinājumu\\atpūsties tu ieteiktu saviem draugiem un kāpēc?",
   "ru": "Какой отдых ты бы порекомендовал своим друзьям и почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 660,
@@ -7917,7 +8576,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds apģērbs ir piemērots atpūtai?",
   "ru": "Какая одежда подходит для отдыха?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 661,
@@ -7929,7 +8589,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu apģērbu tu valkāsi, ja dosies braukt ar skrituļslidām?",
   "ru": "Какую одежду ты наденешь, если пойдешь кататься на роликах?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 662,
@@ -7941,7 +8602,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc daži sporta veidi ir vispopulārākie?",
   "ru": "Почему некоторые виды спорта являются самыми популярными?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 663,
@@ -7953,7 +8615,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda ir tava attieksme pret sportu?\nKurš sporta veids jūs interesē?",
   "ru": "Каково твое отношение к спорту?\nКакой вид спорта тебя интересует?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 664,
@@ -7965,7 +8628,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda ir sporta nozīme?",
   "ru": "Каково значение спорта?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 665,
@@ -7977,7 +8641,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko domājat par profesionālo sportu?",
   "ru": "Что вы думаете о профессиональном спорте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 666,
@@ -7989,7 +8654,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar kādu sporta veidu jūs nodarbojaties?\nKurš sporta veids jums patīk?",
   "ru": "Каким видом спорта вы занимаетесь?\nКакой вид спорта вам нравится?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 667,
@@ -8001,7 +8667,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un ziemā? Kur Jūs spēlējat tenisu?",
   "ru": "А зимой? Где вы играете в теннис?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 668,
@@ -8013,7 +8680,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai Jums, lai nodarbotos ar savu vaļasprieku, ir nepieciešams speciāls inventārs, aprīkojums?\nKas ir vajadzīgs, lai varētu nodarboties ar šo sporta veidu?",
   "ru": "Нужно ли вам для занятий своим хобби специальное снаряжение, оборудование?\nЧто необходимо, чтобы заниматься этим видом спорта?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 669,
@@ -8025,7 +8693,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik gadu jūs ar to aizraujaties?",
   "ru": "Сколько лет вы этим увлекаетесь?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 670,
@@ -8037,7 +8706,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai un kāpēc jūs ieteiktu ar šo vaļasprieku nodarboties arī citiem?",
   "ru": "Рекомендовали бы вы и почему другим заниматься этим хобби?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 671,
@@ -8049,7 +8719,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs atjaunojat spēkus pēc sporta nodarbībām?",
   "ru": "Как вы восстанавливаете силы после занятий спортом?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 672,
@@ -8061,7 +8732,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jums ir dārzs? \nKas aug jūsu dārzā?",
   "ru": "Есть ли у вас огород? \nЧто растет в вашем огороде?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 673,
@@ -8073,7 +8745,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā gadalaikā darbā ir visvairāk darba?",
   "ru": "В какое время года в саду больше всего работы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 674,
@@ -8085,7 +8758,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas palīdz vecmammai dārza darbos?",
   "ru": "Кто помогает бабушке в садовых работах?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 675,
@@ -8097,7 +8771,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur atrodas jūsu dārzs?",
   "ru": "Где находится ваш сад?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 676,
@@ -8109,7 +8784,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar kādu transportu jūs braucat uz dārzu? Kāpēc?",
   "ru": "На каком транспорте вы ездите в сад? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 677,
@@ -8121,7 +8797,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā, jūsuprāt, var atpūsties dārzā?",
   "ru": "Как, по вашему мнению, можно отдохнуть в саду?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 678,
@@ -8133,7 +8810,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko vēl vēlētos iestādīt dārzā?",
   "ru": "Что еще хотелось бы посадить в саду?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 679,
@@ -8145,7 +8823,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko var pagatavot no ražas?",
   "ru": "Что можно приготовить из урожая?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 680,
@@ -8157,7 +8836,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurš gadalaiks jums patīk visvairāk? Kāpēc?",
   "ru": "Какое время года вам нравится больше всего? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 681,
@@ -8169,7 +8849,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurš gadalaiks jums nepatīk? Kāpēc?",
   "ru": "Какое время года вам не нравится? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 682,
@@ -8181,7 +8862,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāstiet ar laika apstākļi dažādos gadalaikos.",
   "ru": "Расскажите о погоде в разные времена года.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 683,
@@ -8193,7 +8875,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā, jūsuprāt, var atpūsties dārzā?",
   "ru": "Как, по вашему мнению, можно отдыхать в саду?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 684,
@@ -8205,7 +8888,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs varat darīt dārzā? Kā jūs strādājat dārzā?",
   "ru": "Чем вы можете заниматься в саду? Как вы работаете в саду?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 685,
@@ -8217,7 +8901,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs esat bijusi? Kas jums tur patika?",
   "ru": "Где вы были? Что вам там понравилось?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 686,
@@ -8229,7 +8914,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs plānojat darīt tuvākajās brīvdienās?",
   "ru": "Что вы планируете делать в ближайшие выходные?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 687,
@@ -8241,7 +8927,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs plānojat darīt tuvākajās vasarā/ nākotnē? \nUz kurieni jūs gribētu ceļot?",
   "ru": "Что вы планируете делать ближайшим летом/в будущем? \nКуда бы вы хотели поехать?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 688,
@@ -8253,7 +8940,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz kurieni jūs gribat braukt ekskursijā?\nKur Jūs gribētu aizbraukt ekskursijā? Kāpēc?",
   "ru": "Куда вы хотите поехать на экскурсию?\nКуда бы вы хотели поехать на экскурсию? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 689,
@@ -8265,7 +8953,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar ko kopā jūs ceļojat?\nAr ko kopā jūs pavadāt savu atvaļinājumu / atpūtu?",
   "ru": "С кем вы путешествуете?\nС кем вы проводите свой отпуск / отдых?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 690,
@@ -8277,7 +8966,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurā gadalaikā jūs biežāk ceļojat?",
   "ru": "В какое время года вы чаще всего путешествуете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 691,
@@ -8289,7 +8979,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas jums patika/nepatika ceļojumā̄?",
   "ru": "Что вам понравилось/не понравилось в путешествии?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 692,
@@ -8301,7 +8992,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurās citās Latvijas pilsētās jūs bijāt?\nKur jūs esat bijusi/bijis Latvijā? Kas jums tur patika?",
   "ru": "В каких других городах Латвии вы были?\nГде вы были в Латвии? Что вам там понравилось?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 693,
@@ -8313,7 +9005,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur no šīm pilsētām jums vislabāk patika?",
   "ru": "Какой из этих городов вам понравился больше всего?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 694,
@@ -8325,7 +9018,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc jums patīk šī pilsēta?",
   "ru": "Почему вам нравится этот город?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 695,
@@ -8337,7 +9031,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāda nozīme ir ceļojumiem cilvēka dzīvē?",
   "ru": "Какое значение имеют путешествия в жизни человека?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 696,
@@ -8349,7 +9044,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs plānojat savu ceļojumu?",
   "ru": "Как вы планируете свое путешествие?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 697,
@@ -8361,7 +9057,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kur jūs pavadāt savu atvaļinājumu / Kur jūs atpūšaties? Kāpēc?",
   "ru": "Где вы проводите свой отпуск / Где вы отдыхаете? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 698,
@@ -8373,7 +9070,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāds apģērbs vislabāk piemērots atpūtai?",
   "ru": "Какая одежда лучше всего подходит для отдыха?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 699,
@@ -8385,7 +9083,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas atpūtas vietas jūs varat ieteikt saviem draugiem? Kāpēc?",
   "ru": "Какие места для отдыха вы можете порекомендовать своим друзьям? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 700,
@@ -8397,7 +9096,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kuri svētki jums patīk?",
   "ru": "Какие праздники вам нравятся?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 701,
@@ -8409,7 +9109,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs ģimenē svinat svētkus?\nKādi ir jūsu ģimenes mīļākie svētki?\nVai jums ir kādas svētku svinēšanas tradīcijas? \nKā tiem gatavojaties?",
   "ru": "Празднуете ли вы праздники в семье?\nКакие праздники ваша семья любит больше всего?\nЕсть ли у вас какие-то традиции празднования? \nКак вы к ним готовитесь?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 702,
@@ -8421,7 +9122,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs svinat arī valsts svētkus?",
   "ru": "Празднуете ли вы также государственные праздники?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 703,
@@ -8433,7 +9135,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādi ģimenes svētki būs tuvākajā laikā?\nKad un kur svinēsiet?",
   "ru": "Какие семейные праздники будут в ближайшее время?\nКогда и где вы будете праздновать?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 704,
@@ -8445,7 +9148,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas dāvanas jūs dāvināt citiem?\nKādas dāvanas jums patīk pašam?",
   "ru": "Какие подарки вы дарите другим?\nКакие подарки нравятся вам самим?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 705,
@@ -8457,7 +9161,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar kādu satiksmes līdzekli (transportu) jūs braucat uz darbu? \nKā jūs nokļūst ar jūsu darbavietā?",
   "ru": "На каком виде транспорта вы ездите на работу? \nКак вы добираетесь до места работы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 706,
@@ -8469,7 +9174,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik ilgi jūs braucat no mājām līdz darbavietai?",
   "ru": "Сколько времени вы едете от дома до места работы?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 707,
@@ -8481,7 +9187,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar kuru transporta līdzekli jūs ceļojat?\nAr kādu transportlīdzekli jūs braucat ceļojumā?",
   "ru": "На каком виде транспорта вы путешествуете?\nНа каком виде транспорта вы ездите в путешествие?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 708,
@@ -8493,7 +9200,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un kurš ceļojumos vada mašīnu?",
   "ru": "И кто водит машину во время поездок?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 709,
@@ -8505,7 +9213,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar kādu transportlīdzekli jūs braucat ceļojumā/ ekskursijā/ uz laukiem?",
   "ru": "На каком виде транспорта вы ездите в поездку/на экскурсию/за город?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 710,
@@ -8517,7 +9226,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas priekšrocības/ kādi trūkumi, jūsuprāt, ir braukšanai ar savu automašīnu?",
   "ru": "Какие преимущества/недостатки, по вашему мнению, есть у поездок на собственном автомобиле?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 711,
@@ -8529,7 +9239,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā jūs domājat, kāda ir braukšanas kultūra uz Latvijas ceļiem?",
   "ru": "Как вы думаете, какова культура вождения на дорогах Латвии?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 712,
@@ -8541,7 +9252,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu sabiedrisko transportu jūs izmantojat? \nUz kurieni visbiežāk braucat? \nCik ilgi jābrauc līdz...? \nVai Jūs braucat sabiedriskā transporta? Kāds veidi?\nCik maksā braukšanas biļete?",
   "ru": "Каким общественным транспортом вы пользуетесь? \nКуда вы чаще всего ездите? \nСколько времени нужно, чтобы доехать до. .. ? \nВы ездите на общественном транспорте? Какого рода?\nСколько стоит билет?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 713,
@@ -8553,7 +9265,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs domājat par sabiedrisko transportu savā pilsētā? Kāpēc? \nVai Jums patīk sabiedriskā transporta?",
   "ru": "Что вы думаете об общественном транспорте в вашем городе? Почему? \nНравится ли вам общественный транспорт?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 714,
@@ -8565,7 +9278,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kurš sabiedriskā transporta veids ir visdrošākais? Kāpēc?",
   "ru": "Какой вид общественного транспорта самый безопасный? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 715,
@@ -8577,7 +9291,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs vēlētos mainīt sabiedriskajā transportā?",
   "ru": "Что бы вы хотели изменить в общественном транспорте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 716,
@@ -8589,7 +9304,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc jaunieši varētu pārkāpt ceļu satiksmes noteikumus/ patīk braukt ātri?",
   "ru": "Почему молодые люди могут нарушать правила дорожного движения/любят ездить быстро?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 717,
@@ -8601,7 +9317,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc jauniešiem vēlas, lai viņiem būtu savs transports?",
   "ru": "Почему молодые люди хотят иметь собственный транспорт?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 718,
@@ -8613,7 +9330,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cik bieži jūs apmeklējat frizieri un kādus pakalpojumus izmantojat?",
   "ru": "Как часто вы ходите к парикмахеру и какими услугами пользуетесь?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 719,
@@ -8625,7 +9343,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai izmantojat apavu remonta pakalpojumus?",
   "ru": "Пользуетесь ли вы услугами по ремонту обуви?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 720,
@@ -8637,7 +9356,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai izmantojat sadzīves tehnikas darbnīcu pakalpojumus?",
   "ru": "Пользуетесь ли вы услугами мастерской по ремонту бытовой техники?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 721,
@@ -8649,7 +9369,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jūs bieži ejat uz pastu?",
   "ru": "Часто ли вы ходите на почту?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 722,
@@ -8661,7 +9382,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs parasti darāt bankā?",
   "ru": "Что вы обычно делаете в банке?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 723,
@@ -8673,7 +9395,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs domājat par pastniekiem? Vai vēlaties strādāt pastā? Kāpēc?",
   "ru": "Что вы думаете о почтальонах? Хотели бы вы работать на почте? Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 724,
@@ -8685,7 +9408,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt pasta nodaļā?",
   "ru": "Что вы делаете на почте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 725,
@@ -8697,7 +9421,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs varat nosūtīt pa pastu?",
   "ru": "Что вы можете отправить по почте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 726,
@@ -8709,7 +9434,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs varat saņemt pasta nodaļā?",
   "ru": "Что вы можете получить на почте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 727,
@@ -8721,7 +9447,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par ko jūs maksājat pasta nodaļā?",
   "ru": "За что вы платите на почте?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 728,
@@ -8733,7 +9460,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vai jums patīk iepirkties?",
   "ru": "Вам нравится ходить по магазинам?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 729,
@@ -8745,7 +9473,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kas, jūsuprāt, ir veselīgs dzīvesveids?",
   "ru": "Что, по вашему мнению, является здоровым образом жизни?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 730,
@@ -8757,7 +9486,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs darāt, ja saslimsti?",
   "ru": "Что вы делаете, если заболеваете?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 731,
@@ -8769,7 +9499,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādas dāvanas jūs plānojat pirkt Rīgā?\nKādas dāvanas jūs atvedīsiet no Latvijas savai ģimenei?",
   "ru": "Какие подарки вы планируете купить в Риге?\nКакие подарки вы привезете из Латвии своей семье?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 732,
@@ -8781,7 +9512,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ko jūs domājat par mūsdienu notikumiem pasaulē?",
   "ru": "Что вы думаете о современных событиях в мире?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 734,
@@ -8793,7 +9525,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani sauc Jeļena Masolova.",
   "ru": "Меня зовут Елена Масолова.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 735,
@@ -8805,7 +9538,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu dzimusi tūkstoš deviņi simti astoņdesmit ceturtā gada septītajā novembrī.",
   "ru": "Я родилась седьмого ноября тысяча девятьсот восемьдесят четвертого года.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 736,
@@ -8817,7 +9551,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu dzimusi Maskavā, PSRS.",
   "ru": "Я родилась в Москве, СССР.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 737,
@@ -8829,7 +9564,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es piedzimu Maskavā, PSRS.",
   "ru": "Я родилась в Москве, СССР.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 738,
@@ -8841,7 +9577,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana dzimtā pilsēta ir Maskava, es esmu piedzimusi PSRS.",
   "ru": "Мой родной город — Москва, я родилась в СССР.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 739,
@@ -8853,7 +9590,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jā, šī ir mana pase.",
   "ru": "Да, это мой паспорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 740,
@@ -8865,7 +9603,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pašlaik nedzīvoju Latvijā, bet plānoju to darīt nākotnē.",
   "ru": "Сейчас я не живу в Латвии, но планирую сделать это в будущем.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 741,
@@ -8877,7 +9616,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzīvoju Silicijā ieleja netālu no Stenfordas universitātes.",
   "ru": "Я живу в Кремниевой долине, недалеко от Стэнфордского университета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 742,
@@ -8889,7 +9629,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzīvoju Paloalto, Kalifornijā, ASV.",
   "ru": "Я живу в Пало-Альто, Калифорния, США.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 743,
@@ -8901,7 +9642,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana dzīvesvieta atrodas Sandhill Road ielā, tūkstoš septiņi simti.",
   "ru": "Я живу на улице Сандхилл-роуд, 1700.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 744,
@@ -8913,7 +9655,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana adrese ir Paloalto, Sandhill Road iela tūkstoš septiņi simti (пауза), dzīvoklis pieci.",
   "ru": "Мой адрес — Пало-Альто, Сэндхилл-роуд, 1600, квартира пять.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 745,
@@ -8925,7 +9668,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Blakus manai mājai atrodas Stenfordas universitāte.",
   "ru": "Рядом с моим домом находится Стэнфордский университет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 746,
@@ -8937,7 +9681,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tai ir milzīga teritorija.",
   "ru": "У него огромная территория.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 747,
@@ -8949,7 +9694,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Stenfordā dzīvo piecdesmit tūkstoši cilvēku.",
   "ru": "В Стэнфорде живет пятьдесят тысяч человек.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 748,
@@ -8961,7 +9707,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visi brauc ar divriteņiem.",
   "ru": "Все ездят на велосипедах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 749,
@@ -8973,7 +9720,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pilsēta ir apzaļumota.",
   "ru": "Город озеленен.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 750,
@@ -8985,7 +9733,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Laiks ir silts visu gadu.",
   "ru": "Климат теплый круглый год.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 751,
@@ -8997,7 +9746,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk Paloalto.",
   "ru": "Мне нравится Пало-Альто.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 752,
@@ -9009,7 +9759,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Universitāte un investīciju fondi ir viena ekosistēma.",
   "ru": "Университет и инвестиционные фонды — это одна экосистема.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 753,
@@ -9021,7 +9772,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viens nevar pastāvēt bez otra.",
   "ru": "Одно не может существовать без другого.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 754,
@@ -9033,7 +9785,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Paloalto ir maza pilsēta, tai nav rajonu.",
   "ru": "Пало-Альто — маленький город, в нем нет районов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 755,
@@ -9045,7 +9798,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Agrāk es dzīvoju Maskavā un bērnībā es dzīvoju ziemeļos, Noriļskā.",
   "ru": "Раньше я жил в Москве, а в детстве — на севере, в Норильске.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 756,
@@ -9057,7 +9811,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu no Krievijas, no Noriļskas.",
   "ru": "Я из России, из Норильска.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 757,
@@ -9069,7 +9824,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Noriļskā ir ārkārtīgi auksts.",
   "ru": "В Норильске очень холодно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 758,
@@ -9081,7 +9837,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Temperatūra var nokrist līdz mīnus piecdesmit grādiem.",
   "ru": "Температура может опускаться до минус пятидесяти градусов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 759,
@@ -9093,7 +9850,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "To nevar iedomāties, cik tur ir auksts.",
   "ru": "Невозможно себе представить, насколько там холодно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 760,
@@ -9105,7 +9863,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzīvoju ceturtajā stāvā.",
   "ru": "Я живу на четвёртом этаже.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 761,
@@ -9117,7 +9876,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manai mājai ir četri stāvi.",
   "ru": "В моём доме четыре этажа.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 762,
@@ -9129,7 +9889,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manā dzīvoklī ir visas ērtības - elektrība, ūdens, centrālā apkure un internets.",
   "ru": "В моей квартире есть все удобства — электричество, вода, центральное отопление и интернет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 763,
@@ -9141,7 +9902,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manā dzīvoklī ir viesistaba, virtuve, vannasistaba, guļamistaba un mājas birojs.",
   "ru": "В моей квартире есть гостиная, кухня, ванная комната, спальня и домашний кабинет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 764,
@@ -9153,7 +9915,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Virtuvē ir elektriskā plīts, ledusskapis, galds, krēsli.",
   "ru": "На кухне есть электрическая плита, холодильник, стол, стулья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 765,
@@ -9165,7 +9928,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vannasistabā ir vanna, izlietne, duša.",
   "ru": "В ванной комнате есть ванна, раковина, душ.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 766,
@@ -9177,7 +9941,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viesistabā ir dīvāns un žurnālgaldiņš, durvis uz balkonu.",
   "ru": "В гостиной есть диван и журнальный столик, дверь на балкон.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 767,
@@ -9189,7 +9954,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Guļamistabā ir gulta un skapis.",
   "ru": "В спальне есть кровать и шкаф.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 768,
@@ -9201,7 +9967,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ikdienā es lietoju šķīvjus, dakšas, krūzes, karotes, nažus, pannas, bļodas, tējkannu.",
   "ru": "В повседневной жизни я использую тарелки, вилки, кружки, ложки, ножи, сковородки, миски, чайник.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 769,
@@ -9213,7 +9980,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pa mana dzīvokļa logu es redzu dažus ozolus, Stenfordas parku un Hūvera torni.",
   "ru": "Из окна моей квартиры я вижу несколько дубов, парк Стэнфорда и башню Гувера.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 770,
@@ -9225,7 +9993,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Hūvers bija ASV prezidents.",
   "ru": "Гувер был президентом США.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 771,
@@ -9237,7 +10006,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gatavoju ēst, mazgājos traukus, uzkopju māju.",
   "ru": "Я готовлю еду, мою посуду, убираю в доме.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 772,
@@ -9249,7 +10019,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pirms svētkiem man patīk pagatavot kaut ko īpašu.",
   "ru": "Перед праздниками мне нравится приготовить что-то особенное.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 773,
@@ -9261,7 +10032,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet ikdienā man vispār nepatīk mājas darbi, man nepatīk mazgāt traukus un uzkopt māju.",
   "ru": "Но в повседневной жизни я вообще не люблю домашнюю работу, мне не нравится мыть посуду и убирать в доме.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 774,
@@ -9273,7 +10045,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mājas uzkopšana man nepatīk, jo tā aizņem daudz laika un man šķiet pilnīgi bezjēdzīga.",
   "ru": "Я не люблю убираться в доме, потому что это занимает много времени и мне кажется совершенно бессмысленным.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 775,
@@ -9285,7 +10058,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Labāk palasīt grāmatu vai pastrādāt.",
   "ru": "Лучше почитать книгу или поработать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 776,
@@ -9297,7 +10071,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "V2.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 777,
@@ -9309,7 +10084,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk manuālie mājasdarbi, bet man patīk rezultāts - tīrība un kārtība.",
   "ru": "Я не люблю ручную работу по дому, но мне нравится результат — чистота и порядок.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 778,
@@ -9321,7 +10097,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk darbināt veļas mašīnu un trauku mazgājamo mašīnu.",
   "ru": "Мне нравится запускать стиральную и посудомоечную машины.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 779,
@@ -9333,7 +10110,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk, ka dzīve ir ļoti dārga – viss ir dārgs, sākot no dzīvokļa īrēšanas un beidzot ar medicīnisko apdrošināšanu.",
   "ru": "Мне не нравится, что жизнь очень дорогая — всё дорого, начиная с аренды квартиры и заканчивая медицинской страховкой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 780,
@@ -9345,7 +10123,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet savādāk man patīk gandrīz viss – siltais Kalifornijas klimats, svaigi augļi, iespēja aizbraukt līdz Klusajam okeānam, tūkstošiem interesantu cilvēku apkārt.",
   "ru": "Но в остальном мне нравится почти все — теплый климат Калифорнии, свежие фрукты, возможность съездить к Тихому океану, тысячи интересных людей вокруг.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 781,
@@ -9357,7 +10136,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk gandrīz viss manā dzīvoklī – skaists skats pa logu, liels izmērs, komforts.",
   "ru": "Мне нравится почти все в моей квартире — красивый вид из окна, большая площадь, комфорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 782,
@@ -9369,7 +10149,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet nesen mājā tika mainīts lifts un sešas nedēļas man nācās kāpt pa kāpnēm ceturtajā stāvā.",
   "ru": "Но недавно в доме меняли лифт, и шесть недель мне приходилось подниматься по лестнице на четвёртый этаж.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 783,
@@ -9381,7 +10162,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja man bija smagas somas no veikala, tad bija grūti.",
   "ru": "Если у меня были тяжёлые сумки из магазина, то было трудно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 784,
@@ -9393,7 +10175,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet šīs bija īslaicīgas neērtības.",
   "ru": "Но это были временные неудобства.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 785,
@@ -9405,7 +10188,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dzīvošanai laukos ir tādas priekšrocības kā tīrs gaiss un ūdens, svaigi ekoloģiski produkti, dzīve bez stresa.",
   "ru": "Жизнь в деревне имеет такие преимущества, как чистый воздух и вода, свежие экологически чистые продукты, жизнь без стресса.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 786,
@@ -9417,7 +10201,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet arī ir trūkumi ar dzīvi laukos: elektrības un interneta pārtraukumi, nav centralizētu komunālo ērtību, nav veikalu un sadzīves pakalpojumu izvēles, sabiedriskais transports ir slikti attīstīts.",
   "ru": "Но у жизни в сельской местности есть и недостатки: перебои с электричеством и интернетом, отсутствие централизованных коммунальных услуг, отсутствие выбора магазинов и бытовых услуг, плохо развит общественный транспорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 787,
@@ -9429,7 +10214,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dzīvošanai pilsētā ir tādas priekšrocības kā centralizēta komunālās ērtības, veikalu un pakalpojumu plaša izvēle, plašas attīstības un brīvā laika pavadīšanas iespējas, sabiedriskais transports ir labi attīstīts.",
   "ru": "Жизнь в городе имеет такие преимущества, как централизованные коммунальные услуги, широкий выбор магазинов и услуг, обширные возможности для развития и проведения досуга, хорошо развитый общественный транспорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 788,
@@ -9441,7 +10227,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir labi zināmi arī trūkumi: saspringts dzīves temps, stress no liela kairinājumu skaita, dzīves dārdzība, neveselīgs uzturs un dzīvesveids parasti ir saistīts ar dzīvi pilsētā.",
   "ru": "Хорошо известны и недостатки: напряженный ритм жизни, стресс от большого количества раздражителей, дороговизна жизни, нездоровое питание и образ жизни обычно связаны с жизнью в городе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 789,
@@ -9453,7 +10240,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es strādāju investīciju fondā jau vairāk nekā desmit gadus.",
   "ru": "Я работаю в инвестиционном фонде уже более десяти лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 790,
@@ -9465,7 +10253,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manas firmas nosaukums ir AddVenture.",
   "ru": "Название моей компании — AddVenture.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 791,
@@ -9477,7 +10266,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc profesijas es esmu investors jaunuzņēmumos.",
   "ru": "По профессии я инвестор в стартапы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 792,
@@ -9489,7 +10279,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu investīciju direktors.",
   "ru": "Я инвестиционный директор.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 793,
@@ -9501,7 +10292,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir ļoti atbildīgs amats.",
   "ru": "У меня очень ответственная должность.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 794,
@@ -9513,7 +10305,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā es gribēju kļūt par astronautu, tāpat kā gandrīz visi bērni Padomju Savienībā.",
   "ru": "В детстве я хотел стать космонавтом, как и почти все дети в Советском Союзе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 795,
@@ -9525,7 +10318,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet jau no pirmās skolas klases es gribēju kļūt par uzņēmēju, pelnīt naudu un daudz ceļot.",
   "ru": "Но уже с первого класса школы я хотел стать предпринимателем, зарабатывать деньги и много путешествовать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 796,
@@ -9537,7 +10331,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans tēvs kļuva par uzņēmēju, un es redzēju šo piemēru.",
   "ru": "Мой отец стал предпринимателем, и я видел этот пример.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 797,
@@ -9549,7 +10344,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es izvēlos labākos projektus investīcijām.",
   "ru": "Я выбираю лучшие проекты для инвестиций.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 798,
@@ -9561,7 +10357,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Labākie jaunuzņēmumi ir Silīcija ielejā.",
   "ru": "Лучшие стартапы находятся в Кремниевой долине.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 799,
@@ -9573,7 +10370,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es vadu uzņēmumu, rīkoju darījumu tikšanās, uzdodu jautājumus par darījumiem un pieņemu lēmumus par investīcijām.",
   "ru": "Я руковожу компанией, организую деловые встречи, задаю вопросы о сделках и принимаю решения об инвестициях.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 800,
@@ -9585,7 +10383,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Turklāt es runāju ar klientiem, rakstu vēstules, parakstu līgumus.",
   "ru": "Кроме того, я разговариваю с клиентами, пишу письма, подписываю договоры.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 801,
@@ -9597,7 +10396,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk augsts risks un liels ātrums interneta jaunuzņēmumos.",
   "ru": "Мне нравится высокий риск и высокая скорость в интернет-стартапах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 802,
@@ -9609,7 +10409,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kā saka amerikāņi, liels risks – liela peļņa.",
   "ru": "Как говорят американцы, большой риск — большая прибыль.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 803,
@@ -9621,7 +10422,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Risks un peļņa ir tieši saistīti.",
   "ru": "Риск и прибыль напрямую связаны.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 804,
@@ -9633,7 +10435,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk, ka tikai neliela daļa jaunuzņēmumu ir patiesi revolucionāri un maina pasauli.",
   "ru": "Мне не нравится, что лишь небольшая часть стартапов действительно революционна и меняет мир.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 805,
@@ -9645,7 +10448,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Lielākā daļa ir muļķīgi izklaides pakalpojumi, piemēram, Tiktok.",
   "ru": "Большинство — это глупые развлекательные сервисы, например, Tiktok.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 806,
@@ -9657,7 +10461,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Investoriem ir tāds joks.",
   "ru": "У инвесторов есть такая шутка.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 807,
@@ -9669,7 +10474,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs gribējām lidojošas automašīnas, bet saņēmām simts četrdesmit rakstzīmju Tviteri.",
   "ru": "Мы хотели летающие машины, а получили Твиттер на сто сорок символов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 808,
@@ -9681,7 +10487,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kopumā es esmu apmierināta ar savu pašreizējo darbu.",
   "ru": "В целом я довольна своей нынешней работой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 809,
@@ -9693,7 +10500,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Joko, ka, lai kļūtu par labu investoru, vispirms ir jāzaudē divi miljoni dolāru.",
   "ru": "Шутят, что чтобы стать хорошим инвестором, сначала нужно потерять два миллиона долларов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 810,
@@ -9705,7 +10513,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es jau esmu labs investors.",
   "ru": "Я уже хороший инвестор.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 811,
@@ -9717,7 +10526,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet ja nopietni, lai strādātu par investīciju direktoru, ir jānovērtē vismaz pieci tūkstoši uzņēmumu, ir jārunā ar to komandām, ir jāiemācās saskatīt labas un nederīgas idejas pazīmes.",
   "ru": "Но если серьезно, чтобы работать инвестиционным директором, нужно оценить как минимум пять тысяч компаний, поговорить с их командами, научиться различать признаки хороших и плохих идей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 812,
@@ -9729,7 +10539,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir grūti un nāk ar pieredzi.",
   "ru": "Это сложно и приходит с опытом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 813,
@@ -9741,7 +10552,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir jāspēj analizēt lielus informācijas apjomus, ātri ienirt jaunā tēmā, un, pats galvenais, ir jābūt loģiskam un racionālam, nevis emocionālam.",
   "ru": "Нужно уметь анализировать большие объемы информации, быстро вникать в новую тему, и, самое главное, нужно быть логичным и рациональным, а не эмоциональным.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 814,
@@ -9753,7 +10565,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans draugs Konstantīns Borisovs kļuva par astronautu.",
   "ru": "Мой друг Константин Борисов стал космонавтом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 815,
@@ -9765,7 +10578,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš mācījās sešus gadus astrofiziku, raķešu tehnoloģijas, inženierzinātnes.",
   "ru": "Он шесть лет изучал астрофизику, ракетные технологии, инженерные науки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 816,
@@ -9777,7 +10591,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir ļoti grūti.",
   "ru": "Это очень сложно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 817,
@@ -9789,7 +10604,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tiek plānots, ka nākamgad viņš lidos uz SKS.",
   "ru": "Планируется, что в следующем году он полетит на МКС.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 818,
@@ -9801,7 +10617,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es viņu apskaužu.",
   "ru": "Я ему завидую.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 819,
@@ -9813,7 +10630,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā es gribēju būt par astronautu.",
   "ru": "В детстве я хотел стать космонавтом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 820,
@@ -9825,7 +10643,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(2) Es domāju, ka ķirurgiem ir visgrūtākā profesija, jo atbildība ir milzīga.",
   "ru": "(2) Я думаю, что у хирургов самая сложная профессия, потому что ответственность огромна.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 821,
@@ -9837,7 +10656,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Darbā es gandrīz vienmēr runāju angliski.",
   "ru": "На работе я почти всегда говорю по-английски.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 822,
@@ -9849,7 +10669,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc augstskolas es strādāju savā nelielā investīciju fondā AddVenture.",
   "ru": "После университета я работал в своем небольшом инвестиционном фонде AddVenture.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 823,
@@ -9861,7 +10682,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans darba kolektīvs ir liels.",
   "ru": "Мой коллектив большой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 824,
@@ -9873,7 +10695,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tajā ir simtiem cilvēku – finanšu analītiķi, programmētāji, dizaineri, menedžeri.",
   "ru": "В нем сотни людей — финансовые аналитики, программисты, дизайнеры, менеджеры.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 825,
@@ -9885,7 +10708,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mums ir labas attiecības ar kolēģiem komandā.",
   "ru": "У нас хорошие отношения с коллегами по команде.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 826,
@@ -9897,7 +10721,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manā kolektīvā ir mana vecuma cilvēki.",
   "ru": "В моем коллективе люди моего возраста.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 827,
@@ -9909,7 +10734,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Nedēļā man parasti ir divas brīvdienas.",
   "ru": "В неделю у меня обычно два выходных.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 828,
@@ -9921,7 +10747,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet, ja darba ir daudz, tad es varu strādāt bez brīvdienām.",
   "ru": "Но если работы много, то я могу работать без выходных.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 829,
@@ -9933,7 +10760,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es strādāju no astoņiem līdz pieciem, jo ir​​ laika starpība ar Eiropu.",
   "ru": "Я работаю с восьми до пяти, потому что есть разница во времени с Европой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 830,
@@ -9945,7 +10773,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gandrīz katru dienu man agri no rīta ir jāzvana uz Maskavu.",
   "ru": "Почти каждый день мне рано утром приходится звонить в Москву.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 831,
@@ -9957,7 +10786,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es sāku darbu astoņos.",
   "ru": "Я начинаю работу в восемь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 832,
@@ -9969,7 +10799,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans darba laiks ir nenormēts.",
   "ru": "Мой рабочий день ненормированный.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 833,
@@ -9981,7 +10812,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es strādāju attālināti, tāpat kā daudzi cilvēki pēc pandēmijas.",
   "ru": "Я работаю удаленно, как и многие люди после пандемии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 834,
@@ -9993,7 +10825,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tagad tas nevienu nepārsteidz.",
   "ru": "Сейчас это никого не удивляет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 835,
@@ -10005,7 +10838,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vislabāk patīk strādāt attālināti, jo šajā gadījumā mana produktivitāte un komforts ir daudz augstāki.",
   "ru": "Мне больше всего нравится работать удаленно, потому что в этом случае моя продуктивность и комфорт намного выше.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 836,
@@ -10017,7 +10851,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Birojā ir grūtāk koncentrēties, un es ātri nogurstu.",
   "ru": "В офисе сложнее сосредоточиться, и я быстро устаю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 837,
@@ -10029,7 +10864,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Turklāt Maskavā brauciens uz biroju un atpakaļ bieži aizņem vairākas stundas.",
   "ru": "Кроме того, в Москве поездка в офис и обратно часто занимает несколько часов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 838,
@@ -10041,7 +10877,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Trīs-četras reizes gadā es braucu komandējumos uz interneta konferencēm.",
   "ru": "Три-четыре раза в год я езжу в командировки на интернет-конференции.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 839,
@@ -10053,7 +10890,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur runā veiksmīgi interneta uzņēmēji un investori, viņi runā par savām veiksmēm un neveiksmēm, uzvarām un kļūdām.",
   "ru": "Там выступают успешные интернет-предприниматели и инвесторы, они рассказывают о своих успехах и неудачах, победах и ошибках.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 840,
@@ -10065,7 +10903,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brauciens ilgst apmēram nedēļu.",
   "ru": "Поездка длится примерно неделю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 841,
@@ -10077,7 +10916,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans mērķis ir apgūt jaunas lietas un satikt ekspertus.",
   "ru": "Моя цель — узнать что-то новое и встретиться с экспертами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 842,
@@ -10089,7 +10929,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Populāra profesija nav tā, par kuru cilvēki sapņo, piemēram, Holivudas aktieris, bet gan tā, kuru viņi izvēlas.",
   "ru": "Популярная профессия — это не та, о которой люди мечтают, например, голливудский актёр, а та, которую они выбирают.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 843,
@@ -10101,7 +10942,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc statistikas lielākā daļa ir skolotāji un ārsti.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 844,
@@ -10113,7 +10955,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kāpēc?",
   "ru": "Почему?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 845,
@@ -10125,7 +10968,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vienkārši tāpēc, ka šīs darba vietas ir jau paredzētas ekonomikas struktūrā.",
   "ru": "Просто потому, что эти рабочие места уже предусмотрены в экономической структуре.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 846,
@@ -10137,7 +10981,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par šo darbu ir gatavi maksāt algu, lai arī ne to lielāko.",
   "ru": "За эту работу готовы платить зарплату, пусть и не самую высокую.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 847,
@@ -10149,7 +10994,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un, ja ir pieprasījums, tad vienmēr ir piedāvājums.",
   "ru": "А если есть спрос, то всегда есть предложение.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 848,
@@ -10161,7 +11007,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manuprāt, ļoti prestiža profesija ir politiķis vai rakstnieks.",
   "ru": "На мой взгляд, очень престижная профессия — это политик или писатель.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 849,
@@ -10173,7 +11020,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Politiķim ir vara un viņš sadala līdzekļus sabiedrībā.",
   "ru": "У политика есть власть, и он распределяет средства в обществе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 850,
@@ -10185,7 +11033,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Rakstnieks ir morāla autoritāte, viņam atbalsta grūtos laikos.",
   "ru": "Писатель — это моральный авторитет, на него полагаются в трудные времена.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 851,
@@ -10197,7 +11046,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Piemēram, tagad simtiem tūkstošu cilvēku skatās katru Dmitrija Bikova interviju.",
   "ru": "Например, сейчас сотни тысяч людей смотрят каждое интервью Дмитрия Бикова.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 852,
@@ -10209,7 +11059,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Labs vadītājs ir līderis.",
   "ru": "Хороший руководитель — это лидер.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 853,
@@ -10221,7 +11072,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš zina, kā motivēt darbiniekus, saprotami izskaidrot uzdevumu un ar savu piemēru parādīt augstu profesionalitāti.",
   "ru": "Он знает, как мотивировать сотрудников, понятно объяснить задачу и своим примером продемонстрировать высокий профессионализм.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 854,
@@ -10233,7 +11085,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neesmu precējusies.",
   "ru": "Я не замужем.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 855,
@@ -10245,7 +11098,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana ģimenē ir liela.",
   "ru": "У меня большая семья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 856,
@@ -10257,7 +11111,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir vecāki, onkulis, vecvecāki, brālis un divi brālēni.",
   "ru": "У меня есть родители, дядя, бабушка и дедушка, брат и два двоюродных брата.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 857,
@@ -10269,7 +11124,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nav tantes vai māsīcas.",
   "ru": "У меня нет тети или двоюродной сестры.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 858,
@@ -10281,7 +11137,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani vecāki (radinieki) dzīvo Maskavā, Krievijā.",
   "ru": "Мои родители (родственники) живут в Москве, в России.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 859,
@@ -10293,7 +11150,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir viens brālis un divi brālēni.",
   "ru": "У меня есть один брат и два двоюродных брата.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 860,
@@ -10305,7 +11163,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nav māsu vai māsīcas.",
   "ru": "У меня нет сестёр или двоюродных сестёр.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 861,
@@ -10317,7 +11176,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manam onkulim ir divi dēli.",
   "ru": "У моего дяди есть два сына.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 862,
@@ -10329,7 +11189,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manai mammai (manam tēvam) ir sešdesmit viens gads.",
   "ru": "Моей маме (моему папе) шестьдесят один год.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 863,
@@ -10341,7 +11202,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manai vecmāmiņai ir astoņdesmit pieci gadi.",
   "ru": "Моей бабушке восемьдесят пять лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 864,
@@ -10353,7 +11215,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manam brālim ir trīsdesmit gadi.",
   "ru": "Моему брату тридцать лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 865,
@@ -10365,7 +11228,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir trīsdesmit septiņi gadi.",
   "ru": "Мне тридцать семь лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 866,
@@ -10377,7 +11241,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana māte bija skolotāja, tagad viņa ir pensijā.",
   "ru": "Моя мама была учительницей, сейчас она на пенсии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 867,
@@ -10389,7 +11254,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa ir laipna un gatavo gardu ābolu pīrāgu.",
   "ru": "Она добрая и печет вкусный яблочный пирог.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 868,
@@ -10401,7 +11267,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans tētis (vectētiņš) strādāja par inženieri un uzņēmēju, tagad viņš ir pensionārs.",
   "ru": "Мой дедушка работал инженером и предпринимателем, сейчас он пенсионер.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 869,
@@ -10413,7 +11280,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš ir ļoti gudrs un bija PSRS šaha izlases dalībnieks.",
   "ru": "Он очень умный и был членом сборной СССР по шахматам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 870,
@@ -10425,7 +11293,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani vecāki ir laimīgi precējušies.",
   "ru": "Мои родители счастливы в браке.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 871,
@@ -10437,7 +11306,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana vecmāmiņa strādāja par inženieri, tagad viņa ir pensijā.",
   "ru": "Моя бабушка работала инженером, сейчас она на пенсии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 872,
@@ -10449,7 +11319,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa ir jauka un gatavo garšīgas pankūkas.",
   "ru": "Она милая и готовит вкусные блины.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 873,
@@ -10461,7 +11332,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans brālis ir ekonomists.",
   "ru": "Мой брат — экономист.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 874,
@@ -10473,7 +11345,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš ir dzīvespriecīgs un asprātīgs.",
   "ru": "Он жизнерадостный и остроумный.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 875,
@@ -10485,7 +11358,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jā, man ir draudzīga ģimenē.",
   "ru": "Да, у меня дружная семья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 876,
@@ -10497,7 +11371,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs svinam svētkus kopā.",
   "ru": "Мы вместе отмечаем праздники.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 877,
@@ -10509,7 +11384,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jā, mēs atbalstām viens otru grūtā brīdī.",
   "ru": "Да, мы поддерживаем друг друга в трудную минуту.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 878,
@@ -10521,7 +11397,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nav suņa.",
   "ru": "У меня нет собаки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 879,
@@ -10533,7 +11410,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mums bija resns kaķis Keša.",
   "ru": "У нас был толстый кот Кеша.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 880,
@@ -10545,7 +11423,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš bija pelēks, tāpat kā visi skotu kaķi.",
   "ru": "Он был серый, как и все шотландские кошки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 881,
@@ -10557,7 +11436,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš nomira pirms vairākiem gadiem.",
   "ru": "Он умер несколько лет назад.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 882,
@@ -10569,7 +11449,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(Keša bija seši gadi.)",
   "ru": "(Кеше было шесть лет. )",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 883,
@@ -10581,7 +11462,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs pirkām Kešam kaķu barību - ar zivju vai gaļas garšu.",
   "ru": "Мы покупали Кеше кошачий корм — со вкусом рыбы или мяса.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 884,
@@ -10593,7 +11475,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz man nācās viņu vest pie veterinārārsta.",
   "ru": "Иногда мне приходилось водить его к ветеринару.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 885,
@@ -10605,7 +11488,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No mājdzīvniekiem man visvairāk patīk kaķenes.",
   "ru": "Из домашних животных мне больше всего нравятся кошки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 886,
@@ -10617,7 +11501,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk viņu neatkarība, grācija un miers.",
   "ru": "Мне нравится их независимость, грация и спокойствие.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 887,
@@ -10629,7 +11514,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana draudzene Marina ir uzņēmēja un šokolādes ražotāja.",
   "ru": "Моя подруга Марина — предпринимательница и производительница шоколада.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 888,
@@ -10641,7 +11527,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņai ir divas meitas.",
   "ru": "У неё две дочери.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 889,
@@ -10653,7 +11540,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa vakaros pastaigājas ar suni.",
   "ru": "По вечерам она гуляет с собакой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 890,
@@ -10665,7 +11553,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa forši dejo.",
   "ru": "Она классно танцует.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 891,
@@ -10677,7 +11566,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa ir humanitāra nosliece, un viņa zina deviņas svešvalodas (franču, vācu, spāņu, ķīniešu, korejiešu, ivritu, latīņu un citas).",
   "ru": "У неё гуманитарные наклонности, и она знает девять иностранных языков (французский, немецкий, испанский, китайский, корейский, иврит, латынь и другие).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 892,
@@ -10689,7 +11579,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir tehniska nosliece, varbūt tāpēc mēs sadraudzējāmies jau pirmajā klasē.",
   "ru": "У меня технические наклонности, возможно, поэтому мы подружились ещё в первом классе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 893,
@@ -10701,7 +11592,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir augstākā izglītība.",
   "ru": "У меня высшее образование.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 894,
@@ -10713,7 +11605,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es beidzu ģimnāziju ar padziļinātu svešvalodu apguvi Maskavā.",
   "ru": "Я окончил гимназию с углублённым изучением иностранных языков в Москве.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 895,
@@ -10725,7 +11618,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ļoti patika mācīties un visos priekšmetos man bija piecinieki.",
   "ru": "Мне очень нравилось учиться, и по всем предметам у меня были пятерки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 896,
@@ -10737,7 +11631,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Īpaši man patika ekonomika un matemātika.",
   "ru": "Особенно мне нравились экономика и математика.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 897,
@@ -10749,7 +11644,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es uzvarēju olimpiādēs ekonomikā, matemātikā, bioloģijā, ķīmijā un citos priekšmetos.",
   "ru": "Я побеждала на олимпиадах по экономике, математике, биологии, химии и другим предметам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 898,
@@ -10761,7 +11657,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vienu reizi mani pat aizsūtīja uz Angliju kā matemātikas konkursa uzvarētāju.",
   "ru": "Однажды меня даже отправили в Англию как победительницу математического конкурса.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 899,
@@ -10773,7 +11670,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu pabeigusi augstskolu Maskavā.",
   "ru": "Я окончила вуз в Москве.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 900,
@@ -10785,7 +11683,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es mācījos Ekonomikas augstskolā.",
   "ru": "Я училась в экономическом вузе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 901,
@@ -10797,7 +11696,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ieguvu bakalaura grādu Ekonomikas fakultātē un maģistra grādu tās pašas universitātes Politikas zinātnes fakultātē.",
   "ru": "Я получила степень бакалавра на экономическом факультете и степень магистра на факультете политических наук того же университета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 902,
@@ -10809,7 +11709,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad es studēju starptautiskās attiecības Stenfordas universitātē.",
   "ru": "Затем я изучала международные отношения в Стэнфордском университете.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 903,
@@ -10821,7 +11722,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ar to lepojos.",
   "ru": "Я этим горжусь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 904,
@@ -10833,7 +11735,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana augstskolas adrese ir Maskava, Mjasnickaja iela divdesmit divi.",
   "ru": "Адрес моего вуза: Москва, улица Мясницкая, 22.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 905,
@@ -10845,7 +11748,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es runāju piecās valodās.",
   "ru": "Я говорю на пяти языках.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 906,
@@ -10857,7 +11761,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es brīvi runāju krievu un angļu valodās, jau daudzus gadus es mācos vācu un franču valodas un nesen es sāku mācīties latviešu valodu.",
   "ru": "Я свободно говорю на русском и английском языках, уже много лет изучаю немецкий и французский языки, а недавно начал изучать латышский язык.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 907,
@@ -10869,7 +11774,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es mācījos latviešu valodu interneta kursos kopš pagājušās vasaras.",
   "ru": "Я изучаю латышский язык на интернет-курсах с прошлого лета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 908,
@@ -10881,7 +11787,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vidēji es mācījos divas līdz trīs stundas dienā.",
   "ru": "В среднем я занимался по два-три часа в день.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 909,
@@ -10893,7 +11800,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es studēju gramatiku un ieliku pamatus valodas struktūrai.",
   "ru": "Я изучал грамматику и заложил основы языковой структуры.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 910,
@@ -10905,7 +11813,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad es iemācījos tūkstoš biežāk lietoto vārdu un no tiem izveidoju savu vārdnīcu.",
   "ru": "Затем я выучил тысячу наиболее часто употребляемых слов и составил из них свой словарь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 911,
@@ -10917,7 +11826,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc tam es izlasīju apmēram astoņdesmit tekstus, lai sagatavotos eksāmenam.",
   "ru": "После этого я прочитал около восьмидесяти текстов, чтобы подготовиться к экзамену.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 912,
@@ -10929,7 +11839,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pierakstīju nepazīstamus vārdus un trenējos atbildēt uz jautājumiem.",
   "ru": "Я записывал незнакомые слова и тренировался отвечать на вопросы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 913,
@@ -10941,7 +11852,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man šī ir visgrūtākā daļa, jo jautājums ir jāsaprot, klausoties.",
   "ru": "Для меня это самая сложная часть, потому что вопрос нужно понять на слух.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 914,
@@ -10953,7 +11865,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nekad nav paticis vienkārši iemācīties no galvas pareizās atbildes, formulas.",
   "ru": "Мне никогда не нравилось просто заучивать наизусть правильные ответы, формулы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 915,
@@ -10965,7 +11878,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un man vienmēr patika apšaubīt, strīdēties, domāt, meklēt informāciju.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 916,
@@ -10977,7 +11891,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viena diena =>",
   "ru": "Один день =>",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 917,
@@ -10989,7 +11904,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es uzskatu, ka pedagoga svarīgākais pienākums ir ieinteresēt skolēnus savā mācību priekšmetā, stāstīt tik interesanti, lai brīvajā laikā gribētos lasīt pašiem.",
   "ru": "Я считаю, что важнейшая обязанность педагога — заинтересовать учеников своим предметом, рассказывать так интересно, чтобы в свободное время им хотелось читать самим.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 918,
@@ -11001,7 +11917,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir svarīgi, lai skolēni spriestu, strīdētos, domātu, meklētu informāciju, nevis tikai iegaumētu pareizās atbildes.",
   "ru": "Важно, чтобы ученики рассуждали, спорили, думали, искали информацию, а не просто запоминали правильные ответы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 919,
@@ -11013,7 +11930,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kādu dienu mūsu vēstures skolotājs sarīkoja Francijas revolūcijas tiesāšanu.",
   "ru": "Однажды наш учитель истории устроил судебный процесс по делу Французской революции.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 920,
@@ -11025,7 +11943,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man kā advokātam bija jāaizstāv terors.",
   "ru": "Мне, как адвокату, пришлось защищать террор.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 921,
@@ -11037,7 +11956,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gatavojos divas nedēļas un uzvarēju.",
   "ru": "Я готовился две недели и победил.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 922,
@@ -11049,7 +11969,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mācīties šādā veidā ir interesanti.",
   "ru": "Учиться таким образом интересно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 923,
@@ -11061,7 +11982,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manuprāt, daudz kas ir atkarīgs no bērna skolotājiem un no tā, vai viņi spēj ieinteresēt savā priekšmetā.",
   "ru": "На мой взгляд, многое зависит от учителей ребенка и от того, способны ли они заинтересовать своим предметом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 924,
@@ -11073,7 +11995,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana ekonomikas skolotāja vienmēr vadīja interesantas stundas, viņa man deva papildu sarežģītus uzdevumus, lai stundās nebūtu garlaicīgi.",
   "ru": "Моя учительница экономики всегда вела интересные уроки, она давала мне дополнительные сложные задания, чтобы на уроках не было скучно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 925,
@@ -11085,7 +12008,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ļoti ietekmēja manu universitātes izvēli.",
   "ru": "Это сильно повлияло на мой выбор университета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 926,
@@ -11097,7 +12021,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Galvenais, kas ietekmē kvalitāti, ir pasniedzēju profesionalitāte.",
   "ru": "Главное, что влияет на качество, — это профессионализм преподавателей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 927,
@@ -11109,7 +12034,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Piemēram, valsts sekretāre Kondolīza Raisa mums pasniedza Stenfordā.",
   "ru": "Например, государственный секретарь Кондолиза Райс преподавала нам в Стэнфорде.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 928,
@@ -11121,7 +12047,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņa neapšaubāmi ir augstākā līmeņa eksperte.",
   "ru": "Она, без сомнения, эксперт высочайшего уровня.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 929,
@@ -11133,7 +12060,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Skolēni pārāk daudz mācās no galvas, nesaprotot priekšmetu būtību.",
   "ru": "Ученики слишком много заучивают наизусть, не понимая сути предмета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 930,
@@ -11145,7 +12073,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tā vietā ir jāmāca skolēniem domāt, strīdēties, pamatot savu nostāju, meklēt informāciju.",
   "ru": "Вместо этого нужно учить учеников думать, спорить, обосновывать свою позицию, искать информацию.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 931,
@@ -11157,7 +12086,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man garšo jebkādas jūras veltes (piemēram, ceptas zivis vai kalmāri), dažādi salāti, grilēta gaļa un svaigi augļi.",
   "ru": "Мне нравятся любые морепродукты (например, жареная рыба или кальмары), различные салаты, мясо на гриле и свежие фрукты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 932,
@@ -11169,7 +12099,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man garšo gandrīz jebkuri augļi - banāni, mandarīni, mango un tā tālāk.",
   "ru": "Мне нравятся почти все фрукты — бананы, мандарины, манго и так далее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 933,
@@ -11181,7 +12112,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parasti es pērku produktus lielveikalā “Safeway” blakus manai mājai.",
   "ru": "Обычно я покупаю продукты в супермаркете «Safeway» рядом с моим домом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 934,
@@ -11193,7 +12125,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(Es pērku produktus viena, neviens man palīdz).",
   "ru": "(Я покупаю продукты одна, мне никто не помогает).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 935,
@@ -11205,7 +12138,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk šis veikals, jo tas ir blakus manai mājai un cenas ir labas.",
   "ru": "Мне нравится этот магазин, потому что он находится рядом с моим домом и цены в нём хорошие.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 936,
@@ -11217,7 +12151,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ne visai garšo saldumi.",
   "ru": "Я не очень люблю сладости.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 937,
@@ -11229,7 +12164,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visi saldumi izskatās skaisti, bet cukurs ir neveselīgs.",
   "ru": "Все сладости выглядят красиво, но сахар вредно для здоровья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 938,
@@ -11241,7 +12177,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā man ļoti patika iebiezinātais piens.",
   "ru": "В детстве я очень любила сгущенное молоко.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 939,
@@ -11253,7 +12190,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz es ēdu piparkūkas Ziemassvētku laikā.",
   "ru": "Иногда я ем имбирные пряники на Рождество.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 940,
@@ -11265,7 +12203,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Reizēm es varu apēst Lāči konfektes, virtuli vai cepumus.",
   "ru": "Иногда я могу съесть конфеты «Лячи», виртули или печенье.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 941,
@@ -11277,7 +12216,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastāv interesanta teorija, ka veselīgs ēdiens ir tikai tāds, ko varētu ēst alu cilvēks.",
   "ru": "Существует интересная теория, что здоровой пищей является только та, которую мог бы съесть человек, питающийся только пивом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 942,
@@ -11289,7 +12229,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tāpēc ka saldumi, limonādes, čipsi, burgeri, jebkurš ēdiens ar ogļhidrātiem ir neveselīgs.",
   "ru": "Потому что сладости, лимонады, чипсы, гамбургеры, любая пища, содержащая углеводы, вредна для здоровья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 943,
@@ -11301,7 +12242,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un otrādi - salāti, dārzeņi, rieksti, augļi, gaļa un zivis ir veselīgi pārtikas produkti.",
   "ru": "И наоборот — салаты, овощи, орехи, фрукты, мясо и рыба — это полезные продукты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 944,
@@ -11313,7 +12255,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neesmu veģetāriete.",
   "ru": "Я не вегетарианка.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 945,
@@ -11325,7 +12268,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Diemžēl, tie ir jāizmet atkritumu konteinerā.",
   "ru": "К сожалению, их нужно выбрасывать в мусорный бак.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 946,
@@ -11337,7 +12281,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šos produktus nedrīkst ēst vai dzert.",
   "ru": "Эти продукты нельзя есть или пить.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 947,
@@ -11349,7 +12294,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manuprāt, pirmkārt, jāpērk produktu daudzums, ko var izmantot līdz derīguma termiņa beigām.",
   "ru": "На мой взгляд, в первую очередь нужно покупать такое количество продуктов, которое можно использовать до истечения срока годности.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 948,
@@ -11361,7 +12307,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es pērku biezpiens un reizēm es pērku skābo krējumu.",
   "ru": "Чаще всего я покупаю творог, а иногда — сметану.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 949,
@@ -11373,7 +12320,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nedzeru pienu.",
   "ru": "Я не пью молоко.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 950,
@@ -11385,7 +12333,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nekad nepērku maizes produktus, jo ogļhidrāti nav veselīgi.",
   "ru": "Я никогда не покупаю хлебобулочные изделия, потому что углеводы вредны для здоровья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 951,
@@ -11397,7 +12346,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es pērku vistas gaļu, visu olas, sieru, burkānus, zemenes vai avenes un ūdeni pudelēs.",
   "ru": "Чаще всего я покупаю куриное мясо, яйца, сыр, морковь, клубнику или малину и воду в бутылках.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 953,
@@ -11409,7 +12359,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk pagatavot pirms svētkiem kaut ko īpašu.",
   "ru": "Мне нравится готовить перед праздниками что-то особенное.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 954,
@@ -11421,7 +12372,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mans firmas ēdiens ir laša salāti.",
   "ru": "Мое фирменное блюдо — салат с лососем.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 955,
@@ -11433,7 +12385,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tajā ir mazsālīts lasis, tomāti, grauzdiņi, salāti.",
   "ru": "В него входит слегка соленый лосось, помидоры, гренки, салат.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 956,
@@ -11445,7 +12398,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tam pievieno majonēzi un samaisa.",
   "ru": "К этому добавляют майонез и перемешивают.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 957,
@@ -11457,7 +12411,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jo vairāk laša, jo garšīgāk.",
   "ru": "Чем больше лосося, тем вкуснее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 958,
@@ -11469,7 +12424,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šis ēdiens ir ļoti viegls un ātri pagatavojams.",
   "ru": "Это блюдо очень легкое и быстро готовится.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 959,
@@ -11481,7 +12437,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Protams, cenas augļiem un dārzeņiem tirgū ir zemākas nekā veikalā.",
   "ru": "Конечно, цены на фрукты и овощи на рынке ниже, чем в магазине.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 960,
@@ -11493,7 +12450,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No biznesa perspektīvas to ir viegli izskaidrot.",
   "ru": "С точки зрения бизнеса это легко объяснить.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 961,
@@ -11505,7 +12463,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Veikalam ir lielāki izdevumi, tāpēc viņi pārdod par augstākām cenām.",
   "ru": "У магазина больше расходов, поэтому они продают по более высоким ценам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 962,
@@ -11517,7 +12476,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "2.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 963,
@@ -11529,7 +12489,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dārzeņu cenas tirgū mainās atkarībā no gadalaika un rudenī tās ir vislētākās.",
   "ru": "Цены на овощи на рынке меняются в зависимости от сезона, и осенью они самые низкие.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 964,
@@ -11541,7 +12502,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Produktus es iegādājos gan tirgū, gan veikalos.",
   "ru": "Продукты я покупаю как на рынке, так и в магазинах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 965,
@@ -11553,7 +12515,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Katru sestdienu uz ielas ir zemnieku tirdziņš.",
   "ru": "Каждую субботу на улице проходит фермерский рынок.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 966,
@@ -11565,7 +12528,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neteiktu, ka produkti tajā ir daudz lētāki nekā veikalā.",
   "ru": "Я бы не сказала, что продукты там намного дешевле, чем в магазине.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 967,
@@ -11577,7 +12541,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet tie ir svaigi.",
   "ru": "Но они свежие.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 968,
@@ -11589,7 +12554,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Var iegādāties zemenes, mellenes, melones, gurķus, tomātus un citus produktus.",
   "ru": "Можно купить клубнику, чернику, дыни, огурцы, помидоры и другие продукты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 969,
@@ -11601,7 +12567,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ēdu reizi dienā ap pusdienlaiku.",
   "ru": "Я ем один раз в день около полудня.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 970,
@@ -11613,7 +12580,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es saprotu, ka tas ir neparasti, bet es esmu pārliecināta, ka šāda metode ir laba veselībai.",
   "ru": "Я понимаю, что это необычно, но я уверена, что такой режим полезен для здоровья.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 971,
@@ -11625,7 +12593,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es ēdu laša salātus vai vistas gaļu divas vai trīs reizes nedēļā.",
   "ru": "Чаще всего я ем салат с лососем или курицу два-три раза в неделю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 972,
@@ -11637,7 +12606,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas viss ir ļoti viegli pagatavojams.",
   "ru": "Все это очень легко приготовить.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 973,
@@ -11649,7 +12619,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vistas gaļa vienkārši ir jāieliek pannā, jācep apmēram septiņas minūtes, jāapgriež un tad var likt uz šķīvja.",
   "ru": "Курицу просто нужно положить на сковороду, жарить примерно семь минут, перевернуть, а затем можно выкладывать на тарелку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 974,
@@ -11661,7 +12632,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Godīgi sakot, ja man vajadzēs pagatavot šo ēdienu, tad pasūtīšu piegādi.",
   "ru": "Честно говоря, если мне понадобится приготовить это блюдо, то я закажу доставку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 975,
@@ -11673,7 +12645,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nekad negatavoju šo ēdienu, jo es to neēdu...",
   "ru": "Я никогда не готовлю это блюдо, потому что я его не ем. ..",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 976,
@@ -11685,7 +12658,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "un tā pagatavošana prasa pārāk ilgu laiku.",
   "ru": "и его приготовление занимает слишком много времени.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 977,
@@ -11697,7 +12671,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neesmu laba pavāre un zinu tikai četrus vai piecus pamatēdienus.",
   "ru": "Я не очень хороший повар и знаю только четыре или пять основных блюд.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 978,
@@ -11709,7 +12684,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parasti es ēdu mājās.",
   "ru": "Обычно я ем дома.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 979,
@@ -11721,7 +12697,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz pasūtu piegādi vai dodos uz kafejnīcu.",
   "ru": "Иногда заказываю доставку или хожу в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 980,
@@ -11733,7 +12710,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Latvijas zīmols ir Rīgas balzams.",
   "ru": "Латвийский бренд — это Рижский бальзам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 981,
@@ -11745,7 +12723,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par viņu dzirdēja pat tie, kuri nekad nav bijuši Latvijā.",
   "ru": "О нём слышали даже те, кто никогда не был в Латвии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 982,
@@ -11757,7 +12736,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cits Latvijas zīmols ir rupjmaize.",
   "ru": "Ещё один латвийский бренд — это ржаной хлеб.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 983,
@@ -11769,7 +12749,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Īstā latviešu rupjmaize gatavota pēc senām tradīcijām - tas ir kaut kas īpašs.",
   "ru": "Настоящий латвийский черный хлеб готовят по старинным традициям — это нечто особенное.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 985,
@@ -11781,7 +12762,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šis ir liels veikals un preču izvēle tur ir laba.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 986,
@@ -11793,7 +12775,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Katru sestdienu =>",
   "ru": "Каждую субботу =>",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 987,
@@ -11805,7 +12788,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jo plašāka ir preču izvēle, jo augstāka ir kvalitāte.",
   "ru": "Чем шире выбор товаров, тем выше качество.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 988,
@@ -11817,7 +12801,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar cenu viss nav tik vienkārši.",
   "ru": "С ценой все не так просто.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 989,
@@ -11829,7 +12814,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir lēti, bet ļoti kvalitatīvi veikali.",
   "ru": "Есть дешевые, но очень качественные магазины.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 990,
@@ -11841,7 +12827,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un ir dārgi, bet nekvalitatīvi veikali.",
   "ru": "А есть дорогие, но некачественные магазины.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 991,
@@ -11853,7 +12840,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es eju dušā, mazgājos, iztīru zobus un izķemmēju matus.",
   "ru": "Я иду в душ, моюсь, чищу зубы и расчесываю волосы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 992,
@@ -11865,7 +12853,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad es gatavoju brokastis.",
   "ru": "Потом я готовлю завтрак.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 993,
@@ -11877,7 +12866,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parasti es ēdu brokastis virtuvē pie galda.",
   "ru": "Обычно я завтракаю на кухне за столом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 994,
@@ -11889,7 +12879,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet dažreiz arī viesistabā pie televizora.",
   "ru": "Но иногда и в гостиной перед телевизором.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 995,
@@ -11901,7 +12892,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brokastīs es ēdu omleti ar sieru un tomātiem.",
   "ru": "На завтрак я ем омлет с сыром и помидорами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 996,
@@ -11913,7 +12905,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Klāt obligāti dzeru stipru tēju.",
   "ru": "Обязательно пью крепкий чай.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 997,
@@ -11925,7 +12918,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parasti es ēdu arī sviestmaizi ar sieru vai desu.",
   "ru": "Обычно я ем также бутерброд с сыром или колбасой.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 998,
@@ -11937,7 +12931,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es zinu, ka tas nav veselīgi, bet man garšo.",
   "ru": "Я знаю, что это нездорово, но мне нравится.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 999,
@@ -11949,7 +12944,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc brokastīm es mazgāju traukus.",
   "ru": "После завтрака я мою посуду.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1000,
@@ -11961,7 +12957,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es saģērbjos, uzkrāsojos un dodos uz darbu.",
   "ru": "Я одеваюсь, накрашиваюсь и иду на работу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1001,
@@ -11973,7 +12970,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ēdīšu omleti ar sieru un tomātiem.",
   "ru": "Я буду есть омлет с сыром и помидорами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1002,
@@ -11985,7 +12983,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Darba dienās es parasti ceļos septiņos no rīta.",
   "ru": "В рабочие дни я обычно встаю в семь утра.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1003,
@@ -11997,7 +12996,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gandrīz katru dienu man ir jāzvana uz Maskavu agri no rīta.",
   "ru": "Почти каждый день мне приходится звонить в Москву рано утром.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1004,
@@ -12009,7 +13009,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brīvdienās es parasti ceļos deviņos vai pusdeviņos no rīta.",
   "ru": "В выходные я обычно встаю в девять или в половине девятого утра.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1005,
@@ -12021,7 +13022,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad nav jāiet uz darbu, es kārtoju un tīru māju, cepu kūkas un lasu grāmatas.",
   "ru": "Когда не нужно идти на работу, я убираю и чищу дом, пеку пирожные и читаю книги.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1006,
@@ -12033,7 +13035,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Darba dienās es ceļos septiņos.",
   "ru": "В рабочие дни я встаю в семь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1008,
@@ -12045,7 +13048,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No rīta es eju dušā, iztīru zobus un izķemmēju matus.",
   "ru": "Утром я принимаю душ, чищу зубы и расчёсываю волосы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1010,
@@ -12057,7 +13061,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ēdu omleti ar sieru un tomātiem.",
   "ru": "Я ем омлет с сыром и помидорами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1013,
@@ -12069,7 +13074,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es saģērbjos, uzkrāsojos un dodos uz darbu vai sāku darba dienu savā mājas birojā pulksten deviņos.",
   "ru": "Я одеваюсь, накрашиваюсь и иду на работу или начинаю рабочий день в своем домашнем офисе в девять часов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1014,
@@ -12081,7 +13087,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ap pustrijiem pusdienoju un atpūšos apmēram pusstundu.",
   "ru": "Около половины двенадцатого я обедаю и отдыхаю примерно полчаса.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1015,
@@ -12093,7 +13100,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Darbu beidzu pulksten septiņos vakarā un dodos vakariņot.",
   "ru": "Работу заканчиваю в семь часов вечера и иду ужинать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1016,
@@ -12105,7 +13113,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pēc vakariņām es mācos latviešu valodu.",
   "ru": "После ужина я учу латышский язык.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1017,
@@ -12117,7 +13126,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pulksten deviņos vakarā, lasu grāmatu.",
   "ru": "В девять вечера я читаю книгу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1018,
@@ -12129,7 +13139,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vienpadsmitos dodos dušā un eju gulēt.",
   "ru": "В одиннадцать я принимаю душ и ложусь спать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1019,
@@ -12141,7 +13152,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Nē, es neskatos televīzijas raidījumus.",
   "ru": "Нет, я не смотрю телепередачи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1020,
@@ -12153,7 +13165,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tā vietā es skatos Youtube raidījumus par politiku un sportu.",
   "ru": "Вместо этого я смотрю на YouTube передачи о политике и спорте.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1021,
@@ -12165,7 +13178,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz es skatos sporta raidījumus - futbola čempionu līgas finālu.",
   "ru": "Иногда я смотрю спортивные передачи — финал Лиги чемпионов по футболу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1022,
@@ -12177,7 +13191,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es skatos tikai svarīgākos mačus, jo man nav daudz brīvā laika.",
   "ru": "Я смотрю только самые важные матчи, потому что у меня не так много свободного времени.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1023,
@@ -12189,7 +13204,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ieteiktu manai draudzenei noskatīties Troņu spēli, Kalmāru spēli, Kāršu namiņu, Teds Lasso.",
   "ru": "Я бы посоветовал своей подруге посмотреть «Игру престолов», «Игру в кальмаров», «Карточный домик», «Тед Лассо».",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1024,
@@ -12201,7 +13217,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk televīzijas pārraides.",
   "ru": "Мне не нравятся телепередачи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1026,
@@ -12213,7 +13230,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es iegūstu informāciju par aktuāliem notikumiem pasaulē internetā.",
   "ru": "Я получаю информацию об актуальных событиях в мире из Интернета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1027,
@@ -12225,7 +13243,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es lasu Ziņu vietni “Medūza” katru dienu.",
   "ru": "Я читаю новостной сайт «Медуза» каждый день.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1028,
@@ -12237,7 +13256,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visus pārējos normālos medijus Putins aizliedza.",
   "ru": "Все остальные нормальные СМИ Путин запретил.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1029,
@@ -12249,7 +13269,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es lasu arī Delfi, lai sekotu jaunumiem un iemācītos latviešu valodu.",
   "ru": "Я читаю также Delfi, чтобы следить за новостями и выучить латышский язык.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1030,
@@ -12261,7 +13282,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani interesē sports.",
   "ru": "Меня интересует спорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1031,
@@ -12273,7 +13295,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manas galvenās intereses ir teniss un futbols.",
   "ru": "Мои основные интересы — теннис и футбол.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1032,
@@ -12285,7 +13308,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es meklēju sporta ziņas specializētās interneta vietnēs, piemēram, sports punkts ru, un YouTube.",
   "ru": "Я ищу спортивные новости на специализированных сайтах, например, sports-punkt. ru, и на YouTube.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1033,
@@ -12297,7 +13321,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad es skatos sportu, man ir es izjūtu daudz emociju – prieks, bailes, pārsteigums un dusmas.",
   "ru": "Когда я смотрю спорт, я испытываю много эмоций — радость, страх, удивление и злость.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1034,
@@ -12309,7 +13334,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tāpēc es ieteiktu ikvienam skatīties sportu.",
   "ru": "Поэтому я бы посоветовал каждому смотреть спорт.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1035,
@@ -12321,7 +13347,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas dod emocijas.",
   "ru": "Это дарит эмоции.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1036,
@@ -12333,7 +13360,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jā, es izmantoju internetu katru dienu savā darbā un savā labā.",
   "ru": "Да, я пользуюсь интернетом каждый день в работе и для личных целей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1037,
@@ -12345,7 +13373,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es apmeklēju Delfi, YouTube, Telegram, Facebook.",
   "ru": "Чаще всего я посещаю Delfi, YouTube, Telegram, Facebook.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1038,
@@ -12357,7 +13386,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur var uzzināt dažādus jaunumus, notikumus gan Krievijā, gan pasaulē, sazināties ar draugiem un radiniekiem, kuri atrodas tālu.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1039,
@@ -12369,7 +13399,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Katru dienu.",
   "ru": "Каждый день.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1040,
@@ -12381,7 +13412,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es lasu krieviski, bet arī varu lasīt angliski vai latviski.",
   "ru": "Чаще всего я читаю по-русски, но могу читать и по-английски, и по-латышски.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1041,
@@ -12393,7 +13425,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man traucē reklāma un, kā to sauc amerikāņi, “fake news”.",
   "ru": "Меня раздражает реклама и, как это называют американцы, «фейковые новости».",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1042,
@@ -12405,7 +13438,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cilvēki pārāk viegli tic jebkurai informācijai, neanalizē faktus.",
   "ru": "Люди слишком легко верят любой информации, не анализируют факты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1043,
@@ -12417,7 +13451,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visi mūsu radinieki apmeklē interneta portālus.",
   "ru": "Все наши родственники посещают интернет-порталы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1044,
@@ -12429,7 +13464,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs sazināmies ar tiem, kuri dzīvo tālu, izmantojot ziņnesi Telegram un Skype.",
   "ru": "Мы общаемся с теми, кто живет далеко, через мессенджеры Telegram и Skype.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1045,
@@ -12441,7 +13477,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Interneta portāli var būt noderīgi, var palīdzēt un ietaupīt laiku un naudu.",
   "ru": "Интернет-порталы могут быть полезны, могут помочь и сэкономить время и деньги.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1046,
@@ -12453,7 +13490,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Piemēram interneta veikalos var ātri salīdzināt cenas un veikt izdevīgus pirkumus izpārdošanu laikā.",
   "ru": "Например, в интернет-магазинах можно быстро сравнить цены и сделать выгодные покупки во время распродаж.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1047,
@@ -12465,7 +13503,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Internetā meklēju visu - veikalu adreses, dažādu produktu cenas, e-grāmatas Amazon, lidmašīnas biļetes utt.",
   "ru": "В Интернете я ищу всё — адреса магазинов, цены на разные товары, электронные книги на Amazon, авиабилеты и т. д.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1048,
@@ -12477,7 +13516,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mūsdienu dzīve nav iespējama bez interneta.",
   "ru": "Современная жизнь невозможна без Интернета.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1049,
@@ -12489,7 +13529,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā es kolekcionēju monētas.",
   "ru": "В детстве я коллекционировал монеты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1050,
@@ -12501,7 +13542,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man bija reta Pētera Lielā laika monēta.",
   "ru": "У меня была редкая монета времен Петра Великого.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1051,
@@ -12513,7 +13555,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vēlāk es nopirku bizantiešu monētu.",
   "ru": "Позже я купил византийскую монету.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1052,
@@ -12525,7 +13568,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es domāju, ka tā ir reta, bet viņiem bija augsta inflācija, un šīs monētas tika saražotas miljonos.",
   "ru": "Я думал, что она редкая, но у них была высокая инфляция, и эти монеты чеканились миллионами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1053,
@@ -12537,7 +13581,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja būtu tāda iespēja, es kolekcionētu retas monētas.",
   "ru": "Если бы была такая возможность, я бы коллекционировал редкие монеты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1054,
@@ -12549,7 +13594,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā man bija reta Pētera Lielā laika monēta.",
   "ru": "В детстве у меня была редкая монета времен Петра Великого.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1055,
@@ -12561,7 +13607,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(…)\nMan patīk studēt vēsturi, lasīt par šīm monētām un vēstures periodu.",
   "ru": "(…)\nМне нравится изучать историю, читать об этих монетах и историческом периоде.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1056,
@@ -12573,7 +13620,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brīvajā laikā pēc darba es pastaigājos gar Kluso okeānu, lasu grāmatas, āri sportoju.",
   "ru": "В свободное время после работы я гуляю вдоль Тихого океана, читаю книги, а также занимаюсь спортом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1057,
@@ -12585,7 +13633,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es spēlēju tenisu trīs reizes nedēļā.",
   "ru": "Я играю в теннис три раза в неделю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1058,
@@ -12597,7 +13646,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja, man ir vaļasprieks.",
   "ru": "Да, у меня есть хобби.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1060,
@@ -12609,7 +13659,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vakaros pēc darba es lasu grāmatas.",
   "ru": "По вечерам после работы я читаю книги.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1061,
@@ -12621,7 +13672,8 @@ const PHRASES = [
   "has_number": false,
   "lv": null,
   "ru": "нет",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1062,
@@ -12633,7 +13685,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brīvajā laikā es labprāt lasu.",
   "ru": "В свободное время я с удовольствием читаю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1063,
@@ -12645,7 +13698,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es lasu divas stundas katru dienā.",
   "ru": "Я читаю по два часа каждый день.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1064,
@@ -12657,7 +13711,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir mans labākais dienas laiks.",
   "ru": "Это лучшее время моего дня.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1065,
@@ -12669,7 +13724,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es izlasu apmēram simt piecdesmit grāmatas gadā.",
   "ru": "Я читаю около ста пятидесяти книг в год.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1066,
@@ -12681,7 +13737,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viena trešdaļa ir par biznesu, trešdaļa ir zinātniskā fantastika un trešdaļa ir psiholoģija.",
   "ru": "Одна треть — о бизнесе, одна треть — научная фантастика, а одна треть — психология.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1067,
@@ -12693,7 +13750,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Puse grāmatu ir angliski, puse krieviski.",
   "ru": "Половина книг на английском, половина — на русском.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1068,
@@ -12705,7 +13763,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brīvo laiku saulainā vasaras dienā es braucu ar Kluso okeānu un pastaigājos pa siltām smiltīm.",
   "ru": "В свободное время в солнечный летний день я езжу к Тихому океану и гуляю по теплому песку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1069,
@@ -12717,7 +13776,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Okeāns ir auksts, es tajā nepeldos.",
   "ru": "Океан холодный, я в нём не купаюсь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1070,
@@ -12729,7 +13789,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es skatos uz okeānu, uz kaijām, uz mākoņiem, uz citiem cilvēkiem.",
   "ru": "Я смотрю на океан, на причалы, на облака, на других людей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1071,
@@ -12741,7 +13802,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk siltais Kalifornijas klimats un neticami skaista daba.",
   "ru": "Мне нравится тёплый климат Калифорнии и невероятно красивая природа.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1072,
@@ -12753,7 +13815,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Aukstā ziemas dienā es palieku mājās vai pastaigājos pa parku siltās drēbēs (jaka, cepure, šalle, cimdi).",
   "ru": "В холодный зимний день я остаюсь дома или гуляю по парку в тёплой одежде (куртка, шапка, шарф, перчатки).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1073,
@@ -12765,7 +13828,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja koki ir klāti ar sniegu, tad ir ļoti skaisti.",
   "ru": "Когда деревья покрыты снегом, это очень красиво.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1074,
@@ -12777,7 +13841,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzeru karstvīnu un slidoju.",
   "ru": "Я пью глинтвейн и катаюсь на коньках.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1075,
@@ -12789,7 +13854,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es atpūšos kopā ar maniem draugiem.",
   "ru": "Я отдыхаю вместе со своими друзьями.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1076,
@@ -12801,7 +13867,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs labprāt braucam ar Kluso okeānu un pastaigājamies pa siltām smiltīm.",
   "ru": "Мы с удовольствием ездим на Тихий океан и гуляем по теплому песку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1077,
@@ -12813,7 +13880,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Okeāns ir auksts, es tajā nepeldos.",
   "ru": "Океан холодный, я в нем не купаюсь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1079,
@@ -12825,7 +13893,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mums patīk siltais Kalifornijas klimats un neticami skaista daba.",
   "ru": "Нам нравится тёплый климат Калифорнии и невероятно красивая природа.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1080,
@@ -12837,7 +13906,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tagad es reti eju uz teātri, lai redzētu izrādi, operu vai baletu.",
   "ru": "Сейчас я редко хожу в театр, чтобы посмотреть спектакль, оперу или балет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1081,
@@ -12849,7 +13919,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā es desmitiem reižu apmeklēju Maskavas Lielo teātri.",
   "ru": "В детстве я десятки раз бывал в Большом театре в Москве.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1082,
@@ -12861,7 +13932,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es redzēju Karmenu, Gulbju ezeru, Pīķa dāmu.",
   "ru": "Я видел «Кармен», «Лебединое озеро», «Пиковую даму».",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1083,
@@ -12873,7 +13945,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mana māte strādāja par skolotāju, viena viņas audzēkņa vecāki strādāja Lielajā teātrī un bieži dāvināja biļetes.",
   "ru": "Моя мать работала учительницей, родители одного из её учеников работали в Большом театре и часто дарили билеты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1084,
@@ -12885,7 +13958,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tagad, kad es atbraucu uz galvaspilsētu vai jebkuru lielāku pilsētu, es vienmēr dodos uz muzeju - El Prado Madridē, Žuana Miro un Antonio Gaudi muzeju Barselonā, Zinātnes un tehnoloģiju muzeju Londonā un tā tālāk.",
   "ru": "Теперь, когда я приезжаю в столицу или любой крупный город, я всегда хожу в музей — Прадо в Мадриде, музеи Жуана Миро и Антонио Гауди в Барселоне, Музей науки и технологий в Лондоне и так далее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1085,
@@ -12897,7 +13971,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Hobijs ļauj aizbēgt no darba, pārslēgt uzmanību un atpūsties.",
   "ru": "Хобби позволяет отвлечься от работы, переключить внимание и отдохнуть.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1086,
@@ -12909,7 +13984,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jauniešiem patīk iet uz kino, satikties kafejnīcās.",
   "ru": "Молодежи нравится ходить в кино, встречаться в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1087,
@@ -12921,7 +13997,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi bieži izmēģina jaunas un nezināmas lietas.",
   "ru": "Они часто пробуют новые и неизвестные вещи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1088,
@@ -12933,7 +14010,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vecāki cilvēki parasti pastaigājas pa parku vai dodas ciemos, aprunājas ar citiem par dzīvi.",
   "ru": "Пожилые люди обычно гуляют по парку или ходят в гости, беседуют с другими о жизни.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1089,
@@ -12945,7 +14023,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi izvēlas laika pārbaudītas atvaļinājuma iespējas, pie kurām viņi ir pieraduši.",
   "ru": "Они выбирают проверенные временем варианты отдыха, к которым они привыкли.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1090,
@@ -12957,7 +14036,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pilsētā ir daudz iespēju pavadīt brīvo laiku.",
   "ru": "В городе много возможностей провести свободное время.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1091,
@@ -12969,7 +14049,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Var sportot fitnesa centros, sporta laukumos parkos, kur var arī braukt ar divriteņiem un skrituļslidām.",
   "ru": "Можно заниматься спортом в фитнес-центрах, на спортивных площадках в парках, где также можно кататься на велосипедах и роликах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1092,
@@ -12981,7 +14062,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērniem īpaši patīk ūdens parki.",
   "ru": "Детям особенно нравятся аквапарки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1093,
@@ -12993,7 +14075,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mierīgās atpūtas cienītāji var apmeklēt kino, teātri, izstādi, muzeju, koncertu vai baudīt maltīti kafejnīcā vai restorānā.",
   "ru": "Любители спокойного отдыха могут посетить кино, театр, выставку, музей, концерт или пообедать в кафе или ресторане.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1094,
@@ -13005,7 +14088,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kad tiekamies ar draugiem pilsētā, parasti ejam uz kafejnīcu.",
   "ru": "Когда мы встречаемся с друзьями в городе, обычно идем в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1095,
@@ -13017,7 +14101,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur mēs stāstām jaunumus un nākotnes plānus.",
   "ru": "Там мы рассказываем новости и делимся планами на будущее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1096,
@@ -13029,7 +14114,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man šķiet, ka veselīga atpūta ir fiziskas aktivitātes vai atpūta brīvā dabā, kur var elpot svaigu gaisu.",
   "ru": "Мне кажется, что здоровый отдых — это физическая активность или отдых на природе, где можно дышать свежим воздухом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1097,
@@ -13041,7 +14127,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Alus dzeršana ar draugiem nav veselīgs atvaļinājums.",
   "ru": "Пить пиво с друзьями — это не здоровый отдых.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1098,
@@ -13053,7 +14140,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Draugiem ieteikšu atpūsties pie dabas.",
   "ru": "Друзьям я порекомендую отдыхать на природе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1099,
@@ -13065,7 +14153,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Labs variants ir braukt ar Kluso okeānu un pastaigāt pa siltām smiltīm.",
   "ru": "Хороший вариант — поехать к Тихому океану и прогуляться по теплому песку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1100,
@@ -13077,7 +14166,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi var skatīties uz okeānu, uz kaijām, uz mākoņiem, uz citiem cilvēkiem.",
   "ru": "Они могут смотреть на океан, на причалы, на облака, на других людей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1101,
@@ -13089,7 +14179,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kalifornijas klimats ir siltais un daba ir neticami skaista.",
   "ru": "Климат Калифорнии тёплый, а природа невероятно красивая.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1102,
@@ -13101,7 +14192,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brīvā laika apģērbam jābūt ērtam.",
   "ru": "Одежда для досуга должна быть удобной.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1103,
@@ -13113,7 +14205,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es valkāju T-kreklus, šortus, beisbola cepuri, saulesbrilles.",
   "ru": "Я ношу футболки, шорты, бейсболку, солнцезащитные очки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1104,
@@ -13125,7 +14218,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja iešu ar skrituļslidām, valkāšu ērtus šortus un T-kreklu, beisbola cepuri, saulesbrilles.",
   "ru": "Если я пойду кататься на роликах, то надену удобные шорты и футболку, бейсболку, солнцезащитные очки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1105,
@@ -13137,7 +14231,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un, protams, skrituļslidas.",
   "ru": "И, конечно, ролики.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1106,
@@ -13149,7 +14244,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manuprāt, galvenais ir tas, vai šīs valsts sportistiem ir panākumi pasaules mērogā.",
   "ru": "На мой взгляд, главное — это то, добиваются ли спортсмены этой страны успехов на мировом уровне.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1107,
@@ -13161,7 +14257,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Brazīlijas futbolisti, Kanādas hokejisti, Jaunzēlandes regbisti ir labākie pasaulē.",
   "ru": "Бразильские футболисты, канадские хоккеисты, новозеландские регбисты — лучшие в мире.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1108,
@@ -13173,7 +14270,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas nozīmē, ka daudzi bērni šajās valstīs dosies uz sporta klubiem pie labiem treneriem, izaugs un turpinās uzvarēt.",
   "ru": "Это значит, что многие дети в этих странах пойдут в спортивные клубы к хорошим тренерам, вырастут и будут продолжать побеждать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1109,
@@ -13185,7 +14283,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tā es nokļuvu tenisā.",
   "ru": "Так я пришёл в теннис.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1110,
@@ -13197,7 +14296,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jevgeņijs Kafeļņikovs uzvarēja Roland Garros, un vecāki nolēma mani pieteikt tenisa sekcijā.",
   "ru": "Евгений Кафельников выиграл Roland Garros, и родители решили записать меня в теннисную секцию.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1111,
@@ -13209,7 +14309,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani interesē teniss.",
   "ru": "Мне интересен теннис.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1112,
@@ -13221,7 +14322,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ļoti patīk sports.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1113,
@@ -13233,7 +14335,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērnībā =>",
   "ru": "В детстве =>",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1114,
@@ -13245,7 +14348,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pirmkārt, sports ir miljardu dolāru vērta izklaides industrija.",
   "ru": "Во-первых, спорт — это индустрия развлечений, стоимостью в миллиарды долларов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1115,
@@ -13257,7 +14361,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tiek pārdotas biļetes uz sacensībām, TV reklāma.",
   "ru": "Продаются билеты на соревнования, телереклама.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1116,
@@ -13269,7 +14374,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Otrkārt, tas ir veids, kā sabiedrībā attīstīt veselīgu dzīvesveidu.",
   "ru": "Во-вторых, это способ развития здорового образа жизни в обществе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1117,
@@ -13281,7 +14387,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu noskaties futbolu un tad ej spēlēt ar draugiem.",
   "ru": "Ты смотришь футбол, а потом идешь играть с друзьями.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1118,
@@ -13293,7 +14400,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man šķiet, ka profesionālais sports ir saistīts ar augstu risku sportistu veselībai, var iegūt smagas traumas.",
   "ru": "Мне кажется, что профессиональный спорт сопряжен с высоким риском для здоровья спортсменов, можно получить тяжелые травмы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1120,
@@ -13305,7 +14413,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pusaudzes gados es spēlēju tenisu pusprofesionāli.",
   "ru": "В подростковом возрасте я играл в теннис на полупрофессиональном уровне.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1121,
@@ -13317,7 +14426,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man bija seši treniņi nedēļā.",
   "ru": "У меня было шесть тренировок в неделю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1122,
@@ -13329,7 +14439,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir svarīgi daudz vingrot.",
   "ru": "Важно много заниматься спортом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1123,
@@ -13341,7 +14452,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es piedalījos sacensībās un pat ieguvu godalgotas vietas turnīros.",
   "ru": "Я участвовал в соревнованиях и даже занимал призовые места на турнирах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1124,
@@ -13353,7 +14465,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad es domāju par sporta karjeru, bet koncentrējos uz studijām, jo mani akadēmiskie panākumi bija lielāki, īpaši ekonomikā.",
   "ru": "Тогда я думал о спортивной карьере, но сосредоточился на учебе, так как мои академические успехи были выше, особенно в экономике.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1125,
@@ -13365,7 +14478,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es cerēju kļūt par sportisti, bet tas neizdevās.",
   "ru": "Я надеялся стать спортсменом, но это не удалось.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1126,
@@ -13377,7 +14491,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tenisā svarīgs ir ātrums un spēks.",
   "ru": "В теннисе важны скорость и сила.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1127,
@@ -13389,7 +14504,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man tas patīk.",
   "ru": "Мне это нравится.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1128,
@@ -13401,7 +14517,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ziemā es spēlēju tenisu sporta zālē (telpās).",
   "ru": "Зимой я играю в теннис в спортзале (в помещении).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1129,
@@ -13413,7 +14530,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vasarā es spēlēju tenisu ārā, svaigā gaisā.",
   "ru": "Летом я играю в теннис на улице, на свежем воздухе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1130,
@@ -13425,7 +14543,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Kalifornijā var spēlēt tenisu ārā visu gadu, jo klimats ir silts.",
   "ru": "В Калифорнии можно играть в теннис на улице круглый год, потому что климат теплый.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1131,
@@ -13437,7 +14556,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man ir nepieciešams īpašs aprīkojums, lai spēlētu tenisu.",
   "ru": "Мне нужна специальная экипировка, чтобы играть в теннис.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1132,
@@ -13449,7 +14569,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pērku raketes, bumbas, speciālās kedas.",
   "ru": "Я покупаю ракетки, мячи, специальные кроссовки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1133,
@@ -13461,7 +14582,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es aizraujos ar tenisu jau divdesmit septiņus gadus.",
   "ru": "Я увлекаюсь теннисом уже двадцать семь лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1134,
@@ -13473,7 +14595,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es labprāt ieteiktu šo hobiju, šo sporta veidu citiem, jo ​​tas attīsta gan fizisko sagatavotību, gan spēju ātri domāt.",
   "ru": "Я с удовольствием порекомендовал бы это хобби, этот вид спорта другим, так как он развивает как физическую подготовку, так и способность быстро думать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1135,
@@ -13485,7 +14608,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Eju kontrast dušā.",
   "ru": "Я принимаю контрастный душ.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1136,
@@ -13497,7 +14621,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad es kādu pusstundu lasīju grāmatu.",
   "ru": "Потом я полчаса читал книгу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1137,
@@ -13509,7 +14634,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vislabāk ir doties uz saunu vai veikt masāžu, lai atjaunotu spēkus pēc sporta nodarbībām.",
   "ru": "Лучше всего пойти в сауну или сделать массаж, чтобы восстановить силы после занятий спортом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1138,
@@ -13521,7 +14647,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nav dārzā.",
   "ru": "У меня нет сада.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1139,
@@ -13533,7 +14660,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet manai vecmāmiņai ir.",
   "ru": "Но у моей бабушки есть.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1140,
@@ -13545,7 +14673,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dārzā aug augļu koki - ābeles un ķirši.",
   "ru": "В саду растут фруктовые деревья — яблони и вишни.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1141,
@@ -13557,7 +14686,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur aug arī kartupeļi, burkānus, bietes, kāpostus.",
   "ru": "Там также растут картофель, морковь, свекла, капуста.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1142,
@@ -13569,7 +14699,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Siltumnīcā aug gurķi, tomāti un paprika.",
   "ru": "В теплице растут огурцы, помидоры и перец.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1143,
@@ -13581,7 +14712,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vislabāk patīk ogas: zemenes, avenes, ērkšķogas un jāņogas.",
   "ru": "Мне больше всего нравятся ягоды: клубника, малина, ежевика и смородина.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1144,
@@ -13593,7 +14725,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es domāju, pavasarī un vasarā, jo viss ir jāstāda, jālaista un jāravē.",
   "ru": "Я думаю, весной и летом, потому что всё нужно сажать, поливать и пропалывать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1145,
@@ -13605,7 +14738,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņai palīdz mans vectētiņš un onkulis.",
   "ru": "Ей помогают мой дедушка и дядя.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1146,
@@ -13617,7 +14751,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņu dārzs atrodas trīsdesmit kilometru attālumā no Maskavas, blakus Pakhras upei, ezera krastā.",
   "ru": "Их дача находится в тридцати километрах от Москвы, рядом с рекой Пакхра, на берегу озера.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1147,
@@ -13629,7 +14764,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uz šo dārzu mēs braucam ar automašīnu, jo autobusa pietura atrodas divus kilometrus no dārza, tālāk ir jāiet kājām.",
   "ru": "На эту дачу мы ездим на машине, потому что автобусная остановка находится в двух километрах от дачи, дальше приходится идти пешком.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1148,
@@ -13641,7 +14777,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mums vienmēr ir daudz bagāžas.",
   "ru": "У нас всегда много багажа.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1149,
@@ -13653,7 +14790,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dārzā var atpūsties strādājot - laistot zālienu vai puķes.",
   "ru": "В саду можно отдыхать, занимаясь работой — поливая газон или цветы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1150,
@@ -13665,7 +14803,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dārzā uz oglēm var gatavot gaļu, zivis un dārzeņus.",
   "ru": "В саду на углях можно готовить мясо, рыбу и овощи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1151,
@@ -13677,7 +14816,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Var nomazgāties pirtī un pēc tam ielēkt ūdenī.",
   "ru": "Можно помыться в бане, а потом окунуться в воду.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1152,
@@ -13689,7 +14829,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dienas laikā var sauļoties, klausoties putnu dziesmās.",
   "ru": "Днем можно позагорать, слушая пение птиц.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1153,
@@ -13701,7 +14842,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Naktī var pasēdēt pie ugunskura un izbaudīt zvaigznes.",
   "ru": "Ночью можно посидеть у костра и полюбоваться звездами.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1154,
@@ -13713,7 +14855,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani vecvecāki vēlas iestādīt bumbieri.",
   "ru": "Мои дедушка и бабушка хотят посадить грушу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1155,
@@ -13725,7 +14868,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribu iestādīt zālienu, bet neviens manī neklausa.",
   "ru": "Я хочу заложить газон, но меня никто не слушает.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1156,
@@ -13737,7 +14881,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No ražas var pagatavot ievārījumus, skābētus kāpostus, dažādas marinādes, kompotus, sīrupus un sulas.",
   "ru": "Из урожая можно приготовить варенье, квашеную капусту, различные маринады, компоты, сиропы и соки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1157,
@@ -13749,7 +14894,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neko negatavoju no ražas.",
   "ru": "Я ничего не готовлю из урожая.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1158,
@@ -13761,7 +14907,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vislabāk man patīk vasara, tāpēc ka es mīlu siltumu un es varu ceļot un atpūsties.",
   "ru": "Больше всего мне нравится лето, потому что я люблю тепло и могу путешествовать и отдыхать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1159,
@@ -13773,7 +14920,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk visi gadalaiki.",
   "ru": "Мне нравятся все времена года.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1160,
@@ -13785,7 +14933,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Katrā sezonā ir kaut kas labs.",
   "ru": "В каждом сезоне есть что-то хорошее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1163,
@@ -13797,7 +14946,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pavasarī daba mostas, laiks kļūst siltāks.",
   "ru": "Весной природа пробуждается, становится теплее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1164,
@@ -13809,7 +14959,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vasarā cilvēki dodas atvaļinājumā un ceļo.",
   "ru": "Летом люди уезжают в отпуск и путешествуют.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1165,
@@ -13821,7 +14972,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Rudenī koki ir ļoti skaisti, tie visi ir krāsainās lapās.",
   "ru": "Осенью деревья очень красивы, все они покрыты разноцветными листьями.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1166,
@@ -13833,7 +14985,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ziemā es varu slēpot kalnos, slidot un dzert karstvīnu.",
   "ru": "Зимой я могу кататься на лыжах в горах, кататься на коньках и пить глинтвейн.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1167,
@@ -13845,7 +14998,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Laika apstākļi dažādos gadalaikos ir ļoti atšķirīgi.",
   "ru": "Погодные условия в разные времена года очень разные.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1168,
@@ -13857,7 +15011,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Rudenī bieži līst, debesis klāj mākoņi, laiks kļūst vēsāks.",
   "ru": "Осенью часто идет дождь, небо покрыто облаками, становится прохладнее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1169,
@@ -13869,7 +15024,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ziemā snieg, ir auksts, koku zarus klāj sniega kārta, bieži pūš auksts vējš.",
   "ru": "Зимой идет снег, холодно, ветви деревьев покрыты слоем снега, часто дует холодный ветер.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1170,
@@ -13881,7 +15037,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pavasarī zied koki, atlido putni, ar katru dienu kļūst siltāks.",
   "ru": "Весной цветут деревья, прилетают птицы, с каждым днём становится теплее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1171,
@@ -13893,7 +15050,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vasarā laiks ir silts vai pat karsts, brīžiem līst, bet tas veldzē un par to visi priecājas.",
   "ru": "Летом погода теплая или даже жаркая, временами идет дождь, но он приносит прохладу, и все этому радуются.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1172,
@@ -13905,7 +15063,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Daudzi atpūšas dārzā.",
   "ru": "Многие отдыхают в саду.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1173,
@@ -13917,7 +15076,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dzer tēju uz terases, lasa grāmatas, spēlē galda spēles un nomierina nervus.",
   "ru": "Пьют чай на террасе, читают книги, играют в настольные игры и успокаивают нервы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1174,
@@ -13929,7 +15089,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vasaras vakaros mēs bieži sēžam uz terases mājas priekšā un vakariņojam.",
   "ru": "Летними вечерами мы часто сидим на террасе перед домом и ужинаем.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1175,
@@ -13941,7 +15102,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dārzā var stādīt augus un puķes, laistīt, ravēt, novākt ražu.",
   "ru": "В саду можно сажать растения и цветы, поливать, пропалывать, собирать урожай.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1176,
@@ -13953,7 +15115,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Godīgi sakot, es braucu uz laukiem atpūsties un lasīt grāmatas ēnā.",
   "ru": "Честно говоря, я езжу в деревню, чтобы отдохнуть и почитать книги в тени.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1177,
@@ -13965,7 +15128,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Rudenī varu palīdzēt un salasīt jāņogas.",
   "ru": "Осенью я могу помогать и собирать смородину.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1178,
@@ -13977,7 +15141,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es biju kalnos Šveicē.",
   "ru": "Я был в горах в Швейцарии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1179,
@@ -13989,7 +15154,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patika slēpošana pa zilajām (vieglām) un sarkanajām (vidēji grūtām) trasēm.",
   "ru": "Мне понравилось кататься на лыжах по синим (легким) и красным (средней сложности) трассам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1180,
@@ -14001,7 +15167,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir jautri.",
   "ru": "Это весело.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1181,
@@ -14013,7 +15180,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk dejot.",
   "ru": "Я люблю танцевать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1182,
@@ -14025,7 +15193,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šveicē es devos uz princeses Diānas mīļāko naktsklubu.",
   "ru": "В Швейцарии я побывал в любимом ночном клубе принцессы Дианы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1183,
@@ -14037,7 +15206,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņi joprojām spēlē to pašu astoņdesmito gadu mūziku līdz pat šai dienai.",
   "ru": "Они до сих пор играют ту же музыку восьмидесятых годов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1184,
@@ -14049,7 +15219,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es plānoju aizbraukt uz Jūrmalu, pastaigāties gar jūru pa siltajām smiltīm, paēst restorānā ar skaistu skatu, vērot saulrietu un atgriezties mājās nogurusi vakarā.",
   "ru": "Я планирую поехать в Юрмалу, прогуляться по теплым пескам у моря, пообедать в ресторане с красивым видом, полюбоваться закатом и вернуться домой уставшей вечером.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1185,
@@ -14061,7 +15232,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šobrīd ir grūti plānot, jo ir liels haoss, kamēr notiek karš.",
   "ru": "Сейчас сложно что-то планировать, потому что во время войны царит полный хаос.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1186,
@@ -14073,7 +15245,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribētu doties atvaļinājumā uz Barselonu.",
   "ru": "Я хотела бы поехать в отпуск в Барселону.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1187,
@@ -14085,7 +15258,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk pastaigāties pa smilšu pludmali, ēst jūras veltes restorānos, aplūkot Gaudi arhitektūru un Žuana Miro gleznas.",
   "ru": "Мне нравится гулять по песчаному пляжу, есть морепродукты в ресторанах, смотреть на архитектуру Гауди и картины Жуана Миро.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1188,
@@ -14097,7 +15271,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Žuans Miro ir mans mīļākais mākslinieks.",
   "ru": "Жуан Миро — мой любимый художник.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1189,
@@ -14109,7 +15284,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Antonio Gaudi ir mans mīļākais arhitekts.",
   "ru": "Антонио Гауди — мой любимый архитектор.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1190,
@@ -14121,7 +15297,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "V1.",
   "ru": null,
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1191,
@@ -14133,7 +15310,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Barcelona.",
   "ru": "Барселона.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1194,
@@ -14145,7 +15323,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribu aizbraukt uz Franciju.",
   "ru": "Я хочу поехать во Францию.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1195,
@@ -14157,7 +15336,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es staigātu pa Parīzes ielām un sēdētu kafejnīcās.",
   "ru": "Я бы гулял по улицам Парижа и сидел в кафе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1196,
@@ -14169,7 +15349,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es atkal dotos uz Luvru.",
   "ru": "Я бы снова пошел в Лувр.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1197,
@@ -14181,7 +15362,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ceļoju kopā ar saviem draugiem.",
   "ru": "Я путешествую вместе со своими друзьями.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1198,
@@ -14193,7 +15375,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir ērti.",
   "ru": "Это удобно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1199,
@@ -14205,7 +15388,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viens cilvēks var vadīt automašīnu, bet otrs var atpūsties.",
   "ru": "Один человек может вести машину, а другой — отдыхать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1200,
@@ -14217,7 +15401,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es biežāk ceļoju vasarā.",
   "ru": "Я чаще путешествую летом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1201,
@@ -14229,7 +15414,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vislabāk patīk braukt pie jūras.",
   "ru": "Мне больше всего нравится ездить на море.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1202,
@@ -14241,7 +15427,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pagājušajā gadā es devos uz Barselonu.",
   "ru": "В прошлом году я ездил в Барселону.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1203,
@@ -14253,7 +15440,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patika pastaigāties pa smilšaino pludmali, ēst jūras veltes restorānos, aplūkot Gaudi arhitektūru un Džoanas Miro gleznas.",
   "ru": "Мне понравилось гулять по песчаному пляжу, есть морепродукты в ресторанах, смотреть на архитектуру Гауди и картины Жоана Миро.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1204,
@@ -14265,7 +15453,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patika daba, pilsētas arhitektūra, muzeji, dzīvespriecīgi cilvēki, garšīgi ēdieni restorānos.",
   "ru": "Мне понравилась природа, городская архитектура, музеи, жизнерадостные люди, вкусная еда в ресторанах.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1205,
@@ -14277,7 +15466,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatika garais un nogurdinošais ceļojums.",
   "ru": "Мне не понравилась долгая и утомительная поездка.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1206,
@@ -14289,7 +15479,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pārbrauciens aizņēma vairāk nekā astoņas stundas.",
   "ru": "Поездка заняла более восьми часов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1207,
@@ -14301,7 +15492,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs bijām Rīgā un Jūrmalā.",
   "ru": "Мы были в Риге и Юрмале.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1208,
@@ -14313,7 +15505,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nekad neesmu bijusi Ventspilī, Daugavpilī, Siguldā, Cēsīs.",
   "ru": "Я никогда не была в Вентспилсе, Даугавпилсе, Сигулде, Цеси.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1209,
@@ -14325,7 +15518,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribētu aizbraukt uz Ventspili.",
   "ru": "Я хотела бы поехать в Вентспилс.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1210,
@@ -14337,7 +15531,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es dzirdēju, ka pilsētā ir daudz ziedu un tā ir pasakaini skaista.",
   "ru": "Я слышала, что в городе много цветов и он сказочно красив.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1211,
@@ -14349,7 +15544,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vislabāk patika Rīga - Vecrīgas arhitektūra, maģiskās ēkas jūgendstila kvartālā, atjaunotais tirgus ar mājīgām kafejnīcām.",
   "ru": "Мне больше всего понравилась Рига — архитектура Старого города, волшебные здания в югендстильном квартале, отреставрированный рынок с уютными кафе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1212,
@@ -14361,7 +15557,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu ej pa ielām un jūti, ka šai pilsētai ir sena vēsture.",
   "ru": "Ты идешь по улицам и чувствуешь, что у этого города древняя история.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1213,
@@ -14373,7 +15570,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(2) Mana mammai ļoti patika Cēsu vecpilsēta.",
   "ru": "(2) Моей маме очень понравился Старый город в Цесу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1214,
@@ -14385,7 +15583,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk mājīgas kafejnīcas, interesanti muzeji, jauki un smaidīgi cilvēki.",
   "ru": "Мне нравятся уютные кафе, интересные музеи, милые и улыбчивые люди.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1215,
@@ -14397,7 +15596,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ceļošana ļauj ieraudzīt kaut ko neparastu, īpaši, ja dodaties uz eksotiskām zemēm – uz Āfriku, Latīņameriku, Grenlandi vai Jaunzēlandi.",
   "ru": "Путешествия позволяют увидеть что-то необычное, особенно если вы отправляетесь в экзотические страны — в Африку, Латинскую Америку, Гренландию или Новую Зеландию.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1216,
@@ -14409,7 +15609,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tu izraujies no ikdienas un radikāli maini ierasto rutīnu, ēdienu, skatu pa logu.",
   "ru": "Вы вырываетесь из повседневности и радикально меняете привычную рутину, еду, вид из окна.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1217,
@@ -14421,7 +15622,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ceļošana padara mūsu dzīvi interesantāku.",
   "ru": "Путешествия делают нашу жизнь интереснее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1218,
@@ -14433,7 +15635,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es rezervēju lidojumus un viesnīcas numuru, maksāju par tiem.",
   "ru": "Я бронирую авиабилеты и номер в отеле, оплачиваю их.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1219,
@@ -14445,7 +15648,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Taksometra vadītājam un robežsargam izdrukāju viesnīcas adresi.",
   "ru": "Я распечатываю адрес отеля для таксиста и пограничника.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1220,
@@ -14457,7 +15661,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mani vecāki visu plāno ļoti sīki un labprāt algo gidus, bet es ceļoju spontāni.",
   "ru": "Мои родители всё планируют очень подробно и охотно нанимают гидов, а я путешествую спонтанно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1221,
@@ -14469,7 +15674,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk vienkārši staigāt pa nepazīstamas pilsētas ielām bez skaidra plāna un nesteidzoties.",
   "ru": "Мне нравится просто бродить по улицам незнакомого города без четкого плана и не торопясь.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1222,
@@ -14481,7 +15687,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Atvaļinājumu es pavadu ārzemēs pie jūras - Eiropas valstīs, galvenokārt Spānija.",
   "ru": "Отпуск я провожу за границей у моря — в европейских странах, в основном в Испании.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1223,
@@ -14493,7 +15700,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pagājušajā gadā es devos uz Barselonu.",
   "ru": "В прошлом году я поехал в Барселону.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1225,
@@ -14505,7 +15713,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur man patīk maigais klimats, vietējie ēdieni un vīni, labs serviss, drošība, daudz dabas parki un vēsturiskas vietas.",
   "ru": "Там мне нравится мягкий климат, местные блюда и вина, хорошее обслуживание, безопасность, множество природных парков и исторических мест.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1226,
@@ -14517,7 +15726,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vislabāk atpūtai piemērota apģērbs, kas ir ērts un atbilst laika apstākļiem.",
   "ru": "Для отдыха лучше всего подходит одежда, которая удобна и соответствует погодным условиям.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1227,
@@ -14529,7 +15739,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es parasti valkāju ērtus T-kreklus, šortus, beisbola cepures.",
   "ru": "Я обычно ношу удобные футболки, шорты, бейсболки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1228,
@@ -14541,7 +15752,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ērti apavi ir ļoti svarīgi, jo.",
   "ru": "Удобная обувь очень важна, потому что.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1229,
@@ -14553,7 +15765,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "tev daudz jāstaigā.",
   "ru": "придётся много ходить.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1230,
@@ -14565,7 +15778,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ieteiktu saviem draugiem atpūtu pie okeāna.",
   "ru": "Я бы посоветовал своим друзьям отдых у океана.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1231,
@@ -14577,7 +15791,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tur ir skaista daba, priedes un sekvojas, svaigs gaiss, tīras smilšainas pludmales.",
   "ru": "Там красивая природа, сосны и секвойи, свежий воздух, чистые песчаные пляжи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1232,
@@ -14589,7 +15804,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gūstu spēkus no šādas atpūtas.",
   "ru": "Я черпаю силы из такого отдыха.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1233,
@@ -14601,7 +15817,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk Halovīns.",
   "ru": "Мне нравится Хэллоуин.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1234,
@@ -14613,7 +15830,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Katru Halovīnu es pērku ķirbi veikalā.",
   "ru": "Каждый Хэллоуин я покупаю тыкву в магазине.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1235,
@@ -14625,7 +15843,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gatavoju saldumus bērniem.",
   "ru": "Я готовлю сладости для детей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1236,
@@ -14637,7 +15856,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manā bērnībā Halovīna svētkos mēs varējām iet uz skolu jebkurā kostīmā.",
   "ru": "В моем детстве на праздник Хэллоуина мы могли ходить в школу в любом костюме.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1237,
@@ -14649,7 +15869,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šie ir ļoti jautri svētki.",
   "ru": "Это очень веселый праздник.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1238,
@@ -14661,7 +15882,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Manas ģimenes mīļākie svētki ir dzimšanas dienas.",
   "ru": "Любимые праздники моей семьи — это дни рождения.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1239,
@@ -14673,7 +15895,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja neesmu Maskavā, tad zvanu un apsveicu.",
   "ru": "Если я не в Москве, то звоню и поздравляю.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1240,
@@ -14685,7 +15908,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja esmu Maskavā, tad svētkus svinam kopā.",
   "ru": "Если я в Москве, то празднуем вместе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1241,
@@ -14697,7 +15921,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Gatavojamies - pērkam dāvanas, vecmāmiņa uzcep šokolādes kūku, mamma cep zivis vai gaļu.",
   "ru": "Готовимся — покупаем подарки, бабушка печет шоколадный торт, мама готовит рыбу или мясо.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1242,
@@ -14709,7 +15934,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dzeram šampanieti, apsveicam dzimšanas dienas gaviļnieku, atceramies dažādus smieklīgus ģimenes stāstus.",
   "ru": "Пьем шампанское, поздравляем именинника, вспоминаем разные забавные семейные истории.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1243,
@@ -14721,7 +15947,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Godīgi sakot, mēs nesvinam valsts svētkus – Lāčplēša dienu vai Latvijas Republikas proklamēšanas dienu.",
   "ru": "Честно говоря, мы не отмечаем государственные праздники — День Лячплеша или День провозглашения Латвийской Республики.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1244,
@@ -14733,7 +15960,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs svinam tikai dzimšanas dienas un Jauno gadu.",
   "ru": "Мы отмечаем только дни рождения и Новый год.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1245,
@@ -14745,7 +15973,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man šķiet, ka katrā valstī Ziemassvētki vai Jaunais gads ir mīļākie svētki, un Satversmes diena jeb Neatkarības diena, protams, ir brīvdienas, bet nekas vairāk.",
   "ru": "Мне кажется, что в каждой стране Рождество или Новый год — самые любимые праздники, а День Конституции или День Независимости, конечно, — это выходные, но не более того.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1246,
@@ -14757,7 +15986,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tie nav mīļākie svētki.",
   "ru": "Это не самые любимые праздники.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1247,
@@ -14769,7 +15999,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Nākamie ģimenes svētki ir mammas dzimšanas diena augustā.",
   "ru": "Следующий семейный праздник — день рождения мамы в августе.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1248,
@@ -14781,7 +16012,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es ceru, ka varēšu aizlidot uz Maskavu.",
   "ru": "Я надеюсь, что смогу полететь в Москву.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1249,
@@ -14793,7 +16025,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tad mēs pulcēsimies restorānā, pasūtīsim daudz gardu ēdienu - ceptas zivis, dažādus salātus un uzkodas, šampanieti un stāstīsim ģimenes stāstus.",
   "ru": "Тогда мы соберемся в ресторане, закажем много вкусной еды — жареную рыбу, разные салаты и закуски, шампанское — и будем рассказывать семейные истории.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1250,
@@ -14805,7 +16038,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dāvanu vēl neesmu izvēlējusies, bet droši vien uzdāvināšu ko saistītu ar adīšanu, jo tas ir manas mammas hobijs.",
   "ru": "Подарок я еще не выбрала, но, скорее всего, подарю что-нибудь, связанное с вязанием, ведь это хобби моей мамы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1251,
@@ -14817,7 +16051,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es parasti dāvinu grāmatas.",
   "ru": "Я обычно дарю книги.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1252,
@@ -14829,7 +16064,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja man ļoti iepatīkas kāda grāmata, tad nopērku kādus desmit eksemplārus un tad tos dāvinu visiem.",
   "ru": "Если мне очень нравится какая-то книга, то я покупаю десяток экземпляров и дарю их всем.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1253,
@@ -14841,7 +16077,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tā tas bija ar Harari “Sapiensu”, Prohorova “Krievijas ekonomikas modeli” un Džeimsa Klīra “Atomiskajiem ieradumiem”.",
   "ru": "Так было с книгой Харари «Sapiens», книгой Прохорова «Модель российской экономики» и книгой Джеймса Клира «Атомарные привычки».",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1254,
@@ -14853,7 +16090,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es zinu, ka grāmatas ir vecmodīga dāvana, bet man patīk tās saņemt pašai.",
   "ru": "Я знаю, что книги — это старомодный подарок, но мне самой нравится их получать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1255,
@@ -14865,7 +16103,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es braucu uz darbu ar velosipēdu, bet dažreiz es strādāju no mājām un nebraucu uz darbu.",
   "ru": "Я езжу на работу на велосипеде, но иногда я работаю из дома и не езжу на работу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1256,
@@ -14877,7 +16116,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es zvanu kolēģiem, izmantojot “Zoom”.",
   "ru": "Я звоню коллегам через «Zoom».",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1257,
@@ -14889,7 +16129,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No mājām līdz darbavietai es braucu apmēram piecpadsmit minūtes.",
   "ru": "От дома до работы я еду примерно пятнадцать минут.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1258,
@@ -14901,7 +16142,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Mēs ar draugiem ceļojam ar mašīnu vai lidmašīnu.",
   "ru": "Мы с друзьями путешествуем на машине или самолете.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1259,
@@ -14913,7 +16155,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nebaidos lidot ar lidmašīnu.",
   "ru": "Я не боюсь летать на самолете.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1260,
@@ -14925,7 +16168,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Atvaļinājumā mēs lidojam ar lidmašīnu uz ārzemēm.",
   "ru": "В отпуск мы летим на самолете за границу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1261,
@@ -14937,7 +16181,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Parasti mans draugs Antons vada mašīnu.",
   "ru": "Обычно мой друг Антон водит машину.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1262,
@@ -14949,7 +16194,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neprotu vadīt mašīnu.",
   "ru": "Я не умею водить машину.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1263,
@@ -14961,7 +16207,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Sākumā man nebija naudas, pēc tam nebija laika, lai iemācītos.",
   "ru": "Сначала у меня не было денег, потом не было времени, чтобы научиться.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1264,
@@ -14973,7 +16220,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet tagad man nav jāmācās braukt.",
   "ru": "Но теперь мне не нужно учиться водить.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1265,
@@ -14985,7 +16233,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja jābrauc tālu un būs dārgi izsaukt taksometru, tad vai nu braucu ar draugiem ar mašīnu vai braucu ar vilcienu.",
   "ru": "Если нужно ехать далеко и вызывать такси будет дорого, то я либо еду с друзьями на машине, либо еду на поезде.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1266,
@@ -14997,7 +16246,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Daudzas reizes esmu braukusi ar vilcienu Spānijā, Itālijā, Šveicē, Holandē.",
   "ru": "Много раз я ездила на поезде по Испании, Италии, Швейцарии, Нидерландам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1267,
@@ -15009,7 +16259,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Eiropā ir ļoti labi attīstīta dzelzceļa sistēma.",
   "ru": "В Европе очень хорошо развита железнодорожная система.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1268,
@@ -15021,7 +16272,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Protams, ja ir sava automašīna, neesi atkarīgs no sabiedriskā transporta maršrutiem vai taksometru pieejamības.",
   "ru": "Конечно, если у тебя есть собственная машина, ты не зависишь от маршрутов общественного транспорта или доступности такси.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1269,
@@ -15033,7 +16285,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "No otras puses, šodien ir vienkārši neracionāli pirkt automašīnu.",
   "ru": "С другой стороны, сегодня просто нерационально покупать машину.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1270,
@@ -15045,7 +16298,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Uber izmaksā daudz lētāk, nekā automašīnas iegāde, remonts un degviela.",
   "ru": "Uber обходится намного дешевле, чем покупка, ремонт и топливо для машины.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1271,
@@ -15057,7 +16311,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es vienkārši nospiežu pogu lietotnē – un viss.",
   "ru": "Я просто нажимаю кнопку в приложении — и все.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1273,
@@ -15069,7 +16324,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ar savu automašīnu var braukt kad gribu, kur gribu un ar ko gribu.",
   "ru": "На своей машине я могу ездить когда хочу, куда хочу и с кем хочу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1274,
@@ -15081,7 +16337,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Automašīnā ir komfortabla atmosfēra, nav pieturu, nav svešu cilvēku sarunu.",
   "ru": "В машине комфортная атмосфера, нет остановок, нет разговоров посторонних людей.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1275,
@@ -15093,7 +16350,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pa ceļam var apstāties jebkurā vietā, kura patīk.",
   "ru": "По дороге можно остановиться в любом месте, которое понравится.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1276,
@@ -15105,7 +16363,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tajā pašā laikā sava automašīna ir liela investīcija, kas nedod ienākumus un kura vērtība tikai samazinās.",
   "ru": "В то же время собственная машина — это большая инвестиция, которая не приносит дохода и чья стоимость только снижается.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1277,
@@ -15117,7 +16376,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ir arī citi izdevumi: apkope, remonts, apdrošināšana, riepu maiņa un autostāvvieta.",
   "ru": "Есть и другие расходы: техническое обслуживание, ремонт, страховка, замена шин и парковка.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1278,
@@ -15129,7 +16389,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tāpēc savu auto neplānoju pirkt.",
   "ru": "Поэтому я не планирую покупать собственный автомобиль.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1279,
@@ -15141,7 +16402,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Esmu bijusi Turcijā un Indijā, kur katrs autovadītājs nepārtraukti taurē, pēkšņi maina joslas, daudzi brauc uz sarkano.",
   "ru": "Я была в Турции и Индии, где каждый водитель постоянно сигналит, внезапно меняет полосу движения, многие ездят на красный свет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1280,
@@ -15153,7 +16415,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas viss ir ļoti agresīvi un nedroši.",
   "ru": "Все это очень агрессивно и небезопасно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1281,
@@ -15165,7 +16428,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Salīdzinot ar to, autovadītāji Latvijā ir mierīgi, priekšzīmīgi un paklausīgi.",
   "ru": "По сравнению с этим, водители в Латвии спокойные, образцовые и послушные.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1282,
@@ -15177,7 +16441,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man liekas, ka braukšanas kultūra Latvijā ir diezgan augsta.",
   "ru": "Мне кажется, что культура вождения в Латвии довольно высокая.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1283,
@@ -15189,7 +16454,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Autovadītāji parasti ir pieklājīgi viens pret otru, dodot ceļu sabiedriskajam transportam un gājējiem.",
   "ru": "Водители обычно вежливы друг с другом, уступая дорогу общественному транспорту и пешеходам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1284,
@@ -15201,7 +16467,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Amerikā sabiedriskais transports ir vāji attīstīts, autobusi kursē ļoti reti.",
   "ru": "В Америке общественный транспорт слабо развит, автобусы ходят очень редко.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1285,
@@ -15213,7 +16480,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bet Maskavā es bieži braucu ar metro.",
   "ru": "Но в Москве я часто езжу на метро.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1286,
@@ -15225,7 +16493,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visbiežāk es braucu no savas mājas uz biroju, četras pieturas bez pārsēšanās pa zaļo līniju.",
   "ru": "Чаще всего я езжу от дома до офиса, четыре остановки без пересадок по зеленой линии.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1287,
@@ -15237,7 +16506,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man vajag divdesmit minūtes, lai aizbrauktu līdz darbam.",
   "ru": "Мне нужно двадцать минут, чтобы доехать до работы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1288,
@@ -15249,7 +16519,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja es braucu pie vecmāmiņas ar metro, tad es pārsēžos vienu reizi un brauciens ilgst kādas četrdesmit minūtes.",
   "ru": "Если я еду к бабушке на метро, то пересаживаюсь один раз, и поездка длится около сорока минут.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1289,
@@ -15261,7 +16532,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pērku biļeti automātā.",
   "ru": "Я покупаю билет в автомате.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1290,
@@ -15273,7 +16545,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viena brauciena biļete maksā četrdesmit sešus rubļus (apmēram sešdesmit eiro centus).",
   "ru": "Билет на одну поездку стоит сорок шесть рублей (примерно шестьдесят евроцентов).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1292,
@@ -15285,7 +16558,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es strādāju no mājām.",
   "ru": "Я работаю из дома.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1293,
@@ -15297,7 +16571,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tāpēc es reti izmantoju sabiedrisko transportu.",
   "ru": "Поэтому я редко пользуюсь общественным транспортом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1295,
@@ -15309,7 +16584,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Maskavas sabiedriskais transports ir labi attīstīts, un braukšanas maksa ir pieejama.",
   "ru": "Общественный транспорт в Москве хорошо развит, а стоимость проезда доступна.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1296,
@@ -15321,7 +16597,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Arī ir mobilā lietotne un elektroniski displeji pieturās, kas parāda satiksmi maršrutos un laiku, kad tie ierodas pieturā – tas ir ļoti ērti.",
   "ru": "Есть также мобильное приложение и электронные табло на остановках, которые показывают движение по маршрутам и время их прибытия на остановку — это очень удобно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1297,
@@ -15333,7 +16610,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man patīk metro, jo tas ļauj visur nokļūt ātri un bez satiksmes.",
   "ru": "Мне нравится метро, потому что оно позволяет быстро и без пробок добраться куда угодно.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1298,
@@ -15345,7 +16623,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk braukt ar autobusiem, jo ​​pieturā ir ilgi jāgaida.",
   "ru": "Мне не нравится ездить на автобусах, потому что на остановке приходится долго ждать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1299,
@@ -15357,7 +16636,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visdrošākais transporta veids ir lidmašīna.",
   "ru": "Самый безопасный вид транспорта — это самолет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1300,
@@ -15369,7 +16649,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Statistika, kurā ņemts vērā pasažieru skaits un attālumi, liecina, ka visdrošākais transporta veids ir lidmašīna.",
   "ru": "Статистика, в которой учитывается количество пассажиров и расстояния, показывает, что самый безопасный вид транспорта — это самолет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1301,
@@ -15381,7 +16662,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Iespēja tikt nogalinātam negadījumā lidmašīnā ir viena pret vienpadsmit miljoniem.",
   "ru": "Вероятность погибнуть в авиакатастрофе составляет один к одиннадцати миллионам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1302,
@@ -15393,7 +16675,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es vēlos, lai viss sabiedriskais transports būtu elektrisks.",
   "ru": "Я хочу, чтобы весь общественный транспорт был электрическим.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1303,
@@ -15405,7 +16688,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Maskavā jau kursē elektriskie autobusi.",
   "ru": "В Москве уже курсируют электробусы.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1304,
@@ -15417,7 +16701,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Jauniešiem patīk braukt ātri, jo viņi slikti novērtē riskus.",
   "ru": "Молодым людям нравится ездить быстро, потому что они плохо оценивают риски.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1305,
@@ -15429,7 +16714,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pārsniedzot ātrumu, viņi ietaupa tikai dažas sekundes bet avārijas gadījumā riskē zaudēt daudz vairāk - gan laiku, gan naudu, gan veselību.",
   "ru": "Превышая скорость, они экономят всего несколько секунд, но в случае аварии рискуют потерять гораздо больше — и время, и деньги, и здоровье.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1306,
@@ -15441,7 +16727,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņiem nepatīk gaidīt transportu pieturās un vēlas ātri nokļūt tur, kur viņi dodas.",
   "ru": "Им не нравится ждать транспорт на остановках, и они хотят быстро добраться туда, куда направляются.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1307,
@@ -15453,7 +16740,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pie friziera es eju reizi divos mēnešos, veicu komplekso blondu matu krāsošanu un taisu frizūru.",
   "ru": "К парикмахеру я хожу раз в два месяца, делаю комплексную окраску волос в блонд и укладку.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1308,
@@ -15465,7 +16753,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es neizmantoju apavu remonta pakalpojumus, bet padomju laikos mēs ar mammu gājām labot zābakus, jo bija ļoti grūti nopirkt jaunus apavus pareizajā izmērā.",
   "ru": "Я не пользуюсь услугами по ремонту обуви, но в советские времена мы с мамой ходили чинить сапоги, потому что было очень трудно купить новую обувь нужного размера.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1309,
@@ -15477,7 +16766,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja vajag kaut ko salabot no sadzīves tehnikas, tad es saucu meistaru.",
   "ru": "Если нужно починить что-то из бытовой техники, я вызываю мастера.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1310,
@@ -15489,7 +16779,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viņš veic diagnostiku, saka, cik maksās remonts, vai ir vajadzīgas detaļas un cik ilgi tas prasīs.",
   "ru": "Он проводит диагностику, говорит, сколько будет стоить ремонт, нужны ли запчасти и сколько времени это займет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1311,
@@ -15501,7 +16792,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es reti eju uz pastu.",
   "ru": "Я редко хожу на почту.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1312,
@@ -15513,7 +16805,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es bieži saņemu vēstules un reklāmas bukletus.",
   "ru": "Я часто получаю письма и рекламные буклеты.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1313,
@@ -15525,7 +16818,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pastniece tos liek pastkastītē.",
   "ru": "Почтальон кладет их в почтовый ящик.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1314,
@@ -15537,7 +16831,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Padomju laikā mēs pastā abonējām avīzes un žurnālus nākamajam gadam, bet tagad es to daru internetā.",
   "ru": "В советское время мы оформляли на почте подписку на газеты и журналы на следующий год, а сейчас я делаю это через Интернет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1315,
@@ -15549,7 +16844,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz man vajag nosūtīt paciņu ar dāvanām radiniekiem citā pilsētā vai nosūtīt ierakstītu vēstuli.",
   "ru": "Иногда мне нужно отправить посылку с подарками родственникам в другой город или отправить заказное письмо.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1316,
@@ -15561,7 +16857,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Maksājumus es veicu bankā (par komunālajiem pakalpojumiem, kā arī valsts nodevu).",
   "ru": "Платежи я осуществляю в банке (за коммунальные услуги, а также государственную пошлину).",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1317,
@@ -15573,7 +16870,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz es mainu valūtu.",
   "ru": "Иногда я обмениваю валюту.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1318,
@@ -15585,7 +16883,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir ļoti grūts darbs, jo nepieciešams daudz staigāt karstumā un aukstumā.",
   "ru": "Это очень тяжелая работа, так как приходится много ходить в жару и в холод.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1319,
@@ -15597,7 +16896,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Cilvēki bieži neatver durvis.",
   "ru": "Люди часто не открывают двери.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1320,
@@ -15609,7 +16909,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Novēlu visiem pastniekiem veselību un pacietību.",
   "ru": "Желаю всем почтальонам здоровья и терпения.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1321,
@@ -15621,7 +16922,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es nevēlos strādāt pastā, jo es ienesīšu lielāku vērtību savā darbā investīcijās.",
   "ru": "Я не хочу работать на почте, потому что я принесу большую пользу своей работой в сфере инвестиций.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1323,
@@ -15633,7 +16935,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pasta nodaļā es saņemu pakas no ārzemju interneta veikaliem un ierakstītas vēstules.",
   "ru": "На почте я получаю посылки из зарубежных интернет-магазинов и заказные письма.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1325,
@@ -15645,7 +16948,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es varu nosūtīt pa pastu pastkarti, vienkāršu vai ierakstītu vēstuli, bandroli, paku, vai naudas pārvedumu.",
   "ru": "Я могу отправить по почте открытку, простое или заказное письмо, посылку или денежный перевод.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1326,
@@ -15657,7 +16961,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es varu saņemt pasta nodaļā ierakstītu vēstuli, bandroli, paku vai naudas pārvedumu.",
   "ru": "Я могу получить на почте заказное письмо, посылку, бандероль или денежный перевод.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1327,
@@ -15669,7 +16974,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es varu arī iznomāt abonenta kastīti un saņemt tajā visu pastu.",
   "ru": "Я также могу арендовать абонентский ящик и получать в него всю почту.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1328,
@@ -15681,7 +16987,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Zinu, ka pasta nodaļā arī var saņemt pensiju.",
   "ru": "Я знаю, что на почте также можно получать пенсию.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1329,
@@ -15693,7 +17000,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pasta nodaļā es maksāju tikai par pasta pakalpojumiem.",
   "ru": "На почте я плачу только за почтовые услуги.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1330,
@@ -15705,7 +17013,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es zinu, ka var maksāt arī par komunālajiem pakalpojumiem, nodokļiem un kredītiem, bet man ērtāk maksāt par to internetā.",
   "ru": "Я знаю, что там можно оплачивать коммунальные услуги, налоги и кредиты, но мне удобнее платить за это через Интернет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1331,
@@ -15717,7 +17026,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Man nepatīk iepirkties, bet dažreiz tirdzniecības centrā ir izpārdošana.",
   "ru": "Я не люблю ходить по магазинам, но иногда в торговом центре бывают распродажи.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1332,
@@ -15729,7 +17039,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Akcijas laikā labas preces var nopirkt par daudz zemākām cenām.",
   "ru": "Во время распродажи хорошие товары можно купить по гораздо более низким ценам.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1333,
@@ -15741,7 +17052,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Viss maksā ļoti lēti!",
   "ru": "Все стоит очень дешево!",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1334,
@@ -15753,7 +17065,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Pagājušajā mēnesī es nopirka skaistu vāzi.",
   "ru": "В прошлом месяце я купила красивую вазу.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1335,
@@ -15765,7 +17078,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Vāze maksāja dārgi, bet tai bija trīsdesmit procentu atlaide.",
   "ru": "Ваза стоила дорого, но на неё была скидка в тридцать процентов.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1336,
@@ -15777,7 +17091,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Izpārdošanu trūkums ir tas, ka nāk daudz pircēju un man nepatīk stāvēt garā rindā.",
   "ru": "Недостаток распродаж в том, что приходит много покупателей, а я не люблю стоять в длинной очереди.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1337,
@@ -15789,7 +17104,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Veselīgs dzīvesveids nozīmē nesmēķēt, nelietot alkoholu, dzīvot bez stresa, pietiekoši gulēt, neēst ātrās uzkodas, izdzert vismaz litru ūdens dienā, pastaigāties ārā, regulāri vingrot, piemēram, kāpt pa kāpnēm, nevis braukt ar liftu.",
   "ru": "Здоровый образ жизни означает не курить, не употреблять алкоголь, жить без стресса, достаточно спать, не есть фаст-фуд, выпивать не менее литра воды в день, гулять на свежем воздухе, регулярно заниматься физическими упражнениями, например, подниматься по лестнице, а не ездить на лифте.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1338,
@@ -15801,7 +17117,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja es jūtos slikti, mēru temperatūru un paņemu zāles no mājas aptieciņas.",
   "ru": "Если я плохо себя чувствую, измеряю температуру и принимаю лекарства из домашней аптечки.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1339,
@@ -15813,7 +17130,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Ja simptomi ir smagi vai nepāriet vairākas dienas, tad pierakstos klīnikā vai saucu ārstu uz mājām.",
   "ru": "Если симптомы тяжелые или не проходят в течение нескольких дней, я записываюсь в поликлинику или вызываю врача на дом.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1340,
@@ -15825,7 +17143,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es aprakstu ārstam savu veselības stāvokli (kas sāp, kāda ir ķermeņa temperatūra un citas problēmas) un viņš izraksta zāles.",
   "ru": "Я описываю врачу свое самочувствие (что болит, какая температура и другие проблемы), и он выписывает лекарства.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1341,
@@ -15837,7 +17156,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Dažreiz zāles aptiekā ir jāiegādājas ar recepti.",
   "ru": "Иногда лекарства в аптеке нужно покупать по рецепту.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1342,
@@ -15849,7 +17169,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Par laimi es slimoju reti.",
   "ru": "К счастью, я редко болею.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1343,
@@ -15861,7 +17182,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es plānoju pirkt Rīgas balzamu un vilnas dziju, jo manai mammai ļoti patīk adīt.",
   "ru": "Я планирую купить рижский бальзам и шерстяную пряжу, потому что моя мама очень любит вязать.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1344,
@@ -15873,7 +17195,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Un, ja būs laiks, nopirkšu dzintara rotaslietas.",
   "ru": "И, если будет время, куплю украшения из янтаря.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1345,
@@ -15885,7 +17208,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es esmu pret karu Ukrainā, tāpat kā visi saprātīgi cilvēki.",
   "ru": "Я против войны в Украине, как и все здравомыслящие люди.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1346,
@@ -15897,7 +17221,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Bērni un pieaugušie mirst, valsti ir pametuši vairāk nekā pieci miljoni bēgļu, tiek izpostītas mājas.",
   "ru": "Гибнут дети и взрослые, страну покинули более пяти миллионов беженцев, разрушаются дома.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1347,
@@ -15909,7 +17234,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es gribu, lai karš beidzas pēc iespējas ātrāk.",
   "ru": "Я хочу, чтобы война закончилась как можно скорее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1348,
@@ -15921,7 +17247,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Krievijai gadu desmitiem būs jāmaksā milzīgas reparācijas un jāatjauno sava ekonomika.",
   "ru": "России придется десятилетиями выплачивать огромные репарации и восстанавливать свою экономику.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1349,
@@ -15933,7 +17260,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(1) Vai Jūs, lūdzu, varētu atkārtot jautājumu lēnāk?",
   "ru": "(1) Не могли бы вы, пожалуйста, повторить вопрос помедленнее?",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1350,
@@ -15945,7 +17273,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(2) Tas ir ļoti grūts jautājums.",
   "ru": "(2) Это очень сложный вопрос.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1351,
@@ -15957,7 +17286,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es pieņemu, ka...",
   "ru": "Я полагаю, что. ..",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1352,
@@ -15969,7 +17299,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "(3) Šobrīd ir grūti plānot uz priekšu.",
   "ru": "(3) Сейчас трудно строить планы на будущее.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1353,
@@ -15981,7 +17312,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Visur ir liels haoss.",
   "ru": "Везде царит полный хаос.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1354,
@@ -15993,7 +17325,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es vēl nezinu.",
   "ru": "Я пока не знаю.",
-  "retired": false
+  "retired": false,
+  "exam": false
  },
  {
   "id": 1355,
@@ -16005,7 +17338,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Es izvēlējos Amerikā to pašu numuru, kas bija manas vecmāmiņas dzīvoklī Maskavā.",
   "ru": "Я выбрала в Америке тот же номер, который был в квартире моей бабушки в Москве.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1357,
@@ -16017,7 +17351,8 @@ const PHRASES = [
   "has_number": true,
   "lv": "Kešam bija seši gadi.",
   "ru": "Кеше было шесть лет.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1360,
@@ -16029,7 +17364,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tajā pašā laikā sava automašīna ir liela investīcija, kas nedod ienākumus un kuras vērtība tikai samazinās.",
   "ru": "В то же время своя машина — это крупная инвестиция, которая не приносит дохода и ценность которой только уменьшается.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1361,
@@ -16041,7 +17377,8 @@ const PHRASES = [
   "has_number": false,
   "lv": "Tas ir ļoti grūts jautājums.",
   "ru": "Это очень трудный вопрос.",
-  "retired": false
+  "retired": false,
+  "exam": true
  },
  {
   "id": 1362,
@@ -16053,6 +17390,7 @@ const PHRASES = [
   "has_number": false,
   "lv": "Šobrīd ir grūti plānot uz priekšu.",
   "ru": "В данный момент трудно планировать наперёд.",
-  "retired": false
+  "retired": false,
+  "exam": true
  }
 ];
