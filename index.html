@@ -421,6 +421,341 @@
       box-shadow: 0 6px 12px rgba(82, 46, 56, 0.10);
     }
 
+
+    .vocab-overlay {
+      position: fixed;
+      inset: 0;
+      background: #fafaf9;
+      z-index: 50;
+      display: none;
+      flex-direction: column;
+      color: #1c1917;
+    }
+    .vocab-overlay.open { display: flex; }
+    .vocab-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 24px;
+      border-bottom: 1px solid #e7e5e4;
+      background: #ffffff;
+      height: 52px;
+      flex-shrink: 0;
+    }
+    .vocab-header-left, .vocab-header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .vocab-overlay .icon-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 99px;
+      color: #57534e;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+    .vocab-overlay .icon-btn:hover {
+      background: rgba(153,27,27,.07);
+      color: #1c1917;
+      transform: none;
+    }
+    .vocab-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1c1917;
+    }
+    .vocab-count-label {
+      font-size: 13px;
+      color: #a8a29e;
+    }
+    .vocab-search-wrap {
+      position: relative;
+      width: 240px;
+    }
+    .vocab-search {
+      width: 100%;
+      padding: 8px 12px 8px 34px;
+      border: 1px solid #b15454;
+      border-radius: 10px;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 13px;
+      background: #ffffff;
+      color: #57534e;
+      outline: none;
+    }
+    .vocab-search-wrap::before {
+      content: '⌕';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #a8a29e;
+      font-size: 14px;
+      pointer-events: none;
+    }
+    .vocab-filters {
+      display: flex;
+      gap: 8px;
+      padding: 12px 24px;
+      border-bottom: 1px solid #e7e5e4;
+      background: #ffffff;
+      flex-shrink: 0;
+    }
+    .vocab-filter-btn {
+      padding: 10px 18px;
+      border: 1px solid #dedad6;
+      background: #ffffff;
+      border-radius: 999px;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #57534e;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .vocab-filter-btn.active {
+      background: #a61d1d;
+      color: #fff;
+      border-color: #a61d1d;
+    }
+    .filter-count {
+      font-weight: 500;
+      font-size: 11px;
+      opacity: .7;
+      margin-left: 2px;
+    }
+    .vocab-list-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0 24px 24px;
+      background: #fafaf9;
+    }
+    .vocab-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 14px;
+      border-bottom: 1px solid #ebe7e4;
+    }
+    .vocab-item:last-child { border-bottom: none; }
+    .vocab-fav-btn {
+      width: 18px;
+      height: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: #b0aaa6;
+      flex-shrink: 0;
+      border-radius: 4px;
+      font-size: 15px;
+      line-height: 1;
+    }
+    .vocab-fav-btn.active { color: #a61d1d; }
+    .vocab-words {
+      min-width: 0;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+    .vocab-lv {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1c1917;
+    }
+    .vocab-sep {
+      color: #b5adaa;
+      font-size: 15px;
+    }
+    .vocab-ru {
+      font-size: 14px;
+      color: #6b6662;
+    }
+    .vocab-action-btn {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: #c2bbb7;
+      flex-shrink: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity .15s, color .15s;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .vocab-item:hover .vocab-action-btn { opacity: .7; }
+    .vocab-action-btn.learned.active,
+    .vocab-action-btn.learned:hover { color: #16a34a; opacity: 1; }
+    .vocab-action-btn.del:hover { color: #a61d1d; opacity: 1; }
+    .vocab-empty-state {
+      padding: 80px 24px;
+      text-align: center;
+      color: #a8a29e;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .vocab-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 24px;
+      border-top: 1px solid #e7e5e4;
+      background: #ffffff;
+      font-size: 12px;
+      color: #a8a29e;
+      flex-shrink: 0;
+    }
+    .btn-export {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 12px;
+      border: 1px solid #e1ddd9;
+      border-radius: 999px;
+      background: #ffffff;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 12px;
+      color: #a8a29e;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .btn-export:hover {
+      color: #991b1b;
+      border-color: #991b1b;
+      background: rgba(153,27,27,.05);
+    }
+    .recover-banner {
+      background: rgba(153,27,27,.05);
+      border-bottom: 1px solid #e7e5e4;
+      padding: 6px 24px;
+      font-size: 13px;
+      color: #991b1b;
+      text-align: center;
+      font-weight: 500;
+      display: none;
+    }
+    .streak-body {
+      padding: 0;
+      overflow: hidden;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+    }
+    .streak-layout {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      align-items: stretch;
+      min-height: calc(100vh - 53px);
+      background: #fafaf9;
+    }
+    .streak-left {
+      padding: 34px 28px 24px 28px;
+      border-right: 1px solid #e8e4e0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .streak-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 18px;
+      background: #fafaf9;
+    }
+    .streak-big {
+      font-size: 128px;
+      font-weight: 800;
+      color: #111111;
+      line-height: .92;
+      text-align: center;
+      letter-spacing: -0.05em;
+    }
+    .streak-big small {
+      display: block;
+      font-size: 30px;
+      font-weight: 500;
+      color: #55504d;
+      margin-top: 16px;
+      letter-spacing: 0;
+    }
+    .streak-today {
+      font-size: 18px;
+      color: #a29b97;
+      margin-top: 16px;
+      text-align: center;
+    }
+    .heatmap-months {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 42px;
+      gap: 5px;
+      font-size: 12px;
+      color: #aba3a0;
+      margin-bottom: 8px;
+      width: fit-content;
+    }
+    .heatmap {
+      display: grid;
+      grid-template-rows: repeat(7, 40px);
+      grid-auto-flow: column;
+      grid-auto-columns: 40px;
+      gap: 4px;
+      width: fit-content;
+      margin-bottom: 12px;
+    }
+    .hm-cell {
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
+      background: #efefef;
+      border: none;
+      cursor: default;
+      box-sizing: border-box;
+    }
+    .hm-empty { background: #efefef; }
+    .hm-done { background: #b61d1d; }
+    .hm-future { background: #efefef; opacity: .55; }
+    .hm-recover { cursor: pointer; }
+    .hm-recover:hover { outline: 2px solid #d7c1bf; }
+    .heatmap-legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #aba3a0;
+      margin-top: 10px;
+    }
+    .heatmap-legend .hm-cell {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+    }
+    .streak-hint {
+      font-size: 12px;
+      color: #aba3a0;
+      margin-top: 8px;
+      max-width: 520px;
+      line-height: 1.35;
+    }
+    @media (max-width: 900px) {
+      .streak-layout { flex-direction: column; }
+      .streak-left { border-right: 0; border-bottom: 1px solid var(--shell-line); }
+    }
+
   </style>
 </head>
 <body>
@@ -441,7 +776,7 @@
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
       <span id="streakNum">0</span>
     </button>
-    <button class="btn-icon" id="vocabToggle" title="Словарик">
+    <button class="btn-icon" id="vocabToggle" title="Словарь">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
       <span class="vocab-badge" id="vocabBadge">0</span>
     </button>
@@ -6516,55 +6851,144 @@ window.addEventListener('DOMContentLoaded', function () {
   const menuLinks = Array.from(document.querySelectorAll('.plain-link'));
   const streakNum = document.getElementById('streakNum');
   const vocabBadge = document.getElementById('vocabBadge');
+  const vocabToggle = document.getElementById('vocabToggle');
+  const vocabOverlay = document.getElementById('vocabOverlay');
+  const vocabClose = document.getElementById('vocabClose');
+  const vocabListWrap = document.getElementById('vocabListWrap');
+  const vocabEmpty = document.getElementById('vocabEmpty');
+  const vocabSearch = document.getElementById('vocabSearch');
+  const vocabCountLabel = document.getElementById('vocabCountLabel');
+  const vocabFooterStats = document.getElementById('vocabFooterStats');
+  const countAll = document.getElementById('countAll');
+  const countFav = document.getElementById('countFav');
+  const countLearned = document.getElementById('countLearned');
+  const vocabExport = document.getElementById('vocabExport');
+  const streakBtn = document.getElementById('streakBtn');
+  const streakOverlay = document.getElementById('streakOverlay');
+  const streakClose = document.getElementById('streakClose');
+  const streakBig = document.getElementById('streakBig');
+  const streakToday = document.getElementById('streakToday');
+  const heatmap = document.getElementById('heatmap');
+  const heatmapMonths = document.getElementById('heatmapMonths');
+  const recoverBanner = document.getElementById('recoverBanner');
+  const toast = document.getElementById('toast');
 
   if (!phraseEl || !translateWrap) return;
+
+  const DAILY_GOAL = 5;
+  const STORAGE_VOCAB = 'lll2_vocabulary';
+  const STORAGE_STREAK = 'lll2_streak';
 
   let deck = Array.isArray(PHRASES) ? PHRASES.filter(item => item && typeof item.lv === 'string' && item.lv.trim()) : [];
   if (!deck.length) deck = [{ lv: 'Dati nav ielādēti.', ru: 'Данные не загрузились.' }];
 
   let currentIndex = Math.floor(Math.random() * deck.length);
   let translationOpen = false;
-  let learnedCount = 0;
-  let streak = 0;
+  let vocabFilter = 'all';
+  let vocabSearchQuery = '';
+  let toastTimer = null;
+  let ttsAudio = null;
+
+  let vocabulary = [];
+  let streakState = { days: {}, recoverDate: null };
+  try { vocabulary = JSON.parse(localStorage.getItem(STORAGE_VOCAB) || '[]'); } catch(e) { vocabulary = []; }
+  try { streakState = Object.assign(streakState, JSON.parse(localStorage.getItem(STORAGE_STREAK) || '{}')); } catch(e) {}
 
   translateWrap.innerHTML = '<button type="button" class="translate-btn">Показать перевод</button><div class="translation-text" aria-live="polite"></div>';
   const translationButton = translateWrap.querySelector('.translate-btn');
   const translationText = translateWrap.querySelector('.translation-text');
 
   function normalizeTranslation(value) {
-    if (typeof value !== 'string') return '';
-    const trimmed = value.trim();
-    if (!trimmed) return '';
-    return trimmed;
+    return typeof value === 'string' ? value.trim() : '';
   }
-
-  function currentPhrase() {
-    return deck[currentIndex] || deck[0];
+  function currentPhrase() { return deck[currentIndex] || deck[0]; }
+  function todayKey() { return new Date().toISOString().slice(0, 10); }
+  function saveVocab() { localStorage.setItem(STORAGE_VOCAB, JSON.stringify(vocabulary)); }
+  function saveStreak() { localStorage.setItem(STORAGE_STREAK, JSON.stringify(streakState)); }
+  function showToast(msg) {
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
   }
-
-  function updateCounters() {
-    if (streakNum) streakNum.textContent = String(streak);
-    if (vocabBadge) {
-      vocabBadge.textContent = String(learnedCount);
-      vocabBadge.classList.toggle('show', learnedCount > 0);
+  function pluralize(n) {
+    const m10 = n % 10, m100 = n % 100;
+    if (m10 === 1 && m100 !== 11) return 'элемент';
+    if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return 'элемента';
+    return 'элементов';
+  }
+  function updateBadge() {
+    const activeCount = vocabulary.filter(v => !v.learned).length;
+    vocabBadge.textContent = String(activeCount);
+    vocabBadge.classList.toggle('show', activeCount > 0);
+  }
+  function getFilteredVocab() {
+    let list = vocabulary.slice();
+    if (vocabFilter === 'fav') list = list.filter(v => v.fav && !v.learned);
+    else if (vocabFilter === 'learned') list = list.filter(v => v.learned);
+    else list = list.filter(v => !v.learned);
+    if (vocabSearchQuery) {
+      const q = vocabSearchQuery.toLowerCase();
+      list = list.filter(v => v.lv.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q));
     }
+    return list;
   }
-
+  function renderVocab() {
+    const filtered = getFilteredVocab();
+    const totalAll = vocabulary.filter(v => !v.learned).length;
+    const totalFav = vocabulary.filter(v => v.fav && !v.learned).length;
+    const totalLearned = vocabulary.filter(v => v.learned).length;
+    countAll.textContent = totalAll;
+    countFav.textContent = totalFav;
+    countLearned.textContent = totalLearned;
+    vocabCountLabel.textContent = vocabulary.length + ' ' + pluralize(vocabulary.length);
+    vocabFooterStats.textContent = 'Активных: ' + totalAll + ' · Выученных: ' + totalLearned;
+    vocabEmpty.style.display = filtered.length ? 'none' : 'block';
+    vocabListWrap.querySelectorAll('.vocab-item').forEach(el => el.remove());
+    if (!filtered.length) {
+      vocabEmpty.textContent = vocabSearchQuery ? 'Ничего не найдено.' : 'Пока словарь пуст.';
+      return;
+    }
+    filtered.forEach(item => {
+      const realIndex = vocabulary.indexOf(item);
+      const row = document.createElement('div');
+      row.className = 'vocab-item';
+      row.innerHTML = '<button class="vocab-fav-btn ' + (item.fav ? 'active' : '') + '" data-action="fav" data-idx="' + realIndex + '" title="Избранное">★</button>' +
+        '<div class="vocab-words"><span class="vocab-lv"></span><span class="vocab-sep">—</span><span class="vocab-ru"></span></div>' +
+        '<button class="vocab-action-btn learned ' + (item.learned ? 'active' : '') + '" data-action="learned" data-idx="' + realIndex + '" title="Выучено">✓</button>' +
+        '<button class="vocab-action-btn" data-action="del" data-idx="' + realIndex + '" title="Удалить">✕</button>';
+      row.querySelector('.vocab-lv').textContent = item.lv;
+      row.querySelector('.vocab-ru').textContent = item.ru;
+      vocabListWrap.appendChild(row);
+    });
+  }
+  function ensureVocabEntry(markLearned) {
+    const item = currentPhrase();
+    const lv = normalizeTranslation(item.lv);
+    const ru = normalizeTranslation(item.ru);
+    let found = vocabulary.find(v => v.lv.toLowerCase() === lv.toLowerCase());
+    if (!found) {
+      found = { lv, ru, fav: false, learned: false };
+      vocabulary.push(found);
+    }
+    if (markLearned) found.learned = true;
+    saveVocab();
+    updateBadge();
+    renderVocab();
+  }
   function renderTranslation() {
     const item = currentPhrase();
     const translation = normalizeTranslation(item.ru);
     if (translationOpen) {
       translationText.textContent = translation || 'Перевод отсутствует';
       translateWrap.classList.add('show-text');
-      translationButton.classList.remove('is-open');
     } else {
       translationButton.textContent = 'Показать перевод';
       translationText.textContent = '';
       translateWrap.classList.remove('show-text');
-      translationButton.classList.remove('is-open');
     }
   }
-
   function renderPhrase() {
     const item = currentPhrase();
     phraseEl.textContent = normalizeTranslation(item.lv);
@@ -6572,17 +6996,12 @@ window.addEventListener('DOMContentLoaded', function () {
     renderTranslation();
     srsButtons.forEach(btn => btn.classList.remove('is-selected'));
   }
-
   function nextPhrase() {
-    if (deck.length < 2) {
-      renderPhrase();
-      return;
-    }
+    if (deck.length < 2) return renderPhrase();
     const nextIndex = Math.floor(Math.random() * (deck.length - 1));
     currentIndex = nextIndex >= currentIndex ? nextIndex + 1 : nextIndex;
     renderPhrase();
   }
-
   function setPlayIcon(state) {
     if (!audioButton) return;
     if (state === 'pause') {
@@ -6591,28 +7010,114 @@ window.addEventListener('DOMContentLoaded', function () {
       audioButton.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg><span>Прослушать</span>';
     }
   }
+  function getDayProgress(key) { return streakState.days[key]?.count || 0; }
+  function isDayDone(key) { return getDayProgress(key) >= DAILY_GOAL; }
+  function computeStreak() {
+    let count = 0;
+    const d = new Date();
+    while (true) {
+      const key = d.toISOString().slice(0,10);
+      if (isDayDone(key)) { count++; d.setDate(d.getDate() - 1); }
+      else break;
+    }
+    return count;
+  }
+  function updateStreakSummary() {
+    const streak = computeStreak();
+    streakNum.textContent = String(streak);
+    streakBig.innerHTML = String(streak) + '<small>дней подряд</small>';
+    const activeKey = streakState.recoverDate || todayKey();
+    const progress = getDayProgress(activeKey);
+    const remaining = Math.max(0, DAILY_GOAL - progress);
+    streakToday.textContent = (streakState.recoverDate ? 'Восстановление: ' : 'Сегодня: ') + progress + '/' + DAILY_GOAL + (streakState.recoverDate ? '' : ' — ещё ' + remaining);
+    recoverBanner.style.display = streakState.recoverDate ? 'block' : 'none';
+    recoverBanner.textContent = streakState.recoverDate ? 'Режим восстановления: ' + streakState.recoverDate + '. Сделайте 5 открытий перевода.' : '';
+  }
+  function buildHeatmap() {
+    if (!heatmap || !heatmapMonths) return;
+    heatmap.innerHTML = '';
+    heatmapMonths.innerHTML = '';
+    const today = new Date();
+    const cols = 15;
+    const rows = 7;
+    const total = cols * rows;
+    const start = new Date(today);
+    start.setDate(today.getDate() - (total - 1));
+
+    const monthNames = ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'];
+    const labels = Array(cols).fill('');
+    let prevMonth = -1;
+    for (let c = 0; c < cols; c++) {
+      const d = new Date(start);
+      d.setDate(start.getDate() + c * rows);
+      const month = d.getMonth();
+      if (month !== prevMonth) {
+        labels[c] = monthNames[month];
+        prevMonth = month;
+      }
+    }
+    labels.forEach(label => {
+      const div = document.createElement('div');
+      div.textContent = label;
+      heatmapMonths.appendChild(div);
+    });
+
+    for (let c = 0; c < cols; c++) {
+      for (let r = 0; r < rows; r++) {
+        const index = c * rows + r;
+        const d = new Date(start);
+        d.setDate(start.getDate() + index);
+        const key = d.toISOString().slice(0, 10);
+        const cell = document.createElement('div');
+        const done = isDayDone(key);
+        cell.className = 'hm-cell ' + (done ? 'hm-done' : 'hm-empty');
+        cell.title = key + ' — ' + getDayProgress(key) + ' / ' + DAILY_GOAL;
+        if (!done) {
+          cell.classList.add('hm-recover');
+          cell.addEventListener('click', function () {
+            streakState.recoverDate = key;
+            saveStreak();
+            updateStreakSummary();
+            buildHeatmap();
+          });
+        }
+        heatmap.appendChild(cell);
+      }
+    }
+  }
+  function recordTranslation() {
+    const key = streakState.recoverDate || todayKey();
+    const state = streakState.days[key] || { count: 0 };
+    state.count = Math.min(DAILY_GOAL, state.count + 1);
+    streakState.days[key] = state;
+    if (state.count >= DAILY_GOAL && streakState.recoverDate === key) {
+      streakState.recoverDate = null;
+      showToast('День восстановлен');
+    }
+    saveStreak();
+    updateStreakSummary();
+    buildHeatmap();
+  }
 
   translationButton.addEventListener('click', function () {
-    translationOpen = !translationOpen;
+    translationOpen = true;
     renderTranslation();
+    recordTranslation();
   });
 
   if (audioButton) {
     audioButton.addEventListener('click', async function () {
       const text = phraseEl.textContent.trim();
       if (!text) return;
-
       if (ttsAudio && !ttsAudio.paused) {
         ttsAudio.pause();
         ttsAudio.currentTime = 0;
         setPlayIcon('play');
         return;
       }
-
       audioButton.classList.add('is-pressed');
       setTimeout(function () { audioButton.classList.remove('is-pressed'); }, 150);
       setPlayIcon('pause');
-
       try {
         const r = await fetch(TRANSLATEWORKER, {
           method: 'POST',
@@ -6622,14 +7127,8 @@ window.addEventListener('DOMContentLoaded', function () {
         const blob = await r.blob();
         const url = URL.createObjectURL(blob);
         ttsAudio = new Audio(url);
-        ttsAudio.addEventListener('ended', function () {
-          setPlayIcon('play');
-          URL.revokeObjectURL(url);
-        }, { once: true });
-        ttsAudio.addEventListener('error', function () {
-          setPlayIcon('play');
-          URL.revokeObjectURL(url);
-        }, { once: true });
+        ttsAudio.addEventListener('ended', function () { setPlayIcon('play'); URL.revokeObjectURL(url); }, { once: true });
+        ttsAudio.addEventListener('error', function () { setPlayIcon('play'); URL.revokeObjectURL(url); }, { once: true });
         await ttsAudio.play();
       } catch (e) {
         console.warn('TTS error', e);
@@ -6642,13 +7141,10 @@ window.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
       srsButtons.forEach(function (b) { b.classList.remove('is-selected'); });
       btn.classList.add('is-selected');
-      if (btn.classList.contains('green')) learnedCount += 1;
-      if (btn.classList.contains('yellowgreen') || btn.classList.contains('green')) {
-        streak += 1;
-      } else {
-        streak = Math.max(0, streak - 1);
+      if (btn.classList.contains('green')) {
+        ensureVocabEntry(true);
+        showToast('Фраза перенесена в выученное');
       }
-      updateCounters();
       setTimeout(nextPhrase, 180);
     });
   });
@@ -6668,10 +7164,102 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  updateCounters();
+  vocabToggle.addEventListener('click', function () { vocabOverlay.classList.add('open'); renderVocab(); if (vocabSearch) vocabSearch.focus(); });
+  vocabClose.addEventListener('click', function () { vocabOverlay.classList.remove('open'); });
+  streakBtn.addEventListener('click', function () { streakOverlay.classList.add('open'); updateStreakSummary(); buildHeatmap(); });
+  streakClose.addEventListener('click', function () { streakOverlay.classList.remove('open'); });
+  vocabSearch.addEventListener('input', function (e) { vocabSearchQuery = e.target.value.trim().toLowerCase(); renderVocab(); });
+  document.querySelectorAll('.vocab-filter-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.vocab-filter-btn').forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      vocabFilter = btn.dataset.filter;
+      renderVocab();
+    });
+  });
+  vocabListWrap.addEventListener('click', function (e) {
+    const btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    const idx = Number(btn.dataset.idx);
+    if (Number.isNaN(idx) || !vocabulary[idx]) return;
+    if (btn.dataset.action === 'fav') vocabulary[idx].fav = !vocabulary[idx].fav;
+    if (btn.dataset.action === 'learned') vocabulary[idx].learned = !vocabulary[idx].learned;
+    if (btn.dataset.action === 'del') vocabulary.splice(idx, 1);
+    saveVocab(); updateBadge(); renderVocab();
+  });
+  vocabExport.addEventListener('click', function () {
+    const rows = ['Latviešu,Перевод'].concat(vocabulary.map(v => '"' + v.lv.replace(/"/g,'""') + '","' + v.ru.replace(/"/g,'""') + '"'));
+    const csvText = '\ufeff' + rows.join('\n');
+    const blob = new Blob([csvText], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'my-vocabulary.csv'; a.click(); URL.revokeObjectURL(url);
+  });
+
+  updateBadge();
+  renderVocab();
+  updateStreakSummary();
+  buildHeatmap();
   renderPhrase();
   setPlayIcon('play');
 });
 </script>
+  <div class="vocab-overlay" id="vocabOverlay">
+    <div class="vocab-header">
+      <div class="vocab-header-left">
+        <button class="icon-btn" id="vocabClose" title="Закрыть">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <span class="vocab-title">Словарь</span>
+        <span class="vocab-count-label" id="vocabCountLabel">0 элементов</span>
+      </div>
+      <div class="vocab-header-right">
+        <div class="vocab-search-wrap"><input class="vocab-search" id="vocabSearch" type="text" placeholder="Поиск по словарю"></div>
+      </div>
+    </div>
+    <div class="vocab-filters">
+      <button class="vocab-filter-btn active" data-filter="all">Новое <span class="filter-count" id="countAll">0</span></button>
+      <button class="vocab-filter-btn" data-filter="fav">Избранное <span class="filter-count" id="countFav">0</span></button>
+      <button class="vocab-filter-btn" data-filter="learned">Выученное <span class="filter-count" id="countLearned">0</span></button>
+    </div>
+    <div class="vocab-list-wrap" id="vocabListWrap">
+      <div class="vocab-empty-state" id="vocabEmpty">Пока словарь пуст.</div>
+    </div>
+    <div class="vocab-footer">
+      <span id="vocabFooterStats">0</span>
+      <button class="btn-export" id="vocabExport">Скачать</button>
+    </div>
+  </div>
+
+  <div class="vocab-overlay" id="streakOverlay">
+    <div class="vocab-header">
+      <div class="vocab-header-left">
+        <span class="vocab-title">Стрик</span>
+      </div>
+      <div class="vocab-header-right">
+        <button class="icon-btn" id="streakClose" title="Закрыть">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+    <div class="recover-banner" id="recoverBanner"></div>
+    <div class="streak-body">
+      <div class="streak-layout">
+        <div class="streak-left">
+          <div class="heatmap-months" id="heatmapMonths"></div>
+          <div class="heatmap" id="heatmap"></div>
+          <div class="heatmap-legend"><span>Пусто</span><span class="hm-cell hm-empty"></span><span class="hm-cell hm-done"></span><span>Выполнено</span></div>
+          <div class="streak-hint">Клик на пустой день = восстановить</div>
+        </div>
+        <div class="streak-right">
+          <div class="streak-big" id="streakBig">0<small>дней подряд</small></div>
+          <div class="streak-today" id="streakToday">Сегодня: 0 / 5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
 </body>
 </html>
