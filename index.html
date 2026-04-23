@@ -497,11 +497,13 @@
     }
     .vocab-filters {
       display: flex;
+      align-items: center;
       gap: 8px;
       padding: 12px 24px;
       border-bottom: 1px solid #e7e5e4;
       background: #ffffff;
       flex-shrink: 0;
+      flex-wrap: wrap;
     }
     .vocab-filter-btn {
       padding: 10px 18px;
@@ -525,6 +527,38 @@
       font-size: 11px;
       opacity: .7;
       margin-left: 2px;
+    }
+    .vocab-stage-stats {
+      margin-left: 10px;
+      padding-left: 12px;
+      border-left: 1px solid #ece7e1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap: 14px;
+      row-gap: 6px;
+      min-height: 40px;
+      color: #8b8178;
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      font-variant-numeric: tabular-nums;
+    }
+    .vocab-stage-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 4px;
+      white-space: nowrap;
+    }
+    .vocab-stage-stat__label {
+      color: #8b8178;
+      font-weight: 500;
+    }
+    .vocab-stage-stat__value {
+      color: #3f3a36;
+      font-weight: 600;
     }
     .vocab-list-wrap {
       flex: 1;
@@ -6878,6 +6912,7 @@ window.addEventListener('DOMContentLoaded', function () {
   const DAILY_GOAL = 5;
   const STORAGE_VOCAB = 'lll2_vocabulary';
   const STORAGE_STREAK = 'lll2_streak';
+  const STORAGE_STAGE_PROGRESS = 'lll2_stage_progress';
 
   let deck = Array.isArray(PHRASES) ? PHRASES.filter(item => item && typeof item.lv === 'string' && item.lv.trim()) : [];
   if (!deck.length) deck = [{ lv: 'Dati nav ielādēti.', ru: 'Данные не загрузились.' }];
@@ -6891,8 +6926,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
   let vocabulary = [];
   let streakState = { days: {}, recoverDate: null };
+  let stageProgress = {};
   try { vocabulary = JSON.parse(localStorage.getItem(STORAGE_VOCAB) || '[]'); } catch(e) { vocabulary = []; }
   try { streakState = Object.assign(streakState, JSON.parse(localStorage.getItem(STORAGE_STREAK) || '{}')); } catch(e) {}
+  try { stageProgress = JSON.parse(localStorage.getItem(STORAGE_STAGE_PROGRESS) || '{}'); } catch(e) { stageProgress = {}; }
 
   translateWrap.innerHTML = '<button type="button" class="translate-btn">Показать перевод</button><div class="translation-text" aria-live="polite"></div>';
   const translationButton = translateWrap.querySelector('.translate-btn');
@@ -6905,6 +6942,7 @@ window.addEventListener('DOMContentLoaded', function () {
   function todayKey() { return new Date().toISOString().slice(0, 10); }
   function saveVocab() { localStorage.setItem(STORAGE_VOCAB, JSON.stringify(vocabulary)); }
   function saveStreak() { localStorage.setItem(STORAGE_STREAK, JSON.stringify(streakState)); }
+  function saveStageProgress() { localStorage.setItem(STORAGE_STAGE_PROGRESS, JSON.stringify(stageProgress)); }
   function showToast(msg) {
     if (!toast) return;
     toast.textContent = msg;
@@ -6939,9 +6977,23 @@ window.addEventListener('DOMContentLoaded', function () {
     const totalAll = vocabulary.filter(v => !v.learned).length;
     const totalFav = vocabulary.filter(v => v.fav && !v.learned).length;
     const totalLearned = vocabulary.filter(v => v.learned).length;
+    const stageCounts = { '-5': deck.length, '-1': 0, '1': 0, '5': 0 };
+    Object.keys(stageProgress || {}).forEach(function(id) {
+      var prev = String(stageProgress[id]);
+      if (Object.prototype.hasOwnProperty.call(stageCounts, prev)) stageCounts[prev] -= 1;
+      if (Object.prototype.hasOwnProperty.call(stageCounts, prev)) stageCounts[prev] = Math.max(0, stageCounts[prev]);
+    });
+    Object.keys(stageProgress || {}).forEach(function(id) {
+      var next = String(stageProgress[id]);
+      if (Object.prototype.hasOwnProperty.call(stageCounts, next)) stageCounts[next] += 1;
+    });
     countAll.textContent = totalAll;
     countFav.textContent = totalFav;
     countLearned.textContent = totalLearned;
+    if (countStageNeg5) countStageNeg5.textContent = stageCounts['-5'];
+    if (countStageNeg1) countStageNeg1.textContent = stageCounts['-1'];
+    if (countStagePos1) countStagePos1.textContent = stageCounts['1'];
+    if (countStagePos5) countStagePos5.textContent = stageCounts['5'];
     vocabCountLabel.textContent = vocabulary.length + ' ' + pluralize(vocabulary.length);
     vocabFooterStats.textContent = 'Активных: ' + totalAll + ' · Выученных: ' + totalLearned;
     vocabEmpty.style.display = filtered.length ? 'none' : 'block';
@@ -7139,11 +7191,24 @@ window.addEventListener('DOMContentLoaded', function () {
 
   srsButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
+      var phrase = currentPhrase();
+      var phraseId = phrase && phrase.id ? String(phrase.id) : null;
+      var stageValue = -5;
+      if (btn.classList.contains('orange')) stageValue = -1;
+      if (btn.classList.contains('yellowgreen')) stageValue = 1;
+      if (btn.classList.contains('green')) stageValue = 5;
       srsButtons.forEach(function (b) { b.classList.remove('is-selected'); });
       btn.classList.add('is-selected');
+      if (phraseId) {
+        stageProgress[phraseId] = stageValue;
+        if (stageValue === -5) delete stageProgress[phraseId];
+        saveStageProgress();
+      }
       if (btn.classList.contains('green')) {
         ensureVocabEntry(true);
         showToast('Фраза перенесена в выученное');
+      } else {
+        renderVocab();
       }
       setTimeout(nextPhrase, 180);
     });
@@ -7221,6 +7286,12 @@ window.addEventListener('DOMContentLoaded', function () {
       <button class="vocab-filter-btn active" data-filter="all">Новое <span class="filter-count" id="countAll">0</span></button>
       <button class="vocab-filter-btn" data-filter="fav">Избранное <span class="filter-count" id="countFav">0</span></button>
       <button class="vocab-filter-btn" data-filter="learned">Выученное <span class="filter-count" id="countLearned">0</span></button>
+      <div class="vocab-stage-stats" id="vocabStageStats" aria-live="polite" aria-atomic="true">
+        <span class="vocab-stage-stat"><span class="vocab-stage-stat__label">Ужас-ужас:</span><span class="vocab-stage-stat__value" id="countStageNeg5">500</span></span>
+        <span class="vocab-stage-stat"><span class="vocab-stage-stat__label">Ещё туплю:</span><span class="vocab-stage-stat__value" id="countStageNeg1">0</span></span>
+        <span class="vocab-stage-stat"><span class="vocab-stage-stat__label">ОК:</span><span class="vocab-stage-stat__value" id="countStagePos1">0</span></span>
+        <span class="vocab-stage-stat"><span class="vocab-stage-stat__label">Выучила!:</span><span class="vocab-stage-stat__value" id="countStagePos5">0</span></span>
+      </div>
     </div>
     <div class="vocab-list-wrap" id="vocabListWrap">
       <div class="vocab-empty-state" id="vocabEmpty">Пока словарь пуст.</div>
